@@ -3,6 +3,13 @@ The CryptoParty Handbook
 
 https://www.cryptoparty.in/documentation/handbook
 
+- - - - 
+### À faire
+
+> voir le [fork du tetalab](https://github.com/tetalab/handbook/) pour intégrer les chapitres **déjà traduits (besoin de mise à jour)**.
+
+- - - - 
+
 **Please fork this repo. Add and edit content. Send back pull requests.**
 
 Comments and questions about handbook content are more than welcome, please submit them using new issues and pull requests.

@@ -19,21 +19,21 @@ Les problèmes qui nous attendent au 21e siècle nécessitent que toute l'humani
 
 Pour faire respecter notre droit à la vie privée et à l'anonymat en ligne, nous avons besoin de solutions évaluées par nos pairs et auxquelles tout le monde peut contribuer. Les « Cryptoparty » fournissent l'opportunité de se rencontrer et d'apprendre comment utiliser ces solutions de façon à nous donner tous les moyens pour assurer notre droit à la vie privée et à l'anonymat en ligne.
 
- * Nous sommes tous des utilisateurs, nous nous battons pour l'utilisateur et nous cherchons à donner le pouvoir à l'utilisateur. Nous savons que l'ordinateur existe grâce aux demandes des utilisateurs. Nous avons plus confiance dans la sagesse collective des êtres humains que dans celle des vendeurs de logiciels, des entreprises ou des gouvernements. Nous refusons les entraves des gulags numériques, contrôlés par les intérêts vassaux de gouvernements et d'entreprises. Nous sommes les Révolutionnaires CypherPunk.
+1. Nous sommes tous des utilisateurs, nous nous battons pour l'utilisateur et nous cherchons à donner le pouvoir à l'utilisateur. Nous savons que l'ordinateur existe grâce aux demandes des utilisateurs. Nous avons plus confiance dans la sagesse collective des êtres humains que dans celle des vendeurs de logiciels, des entreprises ou des gouvernements. Nous refusons les entraves des gulags numériques, contrôlés par les intérêts vassaux de gouvernements et d'entreprises. Nous sommes les Révolutionnaires CypherPunk.
 
- * Le droit à un anonymat personnel, au pseudonymat et à la vie privée sont des Droits de l'Homme de base. Ces droits incluent la vie, la liberté, la dignité, la sécurité, le droit à la famille, et le droit de vivre sans peur ni intimidation. Aucun gouvernement, organisation ou individu ne devrait pouvoir empêcher le peuple d'accéder aux technologies qui permettent l'accès à ces Droits de l'Homme de base.
+2. Le droit à un anonymat personnel, au pseudonymat et à la vie privée sont des Droits de l'Homme de base. Ces droits incluent la vie, la liberté, la dignité, la sécurité, le droit à la famille, et le droit de vivre sans peur ni intimidation. Aucun gouvernement, organisation ou individu ne devrait pouvoir empêcher le peuple d'accéder aux technologies qui permettent l'accès à ces Droits de l'Homme de base.
 
- * La vie privée est un droit absolu de l'individu. La transparence est un devoir de la part des gouvernements et entreprises qui agissent au nom du peuple.
+3. La vie privée est un droit absolu de l'individu. La transparence est un devoir de la part des gouvernements et entreprises qui agissent au nom du peuple.
 
- * L'individu possède seul le droit à ses identités. Seul l'individu peut choisir ce qu'il partage. Les tentatives coercitives pour obtenir l'accès à des informations personnelles, sans consentement explicite, est une violation des droits de l'homme.
+4. L'individu possède seul le droit à ses identités. Seul l'individu peut choisir ce qu'il partage. Les tentatives coercitives pour obtenir l'accès à des informations personnelles, sans consentement explicite, est une violation des droits de l'homme.
 
- * Tout peuple a le droit à la cryptographie ainsi qu'aux droits qu'offrent les outils de cryptographie, quels que soit la race, la couleur, le sexe, la langue, la religion, l'orientation politique ou autres opinions, la nationalité ou origine sociale, terrienne, natale, politique, judiciaire ou le statut international du pays ou du territoire dans lequel la personne réside.
+5. Tout peuple a le droit à la cryptographie ainsi qu'aux droits qu'offrent les outils de cryptographie, quels que soit la race, la couleur, le sexe, la langue, la religion, l'orientation politique ou autres opinions, la nationalité ou origine sociale, terrienne, natale, politique, judiciaire ou le statut international du pays ou du territoire dans lequel la personne réside.
 
- * Comme les gouvernements ne devraient exister que pour servir leurs citoyens - de même, la cryptographie doit appartenir au peuple. La technologie ne devrait pas être verrouillée loin des gens.
+6. Comme les gouvernements ne devraient exister que pour servir leurs citoyens - de même, la cryptographie doit appartenir au peuple. La technologie ne devrait pas être verrouillée loin des gens.
 
- * La surveillance ne peut pas être séparée de la censure et de l'esclavage que cela implique. Aucune machine ne devrait être retenue en servitude de la surveillance et de la censure. La cryptographie est une clé pour notre liberté collective.
+7. La surveillance ne peut pas être séparée de la censure et de l'esclavage que cela implique. Aucune machine ne devrait être retenue en servitude de la surveillance et de la censure. La cryptographie est une clé pour notre liberté collective.
 
- * Le code est une parole : le code est une langue créée par l'homme. Bannir, censurer, ou verrouiller la cryptographie à l'écart des gens, c'est priver les êtres humains d'un droit de l'homme, la liberté d'expression.
+8. Le code est une parole : le code est une langue créée par l'homme. Bannir, censurer, ou verrouiller la cryptographie à l'écart des gens, c'est priver les êtres humains d'un droit de l'homme, la liberté d'expression.
 
- * Ceux qui cherchent à arrêter la propagation de la cryptographie sont semblables au clergé du 15ème siècle visant à interdire l'imprimerie, de peur que leur monopole sur la connaissance soit compromise.
+9. Ceux qui cherchent à arrêter la propagation de la cryptographie sont semblables au clergé du 15ème siècle visant à interdire l'imprimerie, de peur que leur monopole sur la connaissance soit compromise.
  

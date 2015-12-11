@@ -1,8 +1,16 @@
-Secure Messaging
-================
+Messagerie sécurisée
+====================
 
-SMS are short messages sent between mobile phones. The text is sent without encryption and can be read and stored by mobile phone providers and other parties with access to the network infrastructure to which you're connected. To protect your messages from interception you have to use a *chat protocol* over your data connection. Thankfully this is not at all difficult. Many Instant Messaging providers use the *Extensible Messaging and Presence Protocol (XMPP)* that allows users to use various clients to send and receive messages and exchange message with other providers.
+Les SMS sont des petits messages envoyés entre des téléphones mobiles. 
+Les messages sont envoyés sans chiffrement et peuvent donc être enregistrés par les opérateurs téléphoniques et tout autre entité ayant accès au réseau.
+Pour protéger vos conversations contre les interceptions, vous devez utiliser un *protocole de tchat* au travers de votre connexion internet.
+Heureusement, ce n'est pas compliqué du tout.
+Beaucoup de messageries instantannées utilisent le protocole *eXtensible Messaging and Presence Protocol (XMPP)* qui permet d'utiliser de nombreux clients différents pour échanger des messages.
+ 
+Même si XMPP utilise le chiffrement SSL/TLS (voir le glossaire à l'entrée SSL/TLS) afin de prévenir l'interception des communications part des tiers. Le fournisseur de service (la personne possédant le serveur) peut lire les messages et les faire suivre à d'autres entités.
+Le protocole cryptographique *Off-the-Record (OTR)* Messaging vous permet de chiffrer vos messages de bout en bout.
+Les messages envoyés n'ont pas de signatures. Par conséquent, rien ne peut prouver que vous en êtes l'auteur.
+Tout le monde peut forger des messages après la conversation pour les faire ressembler à des messages venant de vous.
+Cependant, *durant* la conversation, votre correspondant est assuré de l'*intégrité* des messages - ce que vous voyez est authentique et non modifié.
 
-Although XMPP uses TLS/SSL (see glossary entry TLS/SSL) encryption to prevent 3rd party interception, your provider can still read your messages and hand them over to other entities. *Off-the-Record (OTR)* Messaging however allows you encrypt your messages. The messages you send do not have digital signatures that can be verified by a third party, consequently the identity of their author is *repudiable afterwards*. Anyone can forge messages after a conversation to make them look like they came from you. However, *during* a conversation, your correspondent is assured of the *integrity* of the messages - what s/he sees is authentic and unmodified.
-
-See the section **Instant Messaging Encryption**
+Reportez vous à la section **Chiffrement des messageries instantannées**

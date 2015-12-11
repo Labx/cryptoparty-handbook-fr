@@ -1,12 +1,19 @@
-Secure Calls
-============
+Appels sécurisés
+================
 
-Phone calls made over the normal telecommunications system have some forms of protection from third party interception, i.e. GSM mobile phones calls are encrypted. GSM calls are not encrypted end-to-end however and telephone providers are increasingly forced to give governments and law enforement organisations access to your calls. In addition to this the encryption used in GSM has been cracked and now anyone with enough interest and capital can buy the equipment to intercept calls. A GSM Interceptor ([http://en.intercept.ws/catalog/2087.html](http://en.intercept.ws/catalog/2087.html) is an off the shelf device to record mobile phone conversations when in the vicinity of the call. Centralised or proprietary systems like Skype also encrypt calls but have built in backdoors for secret services and governments and are at the behest of their owner (in Skype's case Microsoft).
 
-A solution to this problem is to make encrypted calls using Voice over IP (VoIP) through an Internet connection. Both WiFi or mobile data networks can be used: cracking the GSM or Wireless password will not mean that your call can be intercepted.
+Les appels téléphoniques qui passent sur le réseau GSM classique possèdent quelques protections contre les interceptions notamment le chiffrement.
+Cependant, les appels sur ce réseau ne sont pas chiffrés de bout en bout et les gouvernements demandent de plus en plus aux opérateurs d'avoir un accès aux appels effectués.
+De plus, le chiffrement utilisé avec le GSM a été cassé et, aujourd'hui, une personne ayant assez d'argent peut intercepter les appels en cours sur le réseau.
+GSM Interceptor [http://en.intercept.ws/catalog/2087.html](http://en.intercept.ws/catalog/2087.html) est un sytème d'écoute des communications GSM pouvant être construit à partir de composants basiques trouvable sur le marché.
+Des systèmes propriétaires ou centralisés comme Skype chiffrent aussi les appels mais possèdent des backdoors pour permettre aux services de renseignement d'accèder aux conversations.
 
-As regards platforms, Android has a wider range of open source VoIP software, largely because Apple's AppStore licensing model prohibits distribution of software released under the *General Public License* (approximately 60% of all open source software released). The GPL is very popular in the security and networking community.
+Une solution à ce problème est d'utiliser des protocoles de Voix sur IP (VoIP) et de chiffrer les appels de bout en bout. Cette solution est utilisable sur le réseau Wi-Fi comme sur le réseau GSM : casser le chiffrement du GSM ou trouver le mot de passe du Wi-Fi ne permettra pas d'intercepter les conversations.
 
-At the time of writing iPhone users only have proprietary options available for purchase, like *Groundwire* [http://www.acrobits.cz/11/acrobits-groundwire-for-iphone](http://www.acrobits.cz/11/acrobits-groundwire-for-iphone). **Warning: as it is not open, the security of Groundwire cannot be assured!**
+Android à la plus large gamme de logiciels de VoIP Open Source, en grande partie parce que l'AppStore d'Apple interdit la distribution des logiciels sous la licence *General Public License* (soit approximativement 60 % des logiciels libres). La GPL est très populaire dans la communauté de la sécurité.
 
-Android users head over to the section **Call Encryption** to get started making secure VoIP calls.
+Au moment de l'écriture de ce livre, les utilisateurs d'iPhone n'ont à disposition que des applications propriétaires et payantes comme *Groundwire* [https://www.acrobits.net/11/acrobits-groundwire-for-iphone](https://www.acrobits.net/11/acrobits-groundwire-for-iphone). **Attention : étant donné que le code source n'est pas ouvert; la sécurité de Groundwire ne peut pas être assurée !**
+
+Les utilisateurs d'Android peuvent se reporter à la section **Chiffrement des appels** pour apprendre à faire des appels VoIP sécurisés.
+
+

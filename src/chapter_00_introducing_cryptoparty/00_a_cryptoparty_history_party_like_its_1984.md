@@ -1,15 +1,18 @@
-A CryptoParty History: Party Like It's 1984
-===========================================
+Une histoire des CryptoParties: Faire la fête comme dans 1984
+=============================================================
 
-**What is CryptoParty?**
+Parce que tout prend plus de sens quand quelqu'un vous promet qu'il y aura de la bière.
 
-Interested parties with computers, devices, and the willingness to learn how to use the most basic crypto programs and the fundamental concepts of their operation! CryptoParties are free to attend, public and commercially non-aligned.
+**Qu'est-ce qu'une CryptoParty?**
 
-**CryptoParty** is a decentralized, global initiative to introduce basic cryptography tools - such as the Tor anonymity network, public key encryption (PGP/GPG), and OTR (Off The Record messaging) - to the general public.
+Des fêtes intéresssantes avec des ordinateurs, d'autres trucs, et l'envie d'apprendre comment utiliser les programmes de cryptographie les plus basiques ainsi que les concepts fondamentaux de leur fonctionnement! Les CryptoParty sont gratuites, publiques et non-alignées commerciallement.
 
-The CryptoParty idea was conceived in the wake of the [Australian Cybercrime Legislation Amendment Bill 2011](http://theconversation.edu.au/cybercrime-bill-makes-it-through-but-what-does-that-mean-for-you-8953).
+Les **CryptoParties** sont une initiative décentralisée et globale pour introduire des outils de cryptographie basiques - comme le réseau anonyme **Tor**, le cryptage par clé publique **PGP/GPG**, et **OTR** (messagerie Off The Record) - au grand public.
 
-["The DIY, self-organizing movement immediately went viral, with a dozen autonomous CryptoParties being organized within hours in cities throughout Australia, the US, the UK, and Germany."](http://en.wikipedia.org/wiki/CryptoParty)
+L'idée des CryptoParties a été lancée le 22 août 2012 suite à une conversation sur Twitter entre Asher Wolf - activiste de l'information - et des experts en sécurité informatique pendant le lancement du [projet d'amendement législatif australien sur la cybercriminalité](http://theconversation.edu.au/cybercrime-bill-makes-it-through-but-what-does-that-mean-for-you-8953).
 
-Currently sixteen CryptoParties have been held in a dozen different countries worldwide, and many more are planned. Tor usage in Australia has spiked after four CryptoParties, and the London CryptoParty had to be moved from London Hackspace to the Google Campus to accommodate the large number of eager participants, with 125 ticketed guests and 40 people on the waiting list. Similarly, CryptoParty Melbourne found interest outstripped venue capacity - originally planned for approximately 30 participants - over 70 people turned up. 
+["Le mouvement auto-géré DIY a été immédiatement viral, avec une douzaine de CryptoParty organisées en quelques heures dans différentes villes en Australie, aux US, UK, et en Allemagne".](https://fr.wikipedia.org/wiki/CryptoParty)
 
+Actuellement, des tas de CryptoParties ont eu lieu dans différents pays autours du monde, et beaucoup plus sont en cours de préparation. L'utilisation de Tor en Australie a grimpé après 4 CryptoParty, et la CryptoParty de Londres s'est déplacée du Hackspace London vers le Google Campus afin de pouvoir acceuillir le nombre grandissant de participants, avec 125 tickets pour les invités et 40 personnes sur la liste d'attente. D'une même façon, la jauge de la salle a explosé suite à l'interet porté à la CryptoParty de Melbourne, originalement prévue pour environ 30 participants, avec plus de 70 personnes qui sont venues.
+
+Les CryptoParty ont reçu des messages de soutiens de Electronic Frontier Foundatiom, AnonyOps, le whistleblower de la NSA Thomas Drake, l'ancien éditeur de Wikileaks Central Heather Marsh, et le reporter de Wired Quinn Norton. Eric Hughes, l'auteur de *A Cypherpunk's Manifesto* il y a 20 ans, a participé à la keynote lors de la première CryptoParty d'Amsterdam.

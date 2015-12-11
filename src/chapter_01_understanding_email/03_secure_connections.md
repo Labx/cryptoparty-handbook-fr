@@ -1,22 +1,23 @@
-Secure Connections
-==================
+Connections Sécurisées
+======================
 
-Can other people read along when I check my email?
---------------------------------------------------
+D'autres personnes peuvent lire en même temps quand je consulte mes emails?
+---------------------------------------------------------------------------
 
-As discussed in the Chapter **Basic Tips**, whether you use webmail or an email program you should always be sure to use encryption for the entire session, from login to logout. This will keep anyone from spying on your communication with your email provider. Thankfully, this is easily done due to the popular use of *TLS/SSL* connections on email servers (See appendix **TLS/SSL**).
+Comme indiqué dans le chapitre **Conseils de base**, si vous utilisez le webmail ou un client de messagerie  vous devez toujours être sûr d'utiliser le chiffrage pour toute la session, de la connexion à la déconnexion. Cela permettra de tenir à l'écart les yeux indiscrets de votre échange avec votre fournisseur de messagerie. Heureusement, cela se fait facilement en raison de l'usage populaire du *TLS/SSL* sur les serveurs de messagerie (voir l'annexe **TLS / SSL**).
 
-A TLS/SSL connection in the browser, when using webmail, will appear with `https` in the URL instead of the standard `http`, like so:
+Une connexion TLS / SSL dans le navigateur, lorsque vous utilisez le webmail, apparaîtra avec `https` dans l'URL à la place de la norme` http`, comme ceci:
 
 `https://gigglemail.com`
 
-If your webmail host does not provide a TLS/SSL service then you should consider discontinuing use of that account; even if your emails themselves are not especially private or important, your account can very easily be hacked by "sniffing" your password! If it is not enabled already be sure to turn it on in your account options. At the time of writing, Google's Gmail and Hotmail / Microsoft Live both automatically switch your browser to using a secure connection.
+Si l'hôte de votre webmail ne fournit pas un service TLS / SSL, alors vous devriez envisager d'interrompre l'utilisation de ce compte;même si vos e-mails ne sont pas eux-mêmes particulièrement sensibles ou privés, votre compte peut très facilement être piraté par "sniffing" votre mot de passe! Si cela n'a pas déjà été enclenché, veillez à l'activer dans les options de votre compte. Au moment de l'écriture, Gmail/Google et Hotmail/Microsoft Live basculent automatiquement votre navigateur sur une connexion sécurisée.
 
-If you are using an email program like Thunderbird, Mail.app or Outlook, be sure to check that you are using TLS/SSL in the options of the program. See the chapter **Setting Up Secure Connections** in the section **Email Security**.
+Si vous utilisez un programme de messagerie comme Thunderbird, Mail.app ou Outlook, assurez-vous de vérifier que vous utilisez TLS / SSL dans les options du programme. Voir le chapitre **Configuration des connexions sécurisées** dans la section **Email Security**.
+
 
 Notes
 -----
 
-It's important to note that the administrators at providers like Hotmail or Google, that host, receive or forward your email can read your email even if you are using secure connections. It is also worth nothing that the cryptographic keys protecting a TLS/SSL connection can be deliberately disclosed by site operators, or copied without their permission, breaching the confidentiality of that connection. It is also possible for a Certificate Authority to be corrupted or compromised so that it creates false certificates for keys held by eavesdroppers, making it much easier for a Man In The Middle Attack on connections using TLS/SSL (See Glossary for "Man in the Middle Attack"). An example of compromised E-mail providers is discussed here, implicating America's NSA and several email providers: [http://cryptome.info/0001/nsa-ssl-email.htm](http://cryptome.info/0001/nsa-ssl-email.htm)
+Il est important de noter que les administrateurs de fournisseurs comme Hotmail ou Google, qui hébergent, reçoivent ou transmettent votre courriel peuvent lire votre courrier électronique même si vous utilisez des connexions sécurisées. Il est également intéressant de rien que les clés cryptographiques protégeant une connexion TLS / SSL peuvent être délibérément divulgués par les opérateurs du site, ou copiés sans leur autorisation, violant le secret de cette connexion. Il est également possible pour une autorité de certification d'être corrompue ou compromise de sorte qu'elle crée de faux certificats pour les clés détenues par des oreilles indiscrètes, ce qui rend beaucoup plus facile les attaques de type *Man In The Middle* sur les connexions utilisant TLS / SSL (voir le glossaire pour "Man in the Middle"). Un exemple de prestataires E-mail compromis est discuté ici, impliquant de l'Amérique NSA et plusieurs fournisseurs de messagerie: [http: //cryptome.i nfo / 0001 / NSA-ssl-email.htm] (http://cryptome.info/0001 /nsa-ssl-email.htm)
 
-We also note here that a *Virtual Private Network* also a good way of securing your connections when sending and reading email but requires using a VPN client on your local machine connecting to a server. See the chapter **Virtual Private Networking** in the **Browsing** section.
+Nous notons également ici qu' un **réseau privé virtuel** est également un bon moyen de sécuriser vos connexions lors de l'envoi et la lecture des emails, mais nécessite l'utilisation d'un client VPN sur votre ordinateur local pour se connecter à un serveur VPN. Voir le chapitre **Virtual Private Networking** dans la section **Browsing**.

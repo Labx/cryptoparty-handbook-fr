@@ -1,84 +1,84 @@
-How To CryptoParty
-==================
+Comment organiser une CryptoParty ?
+===================================
 
- * Throw a party. All you need is a time, a date and a location. Add it to the wiki: [https://cryptoparty.org](https://cryptoparty.org).
+ * Organisez une fête. Vous avez juste besoin d'une heure, d'un jour et d'un lieu. Ajoutez-la au wiki : [https://cryptoparty.org](https://cryptoparty.org).
 
- * Make sure you have Internet connectivity and enough power sources for all devices. If you do not have a place to hold a CryptoParty, find a pub or park where you can meet and squeeze the public bandwidth. That will really hone your skills!
+ * Vérifiez que vous disposez d'une connexion internet et d'assez de prises pour toutes les machines. Si vous n'avez pas de lieu pour tenir une CryptoParty, trouvez un bar ou un parc où vous pourrez vous rencontrer et tirer sur la bande passante publique. Ça améliorera vraiment vos compétences !
 
- * Bring USB sticks and printed handouts for those who need them, and set up old computers for people to fiddle with and try out new skills.
+ * Amenez des clés USB et des manuels imprimés pour ceux qui en ont besoin, et configurez de vieux ordinateurs pour que les gens les modifient et s'entrainent sur leurs nouvelles connaissances.
 
- * Talk about Linux to everyone you meet at your CryptoParty. If you are new to CryptoParties - ask someone "what is Linux?" ASAP.
+ * Parlez de Linux à tout ceux que vous rencontrerez à votre CryptoParty. Si vous êtes nouveaux, demandez à quelqu'un ce qu'est Linux dès que possible.
 
- * Make entry free for all if possible - CryptoParties are not-for-profit, not commercially aligned and especially important for those without other resources.
+ * Faites en sorte que l'entrée soit aussi gratuite que possible - les CryptoParty ne font pas de bénéfices, sont non-commerciales et c'est spécialement important pour ceux avec peu de moyens.
 
- * Teach basic cryptographic tools to the masses. Crowd-source the best crypto. We suggest PGP, OTR, and Tor as the first tools to install.
+ * Enseignez les outils cryptographiques de base pour la masse. Crowd-sourcez la meilleure crypto. Nous suggérons PGP, OTR et Tor comme premiers outils à installer.
 
- * Invite experts and non-experts from all fields. Everyone is an expert on something.
+ * Invitez des experts et des novices de tous domaines. Chacun est expert dans quelque chose.
 
- * If you want CryptoParty to do something, start doing it. Organise organically and chaotically. Have no clear leadership. Urge people to take on a sudo leadership role - take a tutorial, fix the wifi, update the wiki, or organise the next CryptoParty. If someone claims others are doing it wrong - invite them to nominate themselves to do it better.
+ * Si vous voulez qu'une CryptoParty fasse quelque chose, faites-le. Organisez de façon organique et chaotique. N'ayez pas de leadership clair. Poussez les gens à être des meneurs sur des tâches précises − assurer un tutorial, réparer ou mettre à jour le wiki, organiser la prochaine CryptoParty, etc. Si quelqu'un prétend que les autres s'y prennent mal, invitez-les à se proposer pour mieux faire les choses.
 
- * Ask for feedback. Assimilate critics - ask them for their help in creating a better CryptoParty. Do not be scared to troll the trolls back or boot them from your space. Share feedback on the wiki. Iterate.
+ * Demandez aux gens ce qu'ils en ont pensé. Intégrez les critiques − demandez leur aide pour faire une meilleure CryptoParty. N'ayez pas peur de troller les trolls en retour ou de les chasser de votre espace. Partagez les retours sur le wiki. Recommencez.
 
- * A successful CryptoParty can have as many or as few as two people. Size doesn't count, it's what you do with it that matters. The criterion for success should be that everyone had fun, learned something and wants to come to the next party.
+ * Une CryptoParty réussie peut avoir autant ou aussi peu que deux personnes. La taille n'importe pas, c'est ce que vous faites qui compte. Le critère de succès devrait être que chacun s'est amusé, a appris quelque chose et souhaite venir à la prochaine CryptoParty.
 
- * Think of the CryptoParty movement as a huge Twitter hive ready to swarm at any moment. Tweet a lot, and make your tweets meaningful. ReTweet other CryptoPartiers frequently.
+ * Pensez que le mouvement de CryptoParty bénificie d'une grosse ruche sur Twitter prête à se mettre en action à tout moment. Tweetez beaucoup, et avec du sens. Re-tweetez les autres CryptoParty régulièrement.
 
- * Make sure the way crypto is taught at your party could be understood by a 10 year old. Then have the 10 year old teach it to an 80 year old. Breach the digital divide with random acts of awesomeness such as unfettered use of images of kittens in all CryptoParty literature. Red underpants on heads is only mandatory if you wish to bid in our spectrum auction.
+ * Faites en sorte que la cryptographie enseignée à votre fête puisse être comprise par des gamins de 10 ans. Ensuite, trouvez un enfant qui l'explique à quelqu'un de 80 ans. Cassez la frontière numérique avec des actions aléatoires de trucs géniaux, par exemple en utilisant des photos de chatons dans vos documents pour la CryptoParty. Les slips rouges sur la tête ne sont obligatoires que si vous souhaitez enchérir.
 
- * Consider hosting private, off-the-radar CryptoParties for activists, journalists and in individuals working in dangerous locations.
+ * Pensez à organiser des CryptoParty privées, off-the-radar, pour les activistes, les journalistes et les autres personnes travaillant dans des situations dangereuses.
 
- * Don't scare non-technical people. Don't teach command lines before people know where the on-off buttons are located on their laptops. Everyone learns at their own pace -  make sure there is support for those in need of help.
+ * N'effrayez pas les gens novices en technique. N'enseignez pas à quelqu'un la ligne de commande al. Tout le monde apprend à son rythme − faites en sorte que ceux qui cherchent de l'aide puisse en trouver.
 
- * Doing excellent stuff at CryptoParty does not require permission or an official consensus decision. If you're uncertain about the excellence of something you want to do, you should ask someone else what they think.
+ * Faire d'excellentes choses à une CryptoParty ne nécessite aucune permission ni décision par consensus officiel. Si vous n'êtes pas certain(e)s de l'excellence de ce que vous faites, vous devriez demander à quelqu'un ce qu'il/elle en pense.
 
- * Consider the need for a bouncer, particularly if your CryptoParty expects over 50 people. Dress the bouncer up as a Sumo wrestler. Do not be afraid to bounce people who breach CryptoParty's anti-harassment policy.
+ * Envisagez de recourir à un videur, surtout si plus de 50 personnes sont attendues pour votre CryptoParty. Habillez-le en sumo. N'hésitez pas à faire sortir les personnes qui ne respectent pas la politique anti-harcèlement de la CryptoParty.
 
- * CryptoParty is dedicated to providing a harassment-free sharing experience for everyone, regardless of gender, sexual orientation, disability, physical appearance, body size, heritage, or religion. Behaving like an arsehole may mean you are permanently uninvited to CryptoParties events. Harassment includes:
+ * CryptoParty est dédié à procurer une expérience de partage sans harcèlement pour tous, indépendamment de leur sexe, orientation sexuelle, handicaps, apparence physique, taille, classe sociale ou religion. Tout comportement irrespectueux peut aboutir à un bannissement aux événements CryptoParty. Les comportements de harcèlement incluent :
 
-    * hurtful or offensive comments
-    * deliberate intimidation
-    * direct or indirect threats
-    * stalking
-    * following
-    * inappropriate physical contact
-    * unwelcome sexual attention.
+    * les commentaires blessants ou offensants ;
+    * l'intimidation délibérée ;
+    * les menaces directes aussi bien qu'indirectes ;
+    * le harcèlement physique ;
+    * la traque ;
+    * tout contact physique inapproprié ;
+    * des attentions sexuelles malvenues.
 
- * Encourage a culture of sharing. Encourage advanced users to help not-so advanced ones. Delegate.
+ * Encouragez la culture du partage. Encouragez les utilisateurs initiés à aider les novices. Déléguez.
 
- * Use online meeting platforms like mumble, or even chatrooms (e.g. #cryptoparty room on http://occupytalk.org/) when physical meetups are not possible or impractical.
+ * Utilisez les plateformes de rencontre en ligne comme mumble (par exemple la salle #cryptoparty sur http://occupytalk.org/ ) quand les rendez-vous physiques ne sont pas possibles ni pratiques.
 
- * Copy from other cryptoparties. Remix, Reuse and Share. Create a basket of old devices people are willing to donate to more needy CryptoPartiers. 
+ * Inspirez-vous des autres CryptoParty. Mélangez, réutilisez et partagez. Posez un panier oú les gens pourront laissez des vieux trucs que les autres CryptoPartiers pourront recycler.
 
- * Get the word out! Print posters and/or flyers and distribute them in your neighbourhood, post online versions to social networks and mail them to friends, for them to distribute the info even further.
+ * Faites passer le message ! Imprimez des posters et/ou des flyers et distribuez-les dans vos quartiers, mettez des versions en ligne sur les réseaux sociaux et envoyez-les à vos amis, pour qu'ils distribuent cette info encore plus loin.
 
- * Don't sell out to sponsors for pizza and beer money. Ask people to try and bring food and drink to share. Host CryptoPicnics as often as possible. Make friends with librarians. They wield power over keys to local, public meeting rooms that may be free of charge to utilize.
+ * Ne cherchez pas l'argent de sponsors pour acheter des pizzas ou de la bière. Demandez aux gens d'essayer d'amener leur nourriture et boisson à partager. Hébergez des CryptoPicnics aussi souvent que possible. Devenez amis avec les libraires. Ils ont accès à des locaux et des salles de réunions publiques qui peuvent être gratuites à utiliser.
 
- * Invite all the people. Bring people together who have a wide range of skills and interests - musicians, political pundits, activists, hackers, programmers, journalists, artists and philosophers. Spread the love.
+ * Invitez tous les gens. Regroupez des gens qui ont un vaste champ de compétences et d'intérêts − musiciens, politologues, activites, hackers, codeurs, journalistes, artistes et philisophes. **Propagez l'amour**.
 
- * Invite the graphic designers and illustrators you know to contribute new ways to help people understand crypto.
+ * Invitez les graphistes et illustrateurs que vous connaissez pour trouver de nouvelles façons d'aider les gens à comprendre la cryptographie.
 
- * Invite everyone to share their knowledge and their skills. Individuals with little or no coding, programming, hacking or crypto skills can change cultures by promoting the idea that privacy is a fundamental right.
+ * Invitez tous ceux qui partagent leurs connaissances et leurs compétences. Quelques personnes sans trop d'expérience en programmation, hacking ou connaissance en cryptographie peuvent changer les cultures en promouvant l'idée que la vie privée est un droit fondamental.
 
- * Share music, beers, & chips. Bond together over eclectic music, cheeseballs, installing GPG, TrueCrypt, OTR and Tor, as well as watching movies together. We recommend Hackers, The Matrix, Bladerunner, Tron, Wargames, Sneakers, and The Net.
+ * Partagez de la musique, des bières et des chips. Créez du lien par la musique éclectique, les tapas, en installant GPG, TrueCrypt, OTR et Tor, et pourquoi pas avec un petit film. Nous recommandons Hackers, Matrix, Bladerunner, Tron, Wargames, Sneakers et The Net.
 
- * Do not work too hard. Take breaks. Eat popcorn together. Create slang, phrases, memes.
+ * Ne travaillez pas trop. Faites des pauses. Mangez des fraises tagada ensemble. Créez du vocabulaire, des slogans, des memes.
 
- * When people at CryptoParties ask for advice on "hacking the Gibson" refer them to episodes of 'My Little Pony'.
+ * Quand certaines personnes aux CryptoParty vous demandent un conseil pour « hacker le Gibson », renvoyez-les vers les épisodes de « Mon Petit Poney ».
 
- * Create fliers and advertise using slogans like: "CryptoParties: If there is hope, it lies in the proles" and "CryptoParty like it's 1984." CryptoParty all the things to avoid oppression and depression.
+ * Créez des flyers et faites de la pub en utilisant des slogans comme : « CryptoParty : S'il y a de l'espoir, c'est chez les prolos » et « CryptoParty comme en 1984 ». CryptoPartez toutes les choses pour éviter l'oppression et la dépression.
 
- * Seed CryptoParties in your local communities - at nursing homes, scout groups, music festivals, universities, schools. Take CryptoParty to isolated and remote communities. Make friends in far away places and travel whenever possible. Ask people in rural farming communities if they'd like to CryptoParty.
+ * Distribuez les CryptoParty dans vos communautés locales − dans les maisons de retraite, les groupes de scout, les festivals de musique, les universités, les écoles. Emmenez les CryptoParty dans les communautés isolées et éloignées. Faites-vous des amis dans des endroits reculés et voyagez quand vous pouvez. Demandez au gens qui vivent dans des communautés rurales agricoles s'ils aimeraient organiser une CryptoParty.
 
- * Share shimmering opportunities of crowd-sourced privacy: swap cheap, pre-paid SIMs, handsets and travel cards.
+ * Partager les opportunités chatoyantes de la vie privée en foule : échanger  des cartes SIM bon marché et prépayées, des téléphones et des cartes de voyage.
 
- * Create logos in bright pink and purple, with hearts all over them. Promote CryptoParties to rebellious 13 year old girls. Declare success if rebellious 13 year old girls demand to attend your parties.
+ * Faites des logos avec du violet, et du rose pétant, et des jolis coeurs. Parlez des CryptoParty aux jeunes filles rebelles de 13 ans. Criez victoire si des jeunes filles rebelles de 13 ans demandent à participer aux CryptoParty.
 
- * Become friends with journalists. Invite them to your parties. Teach them crypto. Do not scare them by discussing Assassination Markets.
+ * Devenez amis avec des journalistes. Invitez-les à vos fêtes. Enseignez-leur la crypto. Ne leur faites pas peur en discutant d'« Assassination Markets ».
 
- * Strew CryptoParty sigils across your city in 3am post-party raids. Make lots of stickers, paste them everywhere.
+ * Répandez les sceaux CryptoParty à travers votre ville à 3h du matin dans des raids après la fête. Faites beaucoup de stickers, collez-les partout.
 
- * Experiment, constantly. Do not be afraid to make mistakes. Encourage people to tinker. Assume all mistakes are meant to be made. Most people under intel agency scrutiny have electronic devices already compromised before they walk in the door. Teach people to install tools from scratch, so they can do it on a new machine, away from prying eyes.
+ * Expérimentez, constament. N'ayez pas peur de faire des erreurs. Encouragez les gens à essayer. Ayez conscience que toutes les erreurs ont pour but d'être faites. La plupart des personnes surveillées par les agences de renseignement ont des appareils électroniques déjà compromis avant de franchir la porte. Apprenez aux gens à installer des outils depuis rien afin qu'ils puissent le faire sur une nouvelle machine, loin des regards indiscrets.
 
- * Assume intel agencies send representatives to CryptoParties. Acknowledge their presence at the start of your meeting, ask them to share their crypto skills. Joke about paranoia as often as possible without instilling panic. Wear tinfoil hats.
+ * Supposez d'office que les agences de renseignement envoient des représentants aux CryptoParties. Déclarez leur présence dès le début de votre rencontre, demandez-leur de partager leurs talents cryptographiques. Plaisantez à propos de paranoïa aussi souvent que possible sans instiller de panique. Portez des casques en feuilles d'aluminium.
 
- * Be excellent to each other and CryptoParty on.
+ * Sois mignon avec tes copains et active le mode CryptoFêtes !

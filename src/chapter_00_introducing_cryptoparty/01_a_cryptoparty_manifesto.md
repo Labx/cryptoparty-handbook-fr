@@ -1,39 +1,39 @@
-A CryptoParty Manifesto
-=======================
+Le Manifeste de la CryptoParty
+==============================
 
-> **"Man is least himself when he talks in his own person. Give him a mask, and he will tell you the truth." - Oscar Wilde**
+> **« L'homme n'est pas lui-même quand il parle en son nom propre. Donnez-lui un masque et il vous dira la vérité. » - Oscar Wilde**
 
-In 1996, John Perry Barlow, co-founder of the [Electronic Frontier Foundation (EFF)](https://www.eff.org/), wrote 'A Declaration of the Independence of Cyberspace'. It includes the following passage:
+En 1996, John Perry Barlow, cofondateur de l'« Electronic Frontier Foundation », écrivit Une déclaration de l'indépendance du cyberespace. Celle-ci contient le passage suivant :
 
-> Cyberspace consists of transactions, relationships, and thought itself, arrayed like a standing wave in the web of our communications. Ours is a world that is both everywhere and nowhere, but it is not where bodies live.
+> Le cyberespace consiste en transactions, relations et pensées elles-même, reliées telles une vague dans le réseau de nos communications. Notre monde est à la fois partout et nulle-part, mais nul corps n'y vit.
 
-> We are creating a world that all may enter without privilege or prejudice accorded by race, economic power, military force, or station of birth.
+> Nous créons un monde où chacun peut entrer sans privilège ni préjugé concernant sa race, son pouvoir économique, sa force militaire, ou son lieu de naissance.
 
-> We are creating a world where anyone, anywhere may express his or her beliefs, no matter how singular, without fear of being coerced into silence or conformity.
+> Nous créons un monde où chacun, partout, peut exprimer ses croyances, peu importent qu'elles soient différentes, sans craindre d'être forcé au silence ou à la conformité.
 
-Sixteen years later, and the Internet has changed the way we live our lives. It has given us the combined knowledge of humankind at our fingertips. We can form new relationships and  share our thoughts and lives with friends worldwide. We can organise, communicate and collaborate in ways never thought possible. This is the world we want to hand down to our children, a world with a free Internet.
+Seize ans plus tard, Internet a changé la façon dont nous vivons nos vies. Il a apporté la connaissance de toute l'humanité au bout de nos doigts. Nous pouvons former de nouvelles relations et partager nos pensées et nos vies avec nos amis à travers le monde. Nous pouvons organiser, communiquer et collaborer de façons que nous n'aurions jamais crues possibles. Ceci est le monde que nous voulons laisser à nos enfants, un monde où Internet est libre.
 
-Unfortunately, not all of John Perry Barlow's vision has come to pass. Without access to online anonymity, we can not be free from privilege or prejudice. Without privacy, free expression is not possible.
+Malheureusement, certaines visions de John Perry Barlow ne se sont pas réalisées. Sans accès à l'anonymat en ligne, nous ne pouvons nous libérer des privilèges et des préjugés. Sans intimité, l'expression libre n'est pas possible.
 
-The problems we face in the 21st Century require all of humanity to work together. The issues we face are serious: climate change, energy crises, state censorship, mass surveillance and on-going wars. We must be free to communicate and associate without fear. We need to support free and open source projects which aim to increase the commons' knowledge of technologies that we depend on [http://opensourceecology.org/wiki](http://opensourceecology.org/wiki) Contribute!
+Les problèmes qui nous attendent au 21e siècle nécessitent que toute l'humanité travaille main dans la main. Ces problèmes sont graves : changement climatique, crises énergétiques, censure d'états, surveillance de masse et guerres. Nous devons être libres de communiquer et de nous associer sans crainte. Nous devons soutenir les projets libres qui visent à augmenter la connaissance commune des technologies dont nous dépendons tous [http://opensourceecology.org/wiki](http://opensourceecology.org/wiki). Contribuez !
 
-To realise our right to privacy and anonymity online, we need peer-reviewed, crowd-sourced solutions. CryptoParties provide the opportunity to meet up and learn how to use these solutions to give us all the means with which to assert our right to privacy and anonymity online.
+Pour faire respecter notre droit à la vie privée et à l'anonymat en ligne, nous avons besoin de solutions évaluées par nos pairs et auxquelles tout le monde peut contribuer. Les « Cryptoparty » fournissent l'opportunité de se rencontrer et d'apprendre comment utiliser ces solutions de façon à nous donner tous les moyens pour assurer notre droit à la vie privée et à l'anonymat en ligne.
 
-1. We are all users, we fight for the user and we strive to empower the user. We assert user requests are why computers exist. We trust in the collective wisdom of human beings, not software vendors, corporations or governments. We refuse the shackles of digital gulags, lorded over by vassal interests of governments and corporations. We are the CypherPunk Revolutionaries.
+1. Nous sommes tous des utilisateurs, nous nous battons pour l'utilisateur et nous cherchons à donner le pouvoir à l'utilisateur. Nous savons que l'ordinateur existe grâce aux demandes des utilisateurs. Nous avons plus confiance dans la sagesse collective des êtres humains que dans celle des vendeurs de logiciels, des entreprises ou des gouvernements. Nous refusons les entraves des gulags numériques, contrôlés par les intérêts vassaux de gouvernements et d'entreprises. Nous sommes les Révolutionnaires CypherPunk.
 
-2. The right to personal anonymity, pseudonymity and privacy is a basic human right. These rights include life, liberty, dignity, security, right to a family, and the right to live without fear or intimidation. No government, organisation or individual should prevent people from accessing the technology which underscores these basic human rights.
+2. Le droit à un anonymat personnel, au pseudonymat et à la vie privée sont des Droits de l'Homme de base. Ces droits incluent la vie, la liberté, la dignité, la sécurité, le droit à la famille, et le droit de vivre sans peur ni intimidation. Aucun gouvernement, organisation ou individu ne devrait pouvoir empêcher le peuple d'accéder aux technologies qui permettent l'accès à ces Droits de l'Homme de base.
 
-3. Privacy is the right of the individual. Transparency is a requirement of governments and corporations who act in the name of the people. 
+3. La vie privée est un droit absolu de l'individu. La transparence est un devoir de la part des gouvernements et entreprises qui agissent au nom du peuple.
 
-4. The individual alone owns the right to their identity. Only the individual may choose what they share. Coercive attempts to gain access to personal information without explicit consent is a breach of human rights.
+4. L'individu possède seul le droit à ses identités. Seul l'individu peut choisir ce qu'il partage. Les tentatives coercitives pour obtenir l'accès à des informations personnelles, sans consentement explicite, est une violation des droits de l'homme.
 
-5. All people are entitled to cryptography and the human rights crypto tools afford, regardless of race, colour, sex, language, religion, political or other opinion, national or social origin, property, birth, political, jurisdictional or international status of the country or territory in which a person resides.
+5. Tout peuple a le droit à la cryptographie ainsi qu'aux droits qu'offrent les outils de cryptographie, quels que soit la race, la couleur, le sexe, la langue, la religion, l'orientation politique ou autres opinions, la nationalité ou origine sociale, terrienne, natale, politique, judiciaire ou le statut international du pays ou du territoire dans lequel la personne réside.
 
-6. Just as governments should exist only to serve their citizens - so too, cryptography should belong to the people.Technology should not be locked away from the people. 
+6. Comme les gouvernements ne devraient exister que pour servir leurs citoyens - de même, la cryptographie doit appartenir au peuple. La technologie ne devrait pas être verrouillée loin des gens.
 
-7. Surveillance cannot be separated from censorship, and the slavery it entails. No  machine shall be held in servitude to surveillance and censorship. Crypto is a key to our collective freedom.
+7. La surveillance ne peut pas être séparée de la censure et de l'esclavage que cela implique. Aucune machine ne devrait être retenue en servitude de la surveillance et de la censure. La cryptographie est une clé pour notre liberté collective.
 
-8. Code is speech: code is human created language. To ban, censor or lock cryptography away from the people is to deprive human beings from a human right, the freedom of speech.
+8. Le code est une parole : le code est une langue créée par l'homme. Bannir, censurer, ou verrouiller la cryptographie à l'écart des gens, c'est priver les êtres humains d'un droit de l'homme, la liberté d'expression.
 
-9. Those who would seek to stop the spread of cryptography are akin to the 15th century clergy seeking to ban the printing press, afraid their monopoly on knowledge will be undermined.
+9. Ceux qui cherchent à arrêter la propagation de la cryptographie sont semblables au clergé du 15ème siècle visant à interdire l'imprimerie, de peur que leur monopole sur la connaissance soit compromise.
  

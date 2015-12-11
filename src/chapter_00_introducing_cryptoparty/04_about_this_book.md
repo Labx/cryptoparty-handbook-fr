@@ -1,42 +1,43 @@
-About This Book
-===============
+À propos de ce Livre
+====================
 
-The CryptoParty Handbook was born from a suggestion by Marta Peirano ([http://petitemedia.es](http://petitemedia.es)) and Adam Hyde ([http://booksprints.net](http://booksprints.net)) after the first Berlin CryptoParty, held on the 29th of August, 2012. Julian Oliver ([http://julianoliver.com](http://julianoliver.com)) and Danja Vasiliev ([http://k0a1a.net](http://k0a1a.net)), co-organisers of the Berlin CryptoParty along with Marta were very enthusiastic about the idea, seeing a need for a practical working book with a low entry-barrier to use in subsequent parties. Asher Wolf, originator of the CryptoParty movement, was then invited to run along and the project was born.
+Le CryptoParty Handbook a été créé suite à une suggestion de Marta Peirano ([http://petitemedia.es](http://petitemedia.es)) et Adam Hyde ([http://booksprints.net](http://booksprints.net)) après la première CryptoParty de Berlin, le 29 août 2012. Julian Oliver ([http://julianoliver.com](http://julianoliver.com)) et Danja Vasiliev ([http://k0a1a.net](http://k0a1a.net)), co-organisateurs de la CryptoParty berlinoise avec Marta, étaient très enthousiastes sur cette idée, voyant l'opportunité de faire un livre de cas pratiques faciles d'accès à utiliser pour les soirées suivantes. Asher Wolf, à l'origine du mouvement des CryptoParty, a ensuite été invité à rejoindre cette collaboration et le projet est né.
 
-This book was written in the first 3 days of October 2012 at Studio Weise7, Berlin, surrounded by fine food and a small ocean of coffee. Approximately 20 people were involved in its creation, some more than others, some local and some far.
+Ce livre a été écrit durant les 3 premiers jours d'Octobre 2012, au Studio Weise7 à Berlin, entouré de bonne nourriture et d'un petit océan de café. Environ 20 personnes ont participé à sa création, certains plus que d'autres, certains sur place et d'autres plus loin.
 
-The writing methodology used, BookSprint ([http://booksprints.net](http://booksprints.net)), is all about minimising any obstruction between expertise and the published page. Face-to-face discussion and dynamic task-assignment were a huge part of getting the job done, like any good CryptoParty!
+La méthodologie d'écriture utilisée, BookSprint ([http://booksprints.net](http://booksprints.net)), a pour but principal de minimiser les obstacles entre l'expertise et la page publiée. Discussion face à face et attribution dynamique des tâches ont permis de finir le travail, comme dans toute bonne CryptoParty !
 
-The open source, web-based (HTML5 and CSS) writing platform BookType ([http://booktype.pro](http://booktype.pro)) was chosen for the editing task, helping such a tentacular feat of parallel development to happen with relative ease. Asher also opened a couple of TitanPad pages to crowd-source the Manifesto and HowTo CryptoParty chapters.
+La plateforme d'écriture open source orientée web  (HTML5 et CSS), BookType ([http://booktype.pro](http://booktype.pro)),  a été choisie pour les tâches d'éditions, en aidant au développement parallèle tentaculaire d'une telle œuvre avec beaucoup d'aisance. Asher a aussi ouvert quelques TitanPad pour écrire collaborativement les chapitres sur le Manifesto et « Comment faire une CryptoParty ».
 
-Combined, this became the official CryptoParty Handbook by midnight October the 3rd, GMT+1.
+Combiné, cela est devenu le CyptoParty Handbook officiel le 3 octobre à minuit, GMT+1.
 
-The Book Sprint was 3 days in length and the full list of onsite participants included:
- 
- * Adam Hyde (facilitator)
- * Marta Peirano
- * Julian Oliver
- * Danja Vasiliev
- * Asher Wolf ([http://cryptoparty.org](http://cryptoparty.org))
- * Jan Gerber
- * Malte Dik
- * Brian Newbold
- * Brendan Howell ([http://wintermute.org](http://wintermute.org)
- * AT
- * Carola Hesse
- * Chris Pinchen ([http://chokepointproject.net/](http://chokepointproject.net)). 
- * Cover art by Emile Denichaud ([http://about.me/denichaud](http://about.me/denichaud))
+Le Book Sprint a duré 3 jours, et la liste des participants sur place inclut:
 
-This version of the handbook has since moved to github to collaboratively edit it. Find it at [https://github.com/cryptoparty/handbook](https://github.com/cryptoparty/handbook).
-If you see areas that need improvement or simply come across a typo, create a github account and start editing, commenting or creating issues. For help using git and github, see [https://help.github.com/](https://help.github.com/).
+  * Adam Hyde (facilitateur)
+  * Marta Peirano
+  * Julian Oliver
+  * Danja Vasiliev
+  * Asher Wolf ([http://cryptoparty.org](http://cryptoparty.org))
+  * Jan Gerber
+  * Malte Dik
+  * Brian Newbold
+  * Brendan Howell ([http://wintermute.org](http://wintermute.org)
+  * AT
+  * Carola Hesse
+  * Chris Pinchen ([http://chokepointproject.net/](http://chokepointproject.net)).
 
-CryptoParty HandBook Credits
+Couverture (illustrations à venir) par Emile Denichaud ([http://about.me/denichaud](http://about.me/denichaud))
 
-Facilitated by:
+Cette version du Handbook a depuis été migrée vers github afin de l'éditer collaborativement. Vous pouvez le trouver sur [https://github.com/cryptoparty/handbook](https://github.com/cryptoparty/handbook).
+Si vous voyez des zones qui ont besoin d'améliorations, ou même si vous trouvez une faute, créez un compte github et commencez à éditer, commenter et ajouter des « issues ». Vous trouverez de l'aide pour utiliser git et github sur [https://help.github.com/](https://help.github.com/).
+
+L'équipe du CryptoParty HandBook
+
+Facilité par :
 
  * Adam Hyde
 
-Core Team:
+Équipe centrale :
 
  * Marta Peirano
  * Asher Wolf
@@ -47,7 +48,7 @@ Core Team:
  * Brian Newbold
  * Brendan Howell
 
-Assisted by:
+Assistés par :
 
  * Teresa Dillon
  * AT
@@ -57,29 +58,26 @@ Assisted by:
  * 'l3lackEyedAngels'
  * 'Story89'
  * Travis Tueffel
+ 
+ Traduction en français :
 
-Github migration, packaging and maintenance by:
+    * Alx
+    * Thomas Vincent
+    * Richard Baret
+	* François-Xavier Lesaffre
 
- * Yuval Adam
- * Samuel Carlisle
- * Daniel Kinsman
- * pettter
- * Jens Kubieziel
- * Uwe Lippmann
- * Kai Engert
+Image de couverture par Emile Denichaud.
 
-Cover Image by Emile Denichaud.
-
-Other material included: 
+Autres ressources incluses :
 
  * [https://www.flossmanuals.net/bypassing-censorship](https://www.flossmanuals.net/bypassing-censorship)
 
-The manuals used in the second half of this book borrow from 2 books sprinted by FLOSS Manuals:
+Les manuels utilisés dans la seconde partie de ce livre ont été empruntés de 2 autres livres de FLOSS Manuals :
 
  * "How to Bypass Internet Censorship" 2008 & 2010 Adam Hyde (Facilitator), Alice Miller, Edward Cherlin, Freerk Ohling, Janet Swisher, Niels Elgaard Larsen, Sam Tennyson, Seth Schoen, Tomas Krag, Tom Boyle, Nart Villeneuve, Ronald Deibert, Zorrino Zorrinno, Austin Martin, Ben Weissmann, Ariel Viera, Niels Elgaard Larsen, Steven Murdoch, Ross Anderson, helen varley jamieson, Roberto Rastapopoulos, Karen Reilly, Erinn Clark, Samuel L. Tennyson, A Ravi
 
  * "Basic Internet Security" 2011 Adam Hyde (Facilitator), Jan Gerber, Dan Hassan, Erik Stein, Sacha van Geffen, Mart van Santen, Lonneke van der Velden, Emile den Tex and Douwe Schmidt
 
-All content in the CryptoParty Handbook is licensed under the [Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)](https://creativecommons.org/licenses/by-sa/3.0/).
+Le contenu du CryptoPart Handbook est partagé sour licence [Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)](https://creativecommons.org/licenses/by-sa/3.0/).
 
-All chapters © the contributors unless otherwise noted below.
+Tous les chapitres © les contributeurs à moins que cela soit spécifié autrement.

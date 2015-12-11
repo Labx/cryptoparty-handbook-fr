@@ -1,60 +1,74 @@
-Types of Email
-==============
+Les types d'e-mail
+==================
 
-The use of email almost always comes in two forms:
+L'utilisation de messagerie électronique se présente toujours sous deux formes :
 
- * Email read, written and sent in the *browser* (webmail via HTTP) and stored on a providers server, and/or
+ * Les e-mails lus, écrits et envoyés via le *navigateur* (webmail), ou
 
- * Email read, written, sent and stored using an *email program*, like e.g. Mozilla Thunderbird, Mail.App or Outlook Express by utilizing protocols like *SMTP*, *POP* and *IMAP*.
+ * Les e-mails lus, écrits et envoyés via un *client mail*, comme Mozilla Thunderbird, Mail.app ou Outlook Express
 
-These two models might be mixed in practice, especially by using *IMAP*. Whilst the webmail solution is more convinient to use and easier to maintain for end users on different computers compared to the more powerful solution (less limits on storage, better search options and direct control over data) based on native applications.
+Ces deux types d'utilisations peuvent être mélangés en pratique, en particulier si vous utilisez le protocole *IMAP*. Alors que la solution "webmail" est la plus simple à mettre en oeuvre et à maintenir pour l'utilisateur final utilisant plusieurs ordinateurs différents, les clients de messagerie sont plus "puissants" avec moins de limite de stockage, de meilleures options de recherches et un contrôle direct sur les données.
 
-Remotely hosted email ('webmail'), resourced using a web browser
+
+E-mails hébergés à distance (webmail), accédés via un navigateur web.
 ----------------------------------------------------------------
 
-Email sent using the *browser*, sometimes referred to as *webmail*, typically assumes an account with a remote email host like Google (Gmail), Microsoft (Hotmail) or Yahoo (Yahoo Mail). The business opportunities opened up by hosting other people's email are many: contact with other services offered by the company, brand exposure and most importantly, mining your plain text email for patterns that can be used to evaluate your interests – something of great value to the advertising industry (alongside certain Governments). For the reason of datamining those companies have *no interest* in encouraging their users to use *encryption to secure privacy* and/or *signatures for integrity/authenticity* of communication.
+Les services de messagerie accessibles avec un *navigateur*, aussi appelés *webmail*, impliquent généralement un compte chez un fournisseur distant comme Google (GMail), Microsoft (Hotmail) ou Yahoo (Yahoo Mail). Les opportunités commerciales offertes par l'hébergement des mails de tiers sont multiples : synergie avec les autres services offerts par la compagnie, mise en valeur de la marque et, plus important, analyse de vos mails pour des signes utilisables pour évaluer vos intérêts -- quelque chose d'une grande valeur pour l'industrie publicitaire (en plus de certains gouvernements). A cause de ces analyses ces entreprises n'ont *aucun intérêt* à encourager leurs utilisateurs à chiffrer leurs données pour assurer leur *vie privée* et/ou la signature pour assurer l'*authenticité/integrité* de leur communications.
 
-Remotely hosted email, resourced using an email program or using a web browser
+
+E-mails hébergés à distance (webmail), accédés via un client mail ou un navigateur
 ------------------------------------------------------------------------------
 
-Email sent using an email program like Outlook, Thunderbird, Mail.App aso. can also be used with a webmail service like Gmail or your company's email service. In either case, email may still be downloaded onto your computer but is retained on the email server (e.g. Gmail). Done this way, accessing email doesn't require the browser at all, but you are still using Gmail, Hotmail as a service. The difference between storing email on your computer with an email program and having it stored remotely on an email server (like Hotmail, Gmail or your University's service) on the Internet can appear confusing at first.
+L'utilisation d'un programme comme Outlook, Thunderbird, Mail.app peut aussi fonctionner avec un service de webmail comme celui de GMail ou de votre entreprise. Dans ce cas, les e-mails peuvent toujours être téléchargés sur votre ordinateur mais continuent d'exister sur le serveur de mail (ex. Gmail). De cette façon, accéder aux e-mails ne nécessite plus de navigateur, mais vous continuer d'utiliser le service de Gmail ou Hotmail. La différence entre le stockage de vos e-mails sur votre ordinateur avec un client mail et le stockage sur un serveur distant (Gmail, Hotmail, ou le service de mail fourni par votre Université) sur Internet peut apparaitre troublante au premier abord.
 
-Finally, email can also be sent to an email server but not stored there at all, merely volleyed onto its' destination as soon as the email reaches the email forwarding server. Google and Microsoft do not allow for this sort of setup. Rather this is typically something your university or company will provide for you. Bear in mind that this comes with the risk of the email administrator on that system still secretly copying the email as it reaches and leaves the server.
 
-Generally, using webmail alongside downloading it using an email program is the best approach. This approach adds redundancy (local backups) alongside the option to delete all email from the remote server once downloaded. The latter option is ideal for content sensitive information where the possibility of account hijacking is high but risks total loss of email should the local machine go missing, without backups. Secondly, when using an email program, we have the option of using Email Encryption such as the popular OpenPGP implementation **GPG**, something not easily set up and used with browser-only webmail services. In any case, disk encryption on the local machine is highly advisable (Appendix **Disk Encryption**).
+E-mails envoyés et reçus via un client mail, non stockés sur une machine distante
+-----------------------------------------------------------------------------
 
-Context considerations
+Enfin, des e-mails peuvent aussi être envoyés vers un serveur mais ne pas y être stockés, à peine relayés vers leur destination dès que le mail atteint le serveur de relais. Google et Microsoft n'autorisent pas ce type de fonctionnement. C'est plutôt votre université ou votre entreprise qui vous permettra ce fonctionnement. Gardez à l'esprit que cela n'élimine pas le risque d'un administrateur du système qui copierait discrètement les e-mails lors de leur transit par le serveur.
+
+En général, l'utilisation d'un webmail couplée à un téléchargement des messages avec un client local est la meilleure approche. Cette approche ajoute de la redondance (sauvegardes locales) en plus de la possibilité de supprimer tous les mails du serveur une fois téléchargés. Cette dernière option est idéale pour des contenus sensibles où la possibilité d'un piratage de compte est élevée mais où le risque d'une perte totale des e-mails ne se présente qu'avec la disparition de la machine, sans sauvegarde. De plus, en utilisant un client de messagerie, nous avons une option pour utiliser le chiffrement des e-mails comme avec le populaire **GPG**, ce qui est difficile à mettre en place avec un webmail utilisable uniquement avec un navigateur. Dans tous les cas, le chiffrement du disque sur la machine locale est hautement recommandable (Annexe **Chiffrement de disque**).
+
+
+Considérations contextuelles
 ----------------------
 
-You may be a server administrator yourself and run your own email service. Or your email could be stored on your company or bosses' server. Finally you may be using a service provided by a corporation, like Google (Gmail) or Microsoft (Hotmail). Each comes with its own interesting mix of considerations that relates precisely to the basic fact that unless the email itself is encrypted, the administrator of the email server can still secretly copy the email the moment it reaches the server. It doesn't matter that you may be using *TLS/SSL* (Appendix **SSL**) to login and check your email as this only protects the connection between your local machine and the server.
+Vous êtes peut-être un administrateur et utilisez votre propre serveur e-mail. Ou vos e-mails pourraient être stockés sur le serveur de votre entreprise ou de votre patron. Ou bien utilisez-vous un service d'e-mails fourni par une grande entreprise, comme Google (Gmail) ou Microsoft (Hotmail). Chaque possibilité offre son propre mix de considérations précisément en rapport avec le fait qu'à moins que l'e-mail lui-même soit chiffré, l'administrateur du serveur mail peut toujours copier secrètement un e-mail au moment où il atteint le serveur. Peu importe que vous utilisiez *TLS/SSL* (Annexe **SSL**) pour vous connecter et vérifier vos e-mails, ceci ne protégeant que la connexion entre votre machine locale et le serveur.
 
-As always, if you know the risks and feel concerned it is wise to listen to them - don't send sensitive email using a service you don't trust.
-Employer/Organisation
+Comme toujours, si vous connaissez les risques et pensez qu'il est malin d'y faire attention, n'utilisez pas un service en lequel vous n'avez pas confiance pour envoyer des e-mails sensibles.
 
-Your employer or an organisation that you are involved with is in a very good position to take advantage of your trust and read the emails of your business email account that is stored on their email server, perhaps in an effort to learn about you, your motivations, agendas and interests. Such cases of employer->employee spying are so typical they do not bear mention. Your only measure against it is to use an email encryption solution like GPG (Appendix GPG).
+Employeur/Entreprise
+--------------------
 
-Email & Metadata
-----------------
+Votre employeur ou entreprise sont en très bonne position pour abuser de votre confiance et lire les e-mails de votre compte professionnel stockés sur leur serveur, sans doute dans un effort d'en apprendre sur vous, vos motivations, votre agenda ou vos intérêts. De tels cas d'espionnage employeur->employé sont si répandus qu'on n'a pas besoin de les mentionner. Votre seule riposte contre cela est d'utiliser une solution de chiffrement des e-mails comme GPG (Annexe **GPG**).
 
-The actual content information of mails might be preserved utilizing *OpenPGP* or *S/MIME* but the metadata - the association of persons, addresses, time and used software/services - is stored by several stakeholders. Government services might store such data as well as any company involved in transmitting them.
-In regards of header information Email remains a risk for communication as long as the accounts used can be connected to individuals or groups.
 
-Self-administered email server
+Email & Metadonnées
+-------------------
+
+Le contenu de vos communications peut être preservé du regard d'autrui en utilisant *OpenPGP* ou *S/MIME* mais les métadonnées - les personnes, leurs adresses, la date, l'heure ainsi que les logiciels utilisés - seront stockés en clair à différents endroits. Les services gouvernementaux peuvent stocker ces données ainsi que toutes les organisations qui ont acheminés les communications.
+Avec ces metadonnées, le mail peut présenter un risque si les comptes utilisés peuvent être reliés à des groupes ou des individus.
+
+
+Serveur mail auto-administré
 ------------------------------
 
-Generally speaking this is the ideal hosting configuration, but requires a higher level of technical skill. Here, in general, the risks to privacy are not only in protecting your own email against attempts at exploit (poor passwords, no SSL) but in that you have a responsibility, and perhaps a temptation, to read the emails of those you provide a service for.
+Globalement, ceci est la meilleure configuration, mais requiert un haut niveau technique. En général, les risques d'atteinte à la vie privée ne sont pas seulement dans la protection vos propres e-mails contre des tentatives d'exploits (mot de passe pauvre, pas de SSL) mais aussi dans la responsabilité, et peut-être la tentation, de lire les e-mails de ceux qui utilisent votre service.
 
-'Free' email services
+
+Services de messagerie "gratuits"
 ---------------------
 
-As mentioned above the risks of storing and sending your email using a service provided by a corporation are rather high if respect of your civil right to privacy is valued. The companies hosting your love letters, random expressions and diaries are always at risk of yielding to pressures from political, economic and law enforcement interests of the country to which they are legally subject. A Malaysian Gmail user, for instance, risks exposing her interests and intents to a government she did not elect, not to mention business partners of Google interested in expanding their market reach.
+Comme dit plus haut, les risques de stocker et envoyer vos e-mails via un service fourni par une corporation sont relativement élevés si le respect de votre droit à la vie privée vous importe. Les entreprises hébergeant vos lettres d'amour, diverses communications et journaux intimes sont toujours sujettes au risque de pressions de la part d'intérêts politiques, économiques, et judiciaires du pays auquel elles sont assujetties. Un utilisateur malaisien de Gmail, par exemple, risque d'exposer ses sentiments et intentions envers un gouvernement qu'il n'a pas élu, sans parler des partenaires économiques de Google intéressés par l'accroissement de leur cible de marché. 
+
 
 Non-profit
 ----------
 
-Several non-profit web hosts offer free email accounts to organisations that are themselves non-profit or philanthropic. Some of them even offer wikis, mailing lists, chats and social networks. A consideration for organisations working in a political field may be differences of interests between the state in which the email is hosted and the political interests of the organisation using that service. Such risks would ideally be reflected in the End User License Agreement.
+De nombreux hébergeurs sans but lucratif offrent des comptes e-mail gratuits à des organisations elles-mêmes à but non lucratif ou philanthropiques. Certains d'entre eux offrent même des wikis, des listes de diffusion, des chats et des réseaux sociaux. Une préoccupation pour les organisations du domaine politique peut être la différence d'intérêts entre le pays où les services mails sont stockés et les intérêts politiques de l'organisation utilisant ces services. Le Contrat de Licence Utilisateur Final devrait idéalement refléter de tels risques.
 
-Notes on email forwarding
+
+Notes sur le relai d'e-mails
 -------------------------
 
-Email forwarding services provide the great convenience of 'linking' one email account to another as the user sees fit. This of course is most commonly used when an account holder is on holiday and would like email forwarded from their work account to another used during travel or otherwise inaccessible outside the workplace. The risk with any external email forwarding service is the same as with remotely hosted emails through Gmail for instance: it can be copied and stored. Here email encryption using a system such as *GPG* (Appendix **GPG**) will ensure that if it is copied at least it cannot be read.
+Les services de relayage d'e-mail fournissent le confort de la liaison d'un compte mail à un autre au gré de l'utilisateur. Ceci est bien sûr utilisé surtout lorsque le titulaire d'un compte est en vacances et souhaite que les e-mails reçus sur son compte professionnel soient transférés à un autre compte utilisé en voyage ou lorsque le compte professionnel est inaccessible à l'extérieur de l'entreprise. Le risque avec un service de relai externe est le même qu'avec un webmail comme GMail par exemple : les e-mails peuvent être copiés et stockés. Ici, le chiffrement des messages avec *GPG* (Annexe **GPG**) assurera que, s'ils sont copiés, au moins ils ne pourront pas être lus.

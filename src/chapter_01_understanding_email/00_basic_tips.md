@@ -1,78 +1,88 @@
-Basic Tips
+Astuces de base
 ==========
 
-Just as with other forms of communication on the web, some basic precautions always ought to be taken to ensure you have the best chance at protecting your privacy.
+Tout comme avec d'autres formes de communication sur le web, vous devriez toujours prendre quelques précautions afin de vous assurer les meilleures chances de protéger votre vie privée.
 
-In brief:
+En bref : 
 ---------
 
- * Passwords shouldn't relate to personal details and should contain a mix of a reasonable amount of letters and other characters.
- * To change passwords regularly is important as they might have been stolen, cracked or exposed to others in the meantime.
- * Always be sure your connection is secure when reading email on a wireless network, especially in Internet cafes.
- * Temporary files (the 'cache') on the computer that you use to check your email can present some risks. Clear them often.
- * Create and maintain separate email accounts for different tasks and interests.
- * Encrypt any message you wouldn't feel comfortable sending on a post card.
- * Be aware of the risks of having your email hosted by a company or organization.
+ * Les mots de passe ne devraient pas avoir de rapport avec des détails personnels et devraient contenir un mélange de plus de 8 lettres et autres caractères.
+ * Changer de mot de passe régulièrement, ils peuvent avoir été volés ou crackés ou exposés à la vue d'un quidam qui passait derrière vous. 
+ * Assurez-vous toujours que votre connexion est sécurisée lorsque vous lisez vos mails sur un réseau sans-fil, spécialement dans les cyber-cafés.
+ * Les fichiers temporaires (le "cache") sur l'ordinateur que vous utilisez pour lire vos e-mails peuvent présenter un risque. Supprimez-les fréquemment.
+ * Créez et maintenez séparés des comptes e-mail en fonction de vos intérêts.
+ * Chiffrez tout message que vous n'oseriez pas écrire sur une carte postale. 
+ * Soyez conscient des risques d'avoir vos mails hébergés par une entreprise ou une organisation.
 
-Passwords
+Mots de passe
 ---------
 
-Passwords are a primary point of vulnerability in email communication. Even a secure password can be read in transit unless the connection is secure (see TLS/SSL in the glossary). In addition, just because a password is long doesn't mean it cannot be guessed by using knowledge of you and your life to determine likely words and numbers.
+Les mots de passe sont le premier point de vulnérabilité dans la communication par e-mail. Même un mot de passe sûr peut être lu lors d'une transmission, sauf si la connexion est sûre (voir TLS/SSL dans le glossaire). De plus, ce n'est pas parce qu'un mot de passe est long qu'il ne peut être deviné en utilisant des connaissances sur vous et votre vie pour déterminer les mots et les nombres correspondants (date de naissance, typiquement).
 
-The general rule for creating passwords is that it should be long (8 characters might be cracked within few hours) and have a mix of letters and other characters (numbers and symbols, which means you could just choose a sentence). Combining your birthday with that of a family name is however a great example of how not to do it.  This kind of information is easy to find using public resources. A popular trick is to base it on a favourite phrase and then, just to throw people off, sprinkle it with a few numbers.  Best of all is to use a password generator, either on your local system or online.
+La règle générale pour créer des mots de passe est qu'ils doivent être longs (8 caractères ou plus) et contenir un mélange de lettres et autres caractères (chiffres et symboles, ce qui signifie que vous devriez choisir un mot court). Combiner votre date de naissance avec un nom de famille est un bon exemple de ce qu'il ne faut pas faire. Ce genre d'information est facile à trouver en utilisant des données publiques. Une astuce répandue consiste à baser le mot de passe sur une phrase favorite et, pour perturber les gens, la saupoudrer de quelques chiffres. Le mieux étant d'utiliser un générateur de mots de passe, soit sur votre machine, soit en ligne.
 
-Often such passwords are difficult to remember and a second point of vulnerability is opened up – physical discovery. Since there is no better means of storing a password than in your own brain, services like OnlinePasswordGenerator ([http://www.onlinepasswordgenerator.com/](http://www.onlinepasswordgenerator.com/)) offer a great compromise by randomly generating passwords that vaguely resemble words and present you with a list to choose from.
+Il est souvent difficile de se souvenir de tels mots de passe et une seconde vulnérabilité apparait : la découverte physique. Sachant qu'il n'y a pas de meilleur moyen de stocker un mot de passe que votre cerveau, des services comme OnlinePasswordGenerator ([http://www.onlinepasswordgenerator.com/](http://www.onlinepasswordgenerator.com/)) offrent un bon compromis en générant aléatoirement des mots de passe qui ressemblent vaguement à des mots existants et en vous offrant une liste dans laquelle piocher.
 
-If you do choose to store your password outside your head, you have the choice to either write it down or use keychain software. This can be a risky decision, especially if the email account and password are on the same device like your phone or computer.
+Si vous choisissez de stocker votre mot de passe hors de votre tête, vous avez le choix de l'écrire ou d'utiliser un logiciel de gestion de mots de passe. Ce qui peut être une décision risquée si le compte mail et son mot de passe sont sur un même appareil comme votre téléphone ou votre ordinateur. 
 
-Keychain software, like Keepass, consolidates various passwords and passphrases in one place and makes them accessible through a master password or passphrase. This puts a lot of pressure on the master password. If you do decide to use a keychain software, remember to choose a secure password.
+Un logiciel de gestion de mot de passe, comme KeePass, entrepose vos divers mots de passe et phrases secrètes en un endroit et les rend accessible via un mot de passe ou une phrase secrète principale. Ceci impose une forte pression sur le mot de passe principal. Si vous décidez d'utiliser un tel logiciel, rappelez-vous d'utiliser un mot de passe sûr.
 
-Finally, you should use a different password for different accounts. In that way, if one of them gets hijacked, your other accounts remain safe. Never use the same password for your work and private email accounts. See section **Passwords** to learn more about how to secure yourself.
+Au final, vous devriez utiliser des mots de passe différents pour vos divers comptes. De cette façon, si l'un d'eux est piraté, vos autres comptes resteront en sécurité. N'utilisez jamais le même mot de passe au travail et pour vos comptes e-mail personnels. Voir la section **Mots de passe** pour en savoir plus sur les façons de vous sécuriser.
 
-Reading Email in Public Places
+
+Lecture des e-mails dans des lieux publics
 ------------------------------
 
-One of the great conveniences of wireless networking and 'cloud computing' is the ability to work anywhere. You may often want to check your email in an Internet cafe, on open networks or public location. Spies, criminals and mischievous types are known to visit these locations in order to take advantage of the rich opportunities offered for ID theft, email snooping and hijacking bank accounts.
+Un des grands conforts des réseaux sans-fil et du "Cloud computing" est la possibilité de travailler n'importe où. Vous pouvez régulièrement vouloir consulter vos e-mails dans des cyber-cafés ou des lieux-publics. Espions, criminels et individus douteux sont connus pour visiter régulièrement ces endroits afin de profiter de riches opportunités offertes pour le vol d'identité, l'espionnage d'e-mails ou le piratage de comptes bancaires.
 
-Here we find ourselves within an often underestimated risk of someone listening in on your communications using *network packet sniffing*. It matters little if the network itself is open or password secured.  If someone joins the same encrypted network, s/he can easily capture and read all *unsecured* (see chapter **Secure Connection** for *TLS* and *VPN* solutions) traffic of all of other users within the same network. A wireless key can be acquired for the cost of a cup of coffee and gives those that know how to capture and read network packets the chance to read your password while you check your email if the connection to that service is not secured.
+Nous nous trouvons souvent au centre d'un risque sous-estimé de quelqu'un écoutant vos conversations en utilisant l'analyse de paquets. Cela pose problème que le réseau lui-même soit ouvert ou protégé par un mot de passe. Si quelqu'un rejoint le même réseau chiffré, il (elle) peut aisément capturer et lire tout le trafic *non-sécurisé* (voir le chapitre **Connexion Sécurisée**) de tous les utilisateurs du même réseau. Une carte wifi peut être achetée pour une bouchée de pain et donnent à ceux qui savent comment capturer et analyser des paquets réseau la possibilité de lire votre mot de passe pendant que vous lisez vos e-mails.
 
-Here a simple general rule always applies: if the cafe offers a network cable connection, use it! Finally, just as at a bank machine, make sure no one watches over your shoulder when you type in the password.
+Voici une simple règle qui s'applique tout le temps : si le cyber-café offre une connexion filaire, utilisez-la ! Enfin, tout comme devant un distributeur de billets, assurez-vous que personne ne regarde par-dessus votre épaule lorsque vous tapez votre mot de passe.
 
-Cache Cunning
+
+Le Perfide Cache
 -------------
 
-Here again convenience quickly paves the road to bad places. Due to the general annoyance of having to type in your password over and over again, you ask the browser or local mail client to store it for you. This is not bad in itself, but when a notebook or phone gets stolen, it enables the thief to access the owner's email account(s). The best practice is to clear this cache every time you close your browser. All popular browsers have an option to clear this cache on exit. 
+Là encore, l'enfer est pavé de bonnes intentions. A cause de l'agacement permanent de devoir taper votre mot de passe encore et encore, vous demandez à votre navigateur ou à votre client mail de le stocker pour vous. Ce n'est pas mauvais en soi, mais lorsqu'un ordinateur ou un téléphone est volé, ceci permet au voleur d'accéder aux comptes e-mail du propriétaire. La bonne pratique à tenir est de vider ce cache chaque fois que vous fermez votre navigateur. Tous les navigateurs populaires ont une option de vidage de cache à la fermeture.
 
-One basic precaution can justify you holding onto your convenient cache: disk encryption. If your notebook is stolen and the thief reboots the machine, they'll be met with an encrypted disk. It is also wise to have a screen lock installed on your computer or phone. If the machine is taken from you while still running your existing browsing session, it cannot be accessed.
+Une précaution de base peut vous permettre d'utiliser votre cache : le chiffrement de disque. Si votre ordinateur portable est volé et que le voleur redémarre la machine, il se trouvera face à un disque chiffré. Il est aussi sage d'avoir un écran de verrouillage installé sur votre portable ou votre téléphone. Si l'on vous prend votre appareil pendant une session de navigation, celle-ci sera inaccessible.
 
-Securing your communication
----------------------------
 
-Whenever you write and send email in a browser or use an email program (Outlook Express, Mozilla Thunderbird, Mail.app or Mutt), you should always ensure to use encryption for the entire session. This is easily done due to the popular use of *TLS/SSL (Secure Socket Layer)* connections by email servers (See glossary **TLS/SSL**).
+Sécurisation de vos communications
+----------------------------
 
-If using a browser to check your email, check to see if the mail server supports SSL sessions by looking for https:// at the beginning of the URL. If not, be sure to turn it on in your email account settings, such as Gmail or Hotmail. This ensures that not just the login part of your email session is encrypted but also the writing and sending of emails. Furthermore check the cetificate details and take *TLS pinning* into account and endorse browser extensions that warn about changing or disfunctional certificates (e.g. *Certificate Patrol*) and make use of TLS secured version of the website the default (e.g. *HTTPS everywhere*).
+Chaque fois que vous écrivez et envoyez un e-mail via un navigateur ou un client de messagerie (Outlook Express, Mozilla Thunderbird, Mail.app ou Mutt), vous devriez toujours être sûr d'utiliser le chiffrement pour la session complète. Ceci est réalisé simplement grâce à l'usage répandu de connexions *TLS/SSL (Secure Socket Layer)* par les serveurs de messagerie (Voir glossaire **TLS/SSL**).
 
-The email service provider you select, should provide you with the mail server details. These details can often be found in the settings option. If your email service provider does not offer you a cryptographic protocol (TLS/SSL) to encrypt your data on the network, then it is advised to stop using it. Even if your emails are not important, you might find yourself 'locked out' of your account one day with a changed password!
+Si vous utilisez un navigateur pour consulter vos e-mails, vérifiez si le serveur utilise le chiffrement SSL en cherchant le https:// dans la barre d'adresse au début de l'URL. Dans le cas contraire, activez-le dans vos paramètres de compte e-mail, comme GMail ou Hotmail. Ceci assure que la phase de connexion à votre compte mais aussi la rédaction et l'envoi d'e-mails sont sécurisés.
 
-When using an email program to check your email, be sure that you are using TLS/SSL in the program options. For instance in Mozilla Thunderbird the option for securing your outgoing email is found in `Tools -> Account Settings -> Outgoing Server (SMTP)` and for incoming email in `Tools -> Account Settings -> Server Settings`. This ensures that the downloading and sending of email is encrypted, making it very difficult for someone on your network, or on any of the networks between you and the server, to read or log your email.
-Encrypting the email itself
+Au moment de la rédaction, GMail utilise TLS/SSL par défaut contrairement à Hotmail (il est cependant possible d'activer l'utilisation par défaut de TLS/SSL). Si votre service d'e-mails semble ne pas fournir de chiffrement TLS/SSL, il est conseillé d'arrêter de l'utiliser. Même si vos e-mails ne sont pas importants, vous pourriez un jour vous retrouver "enfermé à l'extérieur" de votre compte avec un mot de passe modifié !
 
-Even if the line itself is encrypted using a system such as SSL, the email service provider still has full access to the email because they own and have full access to the storage device where you host your email. If you want to use a web service and be sure that your provider cannot read your messages, then you'll need to use something like *GPG* (Appendix for **GnuPG**) with which you can encrypt the email. The header of the email however will still contain the IP (Internet address) that the email was sent from alongside other compromising details. Worth mentioning here is that the use of *GPG* in webmail is not as comfortable as with a locally installed mail client, such as *Thunderbird* or *Outlook Express*.
+Lors de l'utilisation d'un programme pour vérifier vos e-mails, soyez sûr d'activer TLS/SSL dans les options du programme. Par exemple dans Mozilla Thunderbird, l'option pour sécuriser l'envoi de vos e-mails se trouve dans `Outils -> Paramètres des comptes -> Serveur sortant (SMPT)` et pour la réception d'e-mails dans `Outils -> Paramètres des comptes -> Paramètres serveur`. Ceci certifie que le téléchargement et l'envoi d'e-mails est chiffré, rendant très difficile pour quelqu'un dans votre réseau, ou dans quelque réseau entre le serveur et vous, la lecture ou l'enregistrement de vos e-mails. De plus, vérifiez les détails du certificat, et équippez votre navigateur d'une extension pour vérifier les changements ou les dysfonctionnement des certificats SSL (exemple: *Certificate Patrol*) ainsi que d'une extension forçant par défaut l'usage de TLS/SSL (exemple: *HTTPS everywhere*).
+
+Votre fournisseur de service mail devrait vous fournirles détails du serveur mail. Ces détails peuvent souvent être trouvés dans le menu Paramètres. Si votre fournisseur de mail ne vous fournit pas de protocole de chiffrement (TLS/SSL), alors, il est préférable de ne plus l'utiliser et d'en changer. Même si vos mails ne sont pas "importants", vous risqueriez de vous retrouver un jour coincé devant la page de connexion avec un mot de passe changé !
+
+
+Chiffrement du contenu d'un mail
+-------------------------
+
+Même si la ligne elle-même est sécurisée via un système comme SSL, le fournisseur de services de messagerie a plein-accès aux e-mails car il possède et a accès libre au moyen de stockage sur lequel vous les hébergez. Si vous voulez utiliser une messagerie web et être sûr que votre fournisseur ne peut pas lire vos messages, alors vous aurez besoin d'utiliser quelque chose comme *GPG* (abrégé pour **GnuPG**) qui vous permet de chiffrer les e-mails. Cependant, l'en-tête du mail contiendra toujours l'adresse IP (adresse Internet) d'où le message a été envoyé en plus d'autres détails compromettants. Il convient de mentionner ici que l'utilisation de *GPG* avec un webmail n'est pas aussi pratique qu'avec un client local, comme *Thunderbird* ou *Outlook Express*.
+
 
 DNSSEC & DANE
 -------------
 
-certificate information can be stored in DNS records and therefore be regarded more relyable. Check the availability of *DNSSEC* and especially regarding email services *DANE* with your service providers.
-Here again browser extensions (e.g. *DNSSEC/TLSA Validator*) can assist to control the availability of these security measures.
+Les informations au sujets des certificats puvent être stockées dans les enregistrements DNS et de fait sembler plus fiables. Vérifiez la disponibilité de *DNSSEC*, en particulier aux sujets du *DANE* de votre service mail auprès de votre fournisseur de mail. Ici encore des extensions de navigateurs existent (exemple: *DNSSEC/TLSA Validator*) et peuvent vous aider à vérifier la disponibilité de ces mesures de sécurité.
 
-Account Separation
+
+Séparation des comptes
 ------------------
 
-Due to the convenience of services like Gmail, it is increasingly typical for people to have only one email account. This considerably centralises the potential damage done by a compromised account. More so, there is nothing to stop a disgruntled Google employee from deleting or stealing your email, let alone Google itself getting hacked. Hacks happen.
+A cause du confort apporté par des services tels que GMail, il est de plus en plus courant pour les gens d'avoir un seul compte e-mail. Ceci concentre considérablement les dégâts potentiels occasionnés par un compte piraté. Pire encore, rien n'empêche un employé peu scrupuleux de Google de supprimer ou voler votre e-mail, laissant Google lui-même se faire pirater. Les piratages arrivent.
 
-A practical strategy is to keep your personal email, well, personal. If you have a work email then create a new account if your employers haven't already done it for you. The same should go for any clubs or organisations you belong to, each with a unique password. Not only does this improve security, by reducing the risk of whole identity theft, but greatly reduces the likelihood of spam dominating your daily email.
+Une stratégie pratique consiste à conserver vos e-mails personnels, et bien... personnels. Si vous avez des e-mails professionnels, créez un nouveau compte si votre employeur ne l'a pas encore fait pour vous. Il en va de même pour n'importe quel club ou organisation dont vous êtes membre, chacun avec un mot de passe différent. Non seulement cela améliore la sécurité, en réduisant le risque d'un vol complet d'identité, mais réduit aussi grandement le risque de vous faire submerger par les spams dans vos comptes e-mail habituels.
 
-A note about hosted email
+
+Une note à propos des e-mails hébergés
 -------------------------
 
-Those that provide you with the service to host, send, download and read email are not encumbered by the use of TLS/SSL. As hosts, they can read and log your email in plain text. They can comply with requests by local law enforcement agencies who wish to access email. They may also study your email for patterns, keywords or signs of sentiment for or against brands, ideologies or political groups. It is important to read the EULA (End-user license agreement) of your email service provider and do some background research on their affiliations and interests before choosing what kind of email content they have access to. These concerns also apply to the hosts of your messages' recipients.
+Ceux qui vous fournissent un service d'hébergement, d'envoi, de réception et de lecture d'e-mails ne s'encombrent pas de l'usage de TLS/SSL. En tant qu'hébergeurs, ils peuvent lire et stocker vos e-mails en texte clair. Ils peuvent obéir à des requêtes d'agences locales contre la violation des lois qui voudraient accéder aux e-mails. Ils peuvent aussi étudier vos mails à la recherche de motifs, mots-clés ou signes d'attachement ou de rejet de marques, idéologies ou partis politiques. Il est important de lire les CLUF (Contrat de Licence Utilisateur Final) de votre fournisseur de messagerie et d'effectuer quelques recherches de fond sur ses affiliations et intérêts avant de déterminer à quels types de mails il aura accès. Ces précautions s'appliquent aussi aux hébergeurs de vos destinataires.

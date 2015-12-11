@@ -1,66 +1,70 @@
-Fears
+Craintes
 =====
 
-*Who can read the email messages that I have already sent or received?*
+*Qui peut lire les mails que j'ai déjà reçus ou envoyés ?*
 
-*Who can read the emails I send when they travel across the Internet?*
+*Qui peut lire les mails que j'envoie lors de leur transit sur Internet ?*
 
-*Can the people I send emails to share them with anybody?*
+*Est-ce que les personnes à qui j'envoie des mails peuvent les partager avec d'autres personnes ?*
 
-Emails that are sent "in the clear" without any encryption (which means the vast majority of email sent and received today) can be read, logged, and indexed by any server or router along the path the message travels from sender to receiver. Assuming you use an encrypted connection (see glossary for TLS/SSL) between your devices and your email service provider (which everybody should), this means in practice that the following people can still read any given message:
+Les e-mails envoyés "en clair" sans aucun chiffrment (ce qui signifie la grande majorité des e-mails échangés aujourd'hui) peuvent être lus, journalisés et indexés par n'importe quel serveur ou routeur situé le long du trajet du message entre l'emetteur et le récepteur. Admettons que vous utilisiez une connexion chiffrée (voir le glossaire pour SSL/TLS) entre vos appareils et votre fournisseur de messagerie (ce que tout le monde devrait faire), cela signifie en pratique que les personnes suivantes peuvent encore lire n'importe quel message :
+ 
+ 1. Vous
+ 2. Votre fournisseur de messagerie
+ 3. Les opérateurs et propriétaires de n'importe quelle connexion réseau intermédiaire (souvent des conglomérats internationaux ambigüs ou des états souverains)
+ 4. Le fournisseur de messagerie du destinataire
+ 5. Le destinataire désigné
 
- 1. You
- 2. Your email service provider
- 3. The operators and owners of any intermediate network connections (often ambiguous multinational conglomerates or even sovereign states)
- 4. The recipient's email service provider
- 5. The intended recipient
+De nombreux founisseurs de messagerie (comme GMail) inspectent tous les messages envoyés et reçus par leurs utilisateurs dans le but d'afficher de la publicité ciblée. Si cela peut être un compromis raisonnable pour la plupart des utilisateurs la majorité du temps (messagerie gratuite !), il est dérangeant pour beaucoup que même la plus privée de leur communication soit inspectée et indexée comme un morceau d'un profil caché et potentiellement très intrusif maintenu par un géant commercial tout-puissant avec un dessein lucratif.
 
-Many webmail providers (like Gmail) automatically inspect all of the messages sent and received by their users for the purpose of showing targeted advertisements. While this may be a reasonable compromise for some users most of the time (free email!), it is disturbing for many that even their most private communications are inspected and indexed as part of a hidden and potentially very insightful profile maintained by a powerful corporate giant with a profit motive.
+De plus, quelqu'un pouvant légalement faire pression sur les groupes ci-dessus pourrait requérir ou demander :
 
-Additionally, somebody who can legally pressure the groups above could request or demand:
+ 1. des méta-données journalisées sur les e-mails (listes des messages envoyés ou reçus par un utilisateur, sujets, destinataires) dans certaines juridictions même sans mandat.
+ 2. les messages envoyés et reçus par un utilisateur ou un groupe spécifiques, avec un mandat ou un ordre du tribunal dans certaines juridictions.
+ 3. une connexion dédiée pour siphonner *tous* le trafic et les messages afin de les analyser hors-site.
 
- 1. logged meta-data about email (lists of messages sent or received by any user, subject lines, recipients), in some jurisdictions even without a warrant.
- 2. messages sent and received by a specific user or group, with a warrant or court order in some jurisdictions.
- 3. a dedicated connection to siphon off *all* messages and traffic, to be analyzed and indexed off site.
+Dans le cas où un utilisateur a une relation professionnelle ou de service avec son fournisseur d'e-mails, la plupart des gouvernements défendront les droits de la vie privée de l'utilisateur contre la lecture et le partage non-autorisé de messages, bien que ce soit souvent le gouvernement lui-même qui recherche des informations, et que les usagers acceptent fréquemment de renoncer à certains droits dans leur contrat de service. Cependant, quand le fournisseur de messagerie est l'employeur de l'usager ou une institution académique, les droits à la vie privée ne s'appliquent pas. En fonction de la juridiction, les entreprises ont généralement légalement le droit de lire tous les messages envoyés et reçus par leurs employés, même les messages personnels envoyés en dehors des heures de travail ou durant les congés. 
 
-In cases where a user has a business or service relationship with their email provider, most governments will defend the privacy rights of the user against unauthorized and unwarranted reading or sharing of messages, though often it is the government itself seeking information, and frequently users agree to waive some of these rights as part of their service agreement. However, when the email provider is the user's employer or academic institution, privacy rights frequently do not apply. Depending on jurisdiction, businesses generally have the legal right to read all of the messages sent and received by their employees, even personal messages sent after hours or on vacation. 
+Historiquement, il était possible de s'en sortir avec des messages envoyés en texte clair parce que le cout de stockage et d'indexation du volume grandissant de mails était trop élevé : il était déjà copliqué d'acheminer les e-mails de façon fiable. Voici pourquoi beaucoup de systèmes de messagerie ne contiennent pas de mécanismes pour préserver la confidentialité de leur contenu. Maintenant que le coût de monitoring a chuté plus rapidement que la croissance du trafic Internet on peut envisager un monitoring à grande échelle et l'indexation de tous les messages (tant du côté émetteur que récepteur) même pour les utilisateurs et messages les plus anodins.[CITE:corporate email archiving/spying, blue coat, Syrian monitoring, USA Utah data center, USA intercept scandals]
 
-Historically, it was possible to "get away" with using clear text email because the cost and effort to store and index the growing volume of messages was too high: it was hard enough just to get messages delivered reliably. This is why many email systems do not contain mechanisms to preserve the privacy of their contents. Now the cost of monitoring has dropped much faster than the growth of internet traffic and large-scale monitoring and indexing of all messages (either on the sender or receiving side) is reasonable to expect even for the most innocuous messages and users. [CITE:corporate email archiving/spying, blue coat, Syrian monitoring, USA Utah data center, USA intercept scandals]
-
-For more about legal protections of email messages "at rest" (technical term for messages stored on a server after having been delivered), especially regarding government access to your email messages, see:
+Pour plus d'informations sur la protection légale des emails "at rest" (terme technique désignant les messages sur le serveur après avoir été acheminés), en particulier au sujet du droit d'accès du gouvernement concernant vos emails, allez voir:
 
  * https://ssd.eff.org/3rdparties/govt/stronger-protection (USA)
  * http://en.wikipedia.org/wiki/Data_Protection_Directive (EU)
+ * https://fr.wikipedia.org/wiki/Directive_95/46/CE_sur_la_protection_des_donn%C3%A9es_personnelles (EU)
+ * https://fr.wikipedia.org/wiki/Donn%C3%A9es_personnelles
 
-Just like there are certain photos, letters, and credentials that you would not post "in the clear" on the Internet because you would not want that information to get indexed accidentally and show up in search results, you should never send email messages in the clear that you would not want an employer or disgruntled airport security officer to have easy access to.
+Tout comme vous ne publiriez pas "au grand jour" certaines photos, lettres et identifiants sur internet car vous ne voudriez pas les voire indéxées et apparaitre dans des résultats de recherche, vous ne devriez pas envoyer des emails en clair auxquels vous ne souhaiteriez pas que votre employeur ou un agent de sécurité trop curieux d'un aéroport aient un accès facile
 
-Random abuse and theft by malicious hackers
--------------------------------------------
 
-*What if somebody gets complete control of my email account?*
+Attaques aléatoires et vol par des pirates mailicieux
+------------------------------------------------------
 
-*I logged in from an insecure location... how do I know now if my account has been hacked?*
+*Que se passe-t-il si quelqu'un obtient le contrôle totale de mon compte mail?*
 
-*I've done nothing wrong... what do I have to hide?*
+*Je me suis connecté depuis un endroit risqué... Comment saurais-je si je me suis fait pirater?*
 
-*Why would anybody care about me?*
+*Je n'ai rien fait de mal ! Qu'aurais-je à cacher?*
 
-Unfortunately, there are many practical, social, and economic incentives for malicious hackers to break into the accounts of random Internet individuals. The most obvious incentive is identity and financial theft, when the attacker may be trying to get access to credit card numbers, shopping site credentials, or banking information to steal money. A hacker has no way to know ahead of time which users might be better targets than others, so they just try to break into all accounts, even if the user doesn't have anything to take or is careful not to expose his information.
+*Qui s'intérresserait à moi?*
 
-Less obvious are attacks to gain access to valid and trusted user accounts to collect contact email addresses from and then distribute mass spam, or to gain access to particular services tied to an email account, or to use as a "stepping stone" in sophisticated social engineering attacks. For example, once in control of your account a hacker could rapidly send emails to your associates or co-workers requesting emergency access to more secured computer systems.
+Malheureusement, il ya beaucoup de tentations pratiques, économiques et sociales pour que des pirates s'attaquent à des comptes aléatoirement sur internet. La plus évidente est le vol de données à caractère financier, quand l'attaquant essaye d'avoir accès à des numéro de cartes bancaires, d'identifiants pour des sites d'e-commerce ou des numéros de comptes bancaires. Un pirate n'a pas moyen de savoir à l'avance quels utilisateurs pourraient être de meilleures cibles que d'autres, il essayera de percer tous les comptes, même si l'utilisateur n'a rien à prendre ou prend soin de ne pas exposer ses informations.
 
-A final unexpected problem affecting even low-profile email users, is the mass hijacking of accounts on large service providers, when hackers gain access to the hosting infrastructure itself and extract passwords and private information in large chunks, then sell or publish lists of login information in online markets.
+Les attaques pour avoir accès à des comptes d'utilisateurs valides et fiables pour collecter des adresses email de contacts à partir et ensuite distribuer du spam en masse, ou pour accéder à des services particuliers liés à un compte de messagerie, ou à utiliser comme un «tremplin» dans des attaques d'ingénierie sociale sophistiquées sont moins évidentes. Par exemple, une fois qu'il contrôlera votre compte, un pirate pourrait rapidement envoyer des emails à vos collaborateurs ou des collègues demandant l'accès d'urgence à plus de systèmes informatiques sécurisés.
 
-Targeted abuse, harassment, and spying
---------------------------------------
+Un dernier cas affecte même les utilisateurs les plus discrets se présente lorsque les pirates détournent en masse des des comptes sur les serveurs de grands fournisseurs d'accès. Ils ont alors accès à l'infrastructure d'hébergement même et revendent au marché noir ou publient en ligne des informations privées ou des mots de passe.
 
-*Something I wrote infuriated a person in power... how do I protect myself?*
 
-If you find yourself the individual target of attention from powerful organizations, governments, or determined individuals, then the same techniques and principles will apply to keeping your email safe and private, but additional care must be taken to protect against hackers who might use sophisticated techniques to undermine your devices and accounts. If a hacker gains control of any of your computing devices or gets access to any of your email accounts, they will likely gain immediate access both to all of your correspondence, and to any external services linked to your email account.
+Attaques Ciblés, Harcèlement Et Espionage
+-----------------------------------------
 
-Efforts to protect against such attacks can quickly escalate into a battle of wills and resources, but a few basic guidelines can go a long way. Use specific devices for specific communication tasks, and use them only for those tasks. Log out and shutdown your devices immediately when you are done using them. It is best to use open software encryption tools, web browsers, and operating systems as they can be publicly reviewed for security problems and keep up to date with security fixes.
+*J'ai écrit quelquechose qui a rendue furieuse une personne au pouvoir... Comment m'en protéger?*
 
-*Be wary of opening PDF files using Adobe Reader or other proprietary PDF readers.* Closed source PDF readers have been known to be used to execute malign code embedded in the PDF body. If you receive a .pdf as an attachment you should first consider if you know the supposed sender and if you are expecting a document from them. Secondly, you can use PDF readers which have been tested for known vulnerabilities and do not execute code via java script. 
+Si vous vous trouvez être la cible de l'attention d'organisations puissantes, gouvernements, ou d'individus détérminés, alors les mêmes techniques et principes seront appliquées afin de garder votre mail sûr et privé, mes des précautions supplémentaires devront être prises pour vous protéger contre les pirates qui pourraient utiliser des techniques plus sophistiqués pour saper vos comptes et vos machines. Si un hacker prend le contrôle de votre mail, il aura problablement accès immédiat à la fois à l'ensemble de votre correspondance, et à des services externes liés à votre compte de messagerie.
+
+Les efforts visant à protéger contre de telles attaques peuvent rapidement dégénérer en une bataille de longue haleine, mais quelques règles de base vous permettront d'éviter cela. Utilisez des terminaux spécifiques pour des communications spécifiques, et restreindre leur utilisation à ces tâches. Déconnectez vous et éteignez vos terminaux quand vous avez fini de vous en servir. Il est préférable d'utiliser des outils de chiffrage, navigateurs web, et sytèmes d'exploitation **open-source**, étant donné que leurs problèmes de sécurité sont revus publiquement et que des correctifs de sécurités sont rapidement appliqués de manière transparente.
+
+*Méfiez-vous de l'ouverture de fichiers PDF à l'aide d'Adobe Reader ou d'autres lecteurs PDF propriétaires.* Lecteurs PDF non libres sont connus pour être utilisés pour exécuter du code malicieux intégré dans le corps des fichiers PDF. Si vous recevez un .pdf en pièce jointe, vous devez d'abord vous demander si vous connaissez l'expéditeur supposé et si vous vous attendiez à un document de sa part. Deuxièmement, vous pouvez utiliser des lecteurs de PDF qui ont été testés pour les vulnérabilités connues et n'éxécutent pas de code javascript.
 
 Linux: Evince, Sumatra PDF
 
@@ -68,19 +72,20 @@ OS X: Preview
 
 Windows: Evince
 
-Use short-term anonymous throw away accounts with randomly generated passwords whenever possible.
+Utilisez des comptes mails "poubelles" avec des mots de passe générés aléatoirement quand c'est possible.
 
-When Encryption Goes Wrong
---------------------------
 
-*What happens if I lose my "keys"? Do I lose my email?*
+Quand Tout Part En Vrille
+-------------------------
 
-Rigorous GPG encryption of email is not without its own problems.
+*Que ce passe-t-il si je perds mes clés? Est-ce que je perds mon courrier?*
 
-If you store your email encrypted and lose all copies of your private key, you will be absolutely unable to read the old stored emails, and if you do not have a copy of your revocation certificate for the private key it could be difficult to prove that any new key you generate is truly the valid one, at least until the original private key expires.
+Le chiffrage rigoureux de mail avec GPG vient avec ses propres problèmes.
 
-If you sign a message with your private key, you will have great difficulty convincing anybody that you did not sign if the recipient of the message ever reveals the message and signature publicly. The term for this is *non-repudiation*: any message you send signed is excellent evidence in court. Relatedly, if your private key is ever compromised, it could be used to read all encrypted messages ever sent to you using your public key: the messages may be safe when they are in transit and just when they are received, but any copies are a liability and a gamble that the private key will never be revealed. In particular, even if you destroy every message just after reading it, anybody who snooped the message on the wire would keep a copy and attempt to decrypt it later if they obtained the private key.
+Si vous conservez votre mail chiffré et perdez toutes les copies de votre clé privée, vous serez absolument incapables de lire les anciens emails stockées, et si vous ne disposez pas d'une copie de votre certificat de révocation pour la clé privée, il pourrait être difficile de prouver que toute nouvelle clé que vous générez est vraiment celle en vigueur, au moins jusqu'à ce que la clé privée d'origine expire.
 
-The solution is to use a messaging protocol that provides *perfect forward secrecy* by generating a new unique session key for every conversation of exchange of messages in a random way such that the session keys could not be re-generated after the fact even if the private keys were known. The OTR chat protocol provides perfect forward secrecy ([http://en.wikipedia.org/wiki/Perfect_forward_secrecy](http://en.wikipedia.org/wiki/Perfect_forward_secrecy)) for real time instant messaging, and the SSH protocol provides it for remote shell connections, but there is no equivalent system for email at this time. 
+Si vous signez un message avec votre clé privée, vous aurez beaucoup de mal à convaincre tout le monde qu'il ne s'agissait pas de vous si le destinataire du message révèle le message et la signature publiquement. Le terme en usage pour ceci est *non-répudiation*: tout message que vous envoyez signé est une excellente preuve au tribunal. Dans le même ordre d'idée, si votre clé privée est compromise, elle pourrait être utilisée pour lire tous les messages chiffrés envoyés à vous en utilisant votre clé publique: les messages peuvent être en sécurité quand ils sont en transit et au moment où ils sont reçus, mais les copies sont une responsabilité et un pari que la clé privée ne sera jamais dévoilée. En fait, même si vous détruisez tous les messages juste après les avoir lus, quiconque en aura une copie pourra tenter de les déchiffrer plus tard si il obtient votre clé privée.
 
-It can be difficult to balance the convenience of mobile access to your private keys with the fact that mobile devices are much more likely to be lost, stolen, or inspected and exploited than stationary machines. An emergency or unexpected time of need might be exactly the moment when you would most want to send a confidential message or a signed message to verify your identity, but these are also the moments when you might be without access to your private keys if your mobile device was seized or not loaded with all your keys.
+La solution est d'utiliser un protocole de messagerie qui fournit la *Confidentialité persistante* en générant une nouvelle clé de session unique pour chaque conversation de manière aléatoire de telle sorte que les clés de session ne pourraient pas être re-générées à posteriori, même si les clés privées ont été dévoilées.Le protocole de chat OTR fournit la confidentialité persistante([https://fr.wikipedia.org/wiki/Confidentialit%C3%A9_persistante](https://fr.wikipedia.org/wiki/Confidentialit%C3%A9_persistante)) pour les communications instantannées, et le protocole SSH le fournit pour les connections de shell à distance. Malheureusement, il n'existe aucun équivalent pour le mail à ce jour.
+
+Il peut-être difficile d'évaluer la pertinence de l'accès mobile à vos clés privées avec le fait que les appareils mobiles sont beaucoup plus susceptibles d'être perdus, volés ou inspectés et exploités que les machines conventionnelles. Un moment d'urgence ou innattendu ourrait être exactement le moment où vous avez le plus besoin d'envoyer un message confidentiel ou signé afin de pouver votre identité, mais ce sont aussi les moments où vous pourriez être sans accès à vos clés privées si votre appareil mobile a été saisi ou non chargé avec toutes vos clés.

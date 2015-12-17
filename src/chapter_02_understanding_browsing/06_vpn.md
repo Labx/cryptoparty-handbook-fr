@@ -1,30 +1,54 @@
 VPN
 ===
 
-The way your data makes it to the desired server and back to your laptop computer or a mobile device is not as straightforward as it might first seem. Say, you are connected to a wireless network at home and opening a wikipedia.org page. The path your request (data) takes will consist of multiple middle points or *"hops"* - in network-architect terminology. At each of these hops (which are likely to be more then 5) your data can be scooped, copied and potentially modified.
+La façon dont vos données transitent entre votre ordinateur ou votre ordiphone et le serveur de destination n'est pas si simple qu'il n'y parait. 
+Lorsque vous vous connectez à votre réseau Wi-Fi et que vous ouvrez une page sur wikipedia.org, la route qu'emprunte votre requête (vos données) passe par de nombreux points ou *"noeuds"* avant d'arriver au serveur.
+En général, il y a plus de 5 noeuds sur les routes et, à chacun de ces noeuds, les données peuvent être récupérées, copiées et potentiellement modifiées.
 
- * Your wireless network (your data can be sniffed from the air)
- * Your ISP (in most countries they are obliged to keep detailed logs of user activity)
- * Internet Exchange Point (IXP) somewhere on another continent (usually more secure then any other *hop*)
- * ISP of the hosting company that hosts the site (is probably keeping logs)
- * Internal network to which the server is connected
- * And multiple hops between...
+ * Votre réseau Wi-Fi (vos données peuvent être récupérées dans les airs)
+ * Votre FAI (dans la plupart des pays, ils sont obligés de garder des détails sur votre activité en ligne)
+ * Un Internet eXchange Point (IXP) n'importe où dans le monde (en général, plus sûr que les autres *noeuds*)
+ * Le FAI de l'entreprise qui héberge le site (il conserve probablement les logs de connexion)
+ * Le réseau local sur lequel le serveur est connecté
+ * Et encore d'autres noeuds ...
 
-Any person with physical access to the computers or the networks which are on the way from you to the remote server, intentionally or not, can collect and reveal the data that's passing from you to the remote server and back. This is especially true for so called 'last mile' situations - the few last leaps that an internet connection makes to reach a user. That includes domestic and public wireless or wired networks, telephone and mobile networks, networks in libraries, homes, schools, hotels. Your ISP can not be considered a safe, or 'data-neutral' instance either - in many countries state agencies do not even require a warrant to access your data, and there is always the risk of intrusion by paid attackers working for a deep-pocketed adversaries.
+Toute personne ayant un accès physique aux machines situées sur la route entre votre ordinateur et le serveur de destination peuvent, intentionnellement ou pas, collecter et récupérer les données qui transittent.    
+Et c'est encore plus vrai pour les 'derniers kilomètres' - les derniers noeuds par lesquels les données passent.
+Cela inclut les réseaux domestiques et publiques, filaires ou sans fil, les réseaux mobiles et les réseaux dans les bibliothèques, les écoles ou les hôtels.
+Votre FAI ne peut pas être considéré comme sûr ou neutre - dans de nombreux pays, les agences de renseignement n'ont pas besoin d'un mandat pour accèder aux données et il y a toujours un risque d'intrusion par des pirates.
 
-VPN - a Virtual Private Network - is a solution for this 'last-mile' leakage. VPN is a technology that allows the creation of a virtual network on top of an existing infrastructure. Such a VPN network operates using the same protocols and standards as the underlying physical network. Programs and OS use it transparently, as if it was a separate network connection, yet its topology or the way how network nodes (you, the VPN server and, potentially, other members or services available on VPN) are interconnected in relation to the physical space is entirely redefined.
+Le VPN - Réseau Privée Virtuel (Virtual Private Network) - est une solution contre les fuites des 'derniers kilomètres'.
+Le VPN est une technologie permettant la création d'un réseau privé virtuel au dessus de l'infrastucture physique.
+Les VPN marchent selon les mêmes protocoles et les mêmes standards de la même façon que le réseau physique.
+Les programmes et le système d'exploitation l'utilisent de manière transparente comme si c'était un simple réseau, la topologie ou la façon dont les noeuds du réseau (vous, le serveur VPN et, potentiellement, d'autres membres ou services disponibles sur le VPN) sont interconnectés est complètement redéfini. 
 
-Imagine that instead of having to trust your data to every single middle-man (your local network, ISP, the state) you have a choice to pass it via a server of a VPN provider whom you trust (after a recommendation or research) - from which your data will start its journey to the remote location. VPN allows you to recreate your local and geo-political context all together - from the moment your data leaves your computer and gets into the VPN network it is fully secured with TLS/SSL type encryption. And as such it will appear as pure random noise to any node who might be spying after you. It is as if your data was traveling inside a titanium-alloy pipe, unbreakable on all the way from your laptop to the VPN server. Of course one could argue that eventually, when your data is outside the safe harbour of VPN it becomes just as vulnerable as it was - but this is only partially true. Once your data exits the VPN server it is far away from you - way beyond the reach of some creeps sniffing on the local wireless network, your venal ISP or a local government obsessed with anti-terrorism laws. A serious VPN provider would have their servers installed at a high-security Internet exchange location, rendering any physical human access, tapping or logging a difficult task.
+Imaginez que, plutôt que de devoir faire confiance à toute une chaine d'entités au milieu de votre connexion (réseau local, FAI, l'état), vous n'ayez qu'à choisir de passer par un fournisseur de VPN en qui vous avez confiance (après des recommandations ou des recherches) - toutes vos données démarreront leur voyage depuis le serveur distant.
+Un réseau VPN vous permet d'être en sécurité depuis le moment où vos données quittent votre ordinateur et jusqu'elles sortent du VPN, elles sont chiffrées avec du chiffrement SSL/TLS.
+Et, pour tous les noeuds qui pourraient vous espionner, le traffic ressemblera à du bruit aléatoire.
+C'est comme si vos données voyageaient dans un tuyau en titane incassable entre votre ordinateur et le serveur VPN. 
+Bien sûr, certains pourraient éventuellement dire que quand vos données sortent de la bulle de sécurité du VPN, elles deviennent aussi vulnérables qu'avant mais ce n'est que partiellement vrai.
+Vos données sortent du serveur VPN très loin de vous - hors de portée des pirates sniffant votre réseau Wi-Fi, de votre FAI vénal ou de votre gouvernement obsédé par les lois anti-terroristes.
+Un fournisseur de VPN sérieux installera ses serveurs dans des endroits sûrs pour rendre difficile tout accès humain aux machines ou toute sorte de surveillance.
 
-> "Today everything you do on the Internet is monitored and we want to change that. With our fast VPN service you get totally anonymous on the Internet. It's also possible to surf censored web sites, that your school, ISP, work or country are blocking. [DarkVPN] will not only help people to surf anonymously, it also helps people in countries like China to be able to surf censored web pages. Which is your democratic right. DarknetVPN gives all VPN users an anonymous IP address. All electronic tracks will end up with us. We do not save any log files in order to achieve maximum anonymity. With us you always surfing anonymously, secure and encrypted." ([http://www.darknetvpn.com/about.php](http://www.darknetvpn.com/about.php))
+> "Aujourd'hui, tout ce que vous faites sur Internet est monitoré et nous voulons changer ça.
+Avec nos services VPN rapides, vous êtes totalement anonyme sur Internet.
+C'est aussi possible de surfer sur des sites web censurés par votre école, votre FAI, votre entreprise ou votre pays.
+[DarkVPN] n'aide pas seulement les gens à surfer anonymement, il aide aussi les gens dans des pays comme la Chine à accèder à des pages web censurées, ce qui est un droit démocratique. DarknetVPN donne à tous les utilisateurs de VPN une adresse IP anonyme.
+Avec nous, il sera impossible de vous tracker.
+Nous ne gardons aucun log pour offrir un maximun d'anonymat.
+Avec nous, vous surferez toujours anonymement, de façon sûr et chiffrée." ([http://www.darknetvpn.com/about.php](http://www.darknetvpn.com/about.php))
 
-Another interesting and often underrated features of VPN is encoded in its name - besides being **V**irtual and **P**rivate it is also a **N**etwork. VPN allows one not only to connect via the VPN server to the rest of the world but also to communicate to other members of the same VPN network without ever having to leave the safety of encrypted space. Through this functionality Virtual Private Network becomes something like a *DarkNet* (in a broader sense of the definition) - a network isolated from the Internet and inaccessible to "others". Since a connection to VPN server, and thus the private network it facilitates, require a key or a *certificate*, only "invited" users are allowed. There is no chance that Internet stranger would gain access to what's on a VPN without enrolling as a user or stealing someones keys. While not referred to as such, any corporate Intranet type of network is a DarkNet too.
+Une autre fonctionnalité intéressante et sous estimée du VPN est encodée dans son nom - **V**irtual **P**rivate **N**etwork.
+Le VPN ne vous permet pas seulement de vous connecter au serveur VPN puis au reste du monde mais aussi de communiquer avec les autres utilisateurs sur le même réseau VPN sans quitter cet espace chiffrée.
+Avec cette fonctionnalité, le VPN devient un *DarkNet* (au sens large du terme) - un réseau isolé d'Internet et inaccessible aux "autres".
+La connexion au serveur VPN, et donc au réseau privé, se fait par un système de clé ou de *certificat*. Seuls les utilisateurs "invités" peuvent s'y connecter.
+Il n'y a aucune chance qu'un utilisateur d'Internet lambda puisse accèder à notre VPN sans s'être inscrit comme utilisateur ou avoir volé les clés de quelqu'un. Bien qu'on ne l'exprime pas comme ça, tous les types de réseaux Intranet dans les entreprises sont des DarkNet.
 
-> "A virtual private network (VPN) extends a private network across a public network, such as the Internet. It enables a computer to send and receive data across shared or public networks as if it were directly connected to the private network, while benefitting from the
- functionality, security and management policies of the private network."([http://en.wikipedia.org/wiki/Virtual_private_network](http://en.wikipedia.org/wiki/Virtual_private_network))
+> "Un réseau privé virtuel (VPN) étend un réseau privé au travers d'un réseau public comme Internet.
+Il permet à un ordinateur d'envoyer et de recevoir des données au travers d'un réseau partagé ou public comme si l'ordinateur était directement connecté à un réseau privé, bénéficiant ainsi de la sécurité et des règles s'appliquant sur un réseau privé." ([https://fr.wikipedia.org/wiki/R%C3%A9seau_priv%C3%A9_virtuel](https://fr.wikipedia.org/wiki/R%C3%A9seau_priv%C3%A9_virtuel)
 
-Many commercial VPN providers stress the anonymity that their service provides. Quoting Ipredator.org page (a VPN service started by the people behind The Pirate Bay project):
+Beaucoup de vendeurs de VPN soulignent l'anonymat offert par leur service. Pour citer la page d'Ipredator.org (un service VPN géré par les gens derrière le projet The Pirate Bay):
 
-> "You'll exchange the IP address you get from your ISP for an anonymous IP address. You get a safe/encrypted connection between your computer and the Internet". ([https://www.ipredator.se](https://www.ipredator.se))
-
-Indeed, when you access the Internet via a VPN connection it does appear as if the connection is originating from the IP address of IPredator servers.
+> "Vous allez échanger l'adresse IP donnée par votre FAI par une adresse IP anonyme. La connexion entre votre ordinateur et Internet sera qlors chiffré et sûr". ([https://www.ipredator.se](https://www.ipredator.se))
+-
+En effet, quand vous accèdez à Internet via un VPN, l'origine du traffic Internet semble provenir d'une adresse IP des serveurs d'IPredator.

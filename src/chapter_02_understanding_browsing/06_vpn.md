@@ -50,5 +50,5 @@ Il permet à un ordinateur d'envoyer et de recevoir des données au travers d'un
 Beaucoup de vendeurs de VPN soulignent l'anonymat offert par leur service. Pour citer la page d'Ipredator.org (un service VPN géré par les gens derrière le projet The Pirate Bay):
 
 > "Vous allez échanger l'adresse IP donnée par votre FAI par une adresse IP anonyme. La connexion entre votre ordinateur et Internet sera qlors chiffré et sûr". ([https://www.ipredator.se](https://www.ipredator.se))
--
+
 En effet, quand vous accèdez à Internet via un VPN, l'origine du traffic Internet semble provenir d'une adresse IP des serveurs d'IPredator.

@@ -3,7 +3,6 @@ Installer KeePass
 
 Nous allons voir l'installation de KeePass sur Ubuntu et Windows.
 
-Mac OSX comes with an excellent built-in password manager called Keychain that is just as safe. Downsides are that it isn't Open Source and doesn't work on other systems. If you'd need to take your passwords from one Operating System to another it is better to stick with Keepass after all. How to use Keychain is covered in the next chapter.
 Mac OSX possède, par défaut, un excellent gestionnaire de mots de passe appelé Keychain qui est tout aussi sûr. Cependant, il y a deux inconvénients majeurs, il n'est pas Open Source et il ne fonctionne pas sur les autres systèmes. Si vous avez besoin de transférer vos mots de passe d'un système d'exploitation à un autre, il est préférable d'utiliser KeePass partout. Comment utiliser Keychain est expliqué dans le prochain chapitre.
 
 Installer KeePassX sur Ubuntu

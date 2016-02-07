@@ -1,93 +1,94 @@
-Installing KeePass
-==================
+Installer KeePass
+=================
 
-We will cover installing KeePass on Ubuntu and Windows.
+Nous allons voir l'installation de KeePass sur Ubuntu et Windows.
 
 Mac OSX comes with an excellent built-in password manager called Keychain that is just as safe. Downsides are that it isn't Open Source and doesn't work on other systems. If you'd need to take your passwords from one Operating System to another it is better to stick with Keepass after all. How to use Keychain is covered in the next chapter.
+Mac OSX possède, par défaut, un excellent gestionnaire de mots de passe appelé Keychain qui est tout aussi sûr. Cependant, il y a deux inconvénients majeurs, il n'est pas Open Source et il ne fonctionne pas sur les autres systèmes. Si vous avez besoin de transférer vos mots de passe d'un système d'exploitation à un autre, il est préférable d'utiliser KeePass partout. Comment utiliser Keychain est expliqué dans le prochain chapitre.
 
-Installing KeePassX on Ubuntu
+Installer KeePassX sur Ubuntu
 -----------------------------
 
-To install on Ubuntu we will use the Ubuntu Software Center. Type KeePass in the search field at the top right and the application KeePassX should automatically appear in the listing. 
+Pour l'installer sur Ubuntu, nous allons utiliser la logithèque. Tapez KeePass dans la barre de recherche en haut à droite et l'application KeePassX devrait apparaître automatiquement dans la liste.
 
-Highlight the item (it may already be highlighted by default) and then press 'Install'. You will be asked to Authorise the installation process:
+Sélectionnez l'élément (il peut-être sélectionné par défaut) et cliquez sur "Installer". On vous demandera alors d'autoriser l'installation :
 
 ![Keepass Install](keepass_1.png)
 
-Enter your password and press 'Authenticate' the installation process will then begin. 
+Entrez votre mot de passe et cliquez sur "Authentification", l'installation démarrera alors.
 
-Ubuntu does not offer very good feedback to show the software is installed. If the green progress indicator on the left has gone and the progress bar on the right has gone then you can assumed the software is installed.
+Ubuntu n'offre pas de retour pour savoir si le logiciel a bien été installé. Si la barre de progression à gauche a disparu et que le barre de progression à droite n'est plus là, vous pouvez considérer que le logiciel est installé.
 
-Installing KeePass on Windows
+Installer KeePass sur Windows
 -----------------------------
 
-First visit the [KeePass download webpage](http://keepass.info/download.html) and choose the appropriate installer. For this chapter we are using the [current installer](http://downloads.sourceforge.net/keepass/KeePass-2.15-Setup.exe).
+Pour commencer, allez sur la [page de téléchargement de KeePass](http://keepass.info/download.html) et choisissez l'installeur approprié. Pour ce chapitre nous utilisons [l'installeur actuel](http://downloads.sourceforge.net/keepass/KeePass-2.15-Setup.exe).
 
-Download this to your computer then double click on the installer. You will first be asked to select a language, we will choose English:
+Téléchargez le et double-cliquez dessus. On vous demandera de choisir une langue, nous allons choisir le Français :
 
 ![Keepass Install](keepass_2.png)
 
-Press 'OK' and you will be shown the following screen:
+Cliquez sur "OK" et vous verrez cette fenêtre :
 
 ![Keepass Install](keepass_3.png)
 
-Just press 'Next >' and go to the next screen:
+Appuyez juste sur "Suivant >" et poursuivez :
 
 ![Keepass Install](keepass_4.png)
 
-In the screen shown above we must select 'I accept the agreement' otherwise we will not be able to install the software. Choose this option and then press 'Next >'. In the next screen you will be asked to determine the installation location. You can leave this with the defaults unless you have good reason to change them.
+Dans la fenêtre ci-dessus, vous devez choisir "J'accepte" sinon vous ne pourrez pas installer le logiciel. Choisissez cette option et cliquez sur "Suivant >". Dans la fenêtre suivante, on vous demandera de choisir un emplacement pour l'installation. Vous pouvez laisser le choix par défaut à moins d'avoir une bonne raison de le changer.
 
 ![Keepass Install](keepass_5.png)
 
-Click on 'Next >' and continue.
+Cliquez sur "Suivant >" et continuez.
 
 ![Keepass Install](keepass_6.png)
 
-The above image shows the KeePass components you can choose from. Just leave the defaults as they are and press 'Next >'. You will come to a new screen:
+L'image ci-dessus montre les composants de KeePass que vous pouvez choisir. Laissez les options par défaut et cliquez sur "Suivant >". Vous arriverez sur une nouvelle fenêtre :
 
 ![Keepass Install](keepass_7.png)
 
-This doesn't do anything but give you a summary of your options. Press 'Install' and the installation process will begin.
+Ceci ne fait rien mais vous montre un résumé de vos options. Cliquez sur "Installer" et le processus d'installation devrait démarrer.
 
 ![Keepass Install](keepass_8.png)
 
-Installing KeePass on Mac OS X
+Installer KeePass sur Max OS X
 ------------------------------
 
-Although Keychain in Mac OS X does an excellent job of storing your passwords, you may want to run your own password database and manager. KeePass allows this added flexibility. First visit the KeePass download webpage [http://keepass.info/download.html](http://keepass.info/download.html) and choose the appropriate installer. Although the official installers are listed at the top of the page, there are unofficial/contributed installers further down. Scroll down to find [KeePass 2.x for Mac OS X][http://keepass2.openix.be/](http://keepass2.openix.be/):
+Même si Keychain sur Mac OS X est un excellent gestionnaire de mots de passe, vous pourriez avoir besoin d'utiliser votre propre base de données de mots de passe. KeePass permet cet ajout de flexibilité. Premièrement, rendez-vous sur la page de téléchargement de KeePass [http://keepass.info/downloads.html](http://keepass.info/download.html) et choisissez l'installeur approprié. Même si les installeurs officiels sont listés en haut de la page, il y a des installeurs non officiels plus bas. Descendez donc pour trouver [KeePass 2.x pour Mac OS X][http://keepass2.openix.be/](http://keepass2.openix.be/):
 
 ![Keepass Install](keepass_9.png)
 
-As this is an external link, your browser will be redirected to [http://keepass2.openix.be/](http://keepass2.openix.be/):
+Comme c'est un lien externe, vous serez redirigé vers [http://keepass2.openix.be/](http://keepass2.openix.be/):
 
 ![Keepass Install](keepass_10.png)
 
-Note here that you must install the Mono framework first, so that KeePass can run in OS X. So click on each of the links [Mono 2.10.5](http://download.mono-project.com/archive/2.10.5/macos-10-x86/0/MonoFramework-MRE-2.10.5_0.macos10.xamarin.x86.dmg) and [KeePass2.18](http://keepass2.openix.be/KeePass2.18.dmg) to download the DMG files to your computer. Double-click on each of the DMGs in your downloads folder to unpack the volumes to your desktop.
+Notez que vous devez installer le framework Mono avant KeePass pour qu'il puisse fonctionner sur OS X. Donc, cliquez sur les liens [Mono 2.10.5](http://download.mono-project.com/archive/2.10.5/macos-10-x86/0/MonoFramework-MRE-2.10.5_0.macos10.xamarin.x86.dmg) et [KeePass2.18](http://keepass2.openix.be/KeePass2.18.dmg) pour télécharger les fichiers DMG. Double-cliquez sur les DMGs dans votre dossier de téléchargements pour ouvrir les volumes sur votre ordinateur.
 
-The Mono Package installer is in case called something similar to 'MonoFramework-MRE-2.10.5_0.macos10.xamarin.x86.pkg', so double-click on this document:
+Le nom de l'installeur Mono Package ressemble à "MonoFramework-MRE-2.10.5_0.macos10.xamarin.x86.pkg", double-cliquez donc sur ce document :
 
 ![Keepass Install](keepass_11.png)
 
-The installer will open and run:
+L'installeur va s'ouvrir et se lancer :
 
 ![Keepass Install](keepass_12.png)
 
-Follow each of the steps by clicking 'Continue', the next step being 'Read Me'. Inhere is important information such as all of the files that the package will install, including information on how to uninstall Mono:
+Suivez toutes les étapes en cliquant sur "Continuer", l'étape suivante étant "Lisez-moi". Dedans, il y a des informations importantes comme tous les fichiers qui seront installés mais aussi des informations sur la façon de désinstaller Mono :
 
 ![Keepass Install](keepass_13.png)
 
-Click 'Continue' to the next screen, the license. Clicking 'Continue' on the license screen pops up the agree/disagree dialogue box. If you agree with the license conditions, the installation will continue:
+Cliquez sur "Continuer" pour atteindre la prochaine étape, la licence. Cliquez sur "Continuer" lorsque la licence apparaît. Si vous êtes d'accord avec les conditions de celle ci, l'installation continuera :
 
 ![Keepass Install](keepass_14.png)
 
-The following two steps in the installation ask you to choose an installation destination, and check there is enough space on the install disk. When the installation has completed, you will see this screen:
+Les deux prochaines étapes de l'installation vous demanderons de choisir un emplacement de destination et vérifierons que vous avez assez d'espace disque. Quand l'installation sera terminée, vous verrez ceci sur l'écran :
 
 ![Keepass Install](keepass_15.png)
 
-Now you can quit the installer. Next take a look at the KeePass disk image, double-click to open it, and drag the KeePass application into your Applications folder:
+À présent, vous pouvez quitter l'installeur. Allez voir l'icône de KeePass, double-cliquez dessus pour l'ouvrir, et déplacez l'application KeePass dans le dossier Applications :
 
 ![Keepass Install](keepass_16.png)
 
- 
 
-Now KeePass is ready to use for Mac OS X.
+
+À présent, KeePass est prêt à être utilisé sur Mac OS X

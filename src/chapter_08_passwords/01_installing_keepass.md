@@ -14,7 +14,7 @@ Sélectionnez l'élément (il peut-être sélectionné par défaut) et cliquez s
 
 ![Keepass Install](keepass_1.png)
 
-Entrez votre mot de passe et cliquez sur "Authentification", l'installation démarrera alors.
+Entrez votre mot de passe et cliquez sur "S'authentifier", l'installation démarrera alors.
 
 Ubuntu n'offre pas de retour pour savoir si le logiciel a bien été installé. Si la barre de progression à gauche a disparu et que le barre de progression à droite n'est plus là, vous pouvez considérer que le logiciel est installé.
 

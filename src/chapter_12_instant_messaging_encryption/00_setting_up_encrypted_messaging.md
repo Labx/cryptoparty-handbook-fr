@@ -1,85 +1,88 @@
-Setting up Encrypted Instant Messaging
-======================================
+Utiliser une messagerie instantannée sécurisée
+==============================================
 
-Android - Installing Gibberbot
-------------------------------
+Android - Installer Gibberbot
+-----------------------------
 
 [https://guardianproject.info/apps/gibber/](https://guardianproject.info/apps/gibber/)
 
-Gibberbot is a secure chat client capable of end-to-end encryption. It works with Google, Facebook, any Jabber or XMPP server. Gibberbot uses the Off-The-Record encryption standard (OTR) to enable true verifiable end-to-end encrypted communications.
+Gibberbot est un client de messagerie instantannée sécurisé supportant le chiffrement de bout-en-bout. Il marche avec Google, Facebook ainsi que tous les serveurs Jabber ou XMPP. Gibberbot utilise le standard de chiffrement Off-The-Record (OTR) pour permettre des communications chiffrées de bout-en-bout tout en assurant l'identité des participants à la conversation.
 
-You can install Gibberbot through the Google Play store or from another trusted source.
+Vous pouvez installer Gibberbot grâce au Google Play store ou depuis une autre source de confiance.
 
-You can securely chat with other programs with OTR support such as Adium, Pidgin on the desktop, Gibberbot on Android or ChatSecure on iOS.
+Vos correspondants peuvent utiliser d'autres logiciels qui supportent OTR comme Adium ou Pidgin sur ordinateur, Gibberbot sur Android ou ChatSecure sur iOS.
 
-iOS - Installing ChatSecure
----------------------------
+
+iOS - Installer ChatSecure
+--------------------------
 
 [http://chrisballinger.info/apps/chatsecure/](http://chrisballinger.info/apps/chatsecure/)
 
-ChatSecure is a secure chat client capable of end-to-end encryption. It works with Google, Facebook, any Jabber or XMPP server. ChatSecure uses the Off-the-Record encryption standard (OTR) to enable true verifiable end-to-end encrypted communications.
+ChatSecure est un client de messagerie instantannée sécurisé supportant le chiffrement de bout-en-bout. Il marche avec Google, Facebook ainsi que tous les serveurs Jabber ou XMPP. ChatSecure utilise le standard de chiffrement Off-The-Record (OTR) pour permettre des communications chiffrés de bout-en-bout tout en assurant l'identité des participants à la conversation.
 
-You can install ChatSecure through the iTunes store
+Vous pouvez installer ChatSecure grâce à l'iTunes store.
 
-You can securely chat with other programs with OTR support such as Adium, Pidgin on the desktop, Gibberbot on Android or ChatSecure on iOS.
+Vos correspondants peuvent utiliser d'autres logiciels qui supportent OTR comme Adium ou Pidgin sur ordinateur, Gibberbot sur Android ou ChatSecure sur iOS.
 
-Ubuntu - Installing Pidgin
+Ubuntu - Installer Pidgin
+-------------------------
+
+[http://pidgin.im/](http://pidgin.im/)
+
+Pidgin est un client de messagerie instantannée sécurisé supportant le chiffrement de bout-en-bout. Il marche avec Google, Facebook ainsi que tous les serveurs Jabber ou XMPP. Pidgin utilise le standard de chiffrement Off-The-Record (OTR) pour permettre des communications chiffrés de bout-en-bout tout en assurant l'identité des participants à la conversation.
+
+Vous pouvez l'installer grâce à la logithèque Ubuntu, recherchez pidgin-otr pour installer Pidgin et le plugin OTR.
+
+Une fois installé, vous pouvez activer OTR pour chaque compte.
+
+Vos correspondants peuvent utiliser d'autres logiciels qui supportent OTR comme Adium ou Pidgin sur ordinateur, Gibberbot sur Android ou ChatSecure sur iOS.
+
+OS X - Installer Adium
+----------------------
+
+[http://www.adium.im/](http://www.adium.im/)
+
+Adium est un client de messagerie instantannée sécurisé supportant le chiffrement de bout-en-bout. Il marche avec Google, Facebook ainsi que tous les serveurs Jabber ou XMPP. Adium utilise le standard de chiffrement Off-The-Record (OTR) pour permettre des communications chiffrés de bout-en-bout tout en assurant l'identité des participants à la conversation.
+
+L'installation d'Adium est similaire à l'installation de la plupart des applications OS X.
+
+ 1. Téléchargez l'image disque d'Adium depuis [http://www.adium.im/](http://www.adium.im/)
+ 2. Si une fenêtre Adium ne s'ouvre pas automatiquement, double-cliquez sur le fichier téléchargé
+ 3. Déplacez l'application Adium dans le dossier Applications.
+ 4. Éjectez l'image disqued'Adium (c'est une icône de disque dur).
+ 5. L'image disque Adium restera présente dans le dossier de téléchargement (probablement sur le bureau). Vous pouvez la déplacer dans   la corbeille, vous n'en aurez plus besoin.
+ 6. Pour lancer Adium, double-cliquez sur l'application situé dans le dossier Applications.
+
+Vos correspondants peuvent utiliser d'autres logiciels qui supportent OTR comme Adium ou Pidgin sur ordinateur, Gibberbot sur Android ou ChatSecure sur iOS.
+
+
+Windows - Installer Pidgin
 --------------------------
 
 [http://pidgin.im/](http://pidgin.im/)
 
-Pidgin is a secure chat client capable of end-to-end encryption. It works with Google, Facebook, any Jabber or XMPP server. Pidgin uses the Off-the-Record encryption standard (OTR) to enable true verifiable end-to-end encrypted communications.
+Pidgin est un client de messagerie instantannée sécurisé supportant le chiffrement de bout-en-bout. Il marche avec Google, Facebook ainsi que tous les serveurs Jabber ou XMPP. Pidgin utilise le standard de chiffrement Off-The-Record (OTR) pour permettre des communications chiffrés de bout-en-bout tout en assurant l'identité des participants à la conversation.
 
-You can install via Ubuntu Software Center, search for pidgin-otr to install pidgin and the pidgin otr plugin.
+Pour utiliser Pidgin avec OTR sur Windows, vous devez installer Pidgin ainsi que son plugin OTR.
 
-Once installed you can enable otr for any account you setup in pidgin.
+ 1. Téléchargez la dernière version de Pidgin pour Windows depuis [http://www.pidgin.im/download/windows/](http://www.pidgin.im/download/windows/)
+ 2. Lancez l'installeur Pidgin
+ 3. Téléchargez la dernière version du plugin OTR pour Pidgin depuis [http://www.cypherpunks.ca/otr/#downloads](http://www.cypherpunks.ca/otr/#downloads)
+ 4. Lancez l'installeur du plugin OTR.
 
-You can securely chat with other programs with OTR support such as Adium, Pidgin on the desktop, Gibberbot on Android or ChatSecure on iOS.
+À présent, vous pouvez utiliser OTR avec n'importe quel compte.
 
-OS X - Installing Adium
------------------------
+Vos correspondants peuvent utiliser d'autres logiciels qui supportent OTR comme Adium ou Pidgin sur ordinateur, Gibberbot sur Android ou ChatSecure sur iOS.
 
-[http://www.adium.im/](http://www.adium.im/)
 
-Adium is a secure chat client capable of end-to-end encryption. It works with Google, Facebook, any Jabber or XMPP server. Adium uses the Off-the-Record encryption standard (OTR) to enable true verifiable end-to-end encrypted communications.
-
-Installing Adium is similar to installing most Mac OS X applications.
-
- 1. Download the Adium disk image from [http://www.adium.im/](http://www.adium.im/).
- 2. If an Adium window does not open automatically, double click the downloaded file
- 3. Drag the Adium application to your Applications folder.
- 4. "Eject" the Adium disk image, which has an icon of a drive
- 5. The Adium disk image will still be present in your download folder (probably on your desktop). You can drag this file to the trash, as it is no longer needed.
- 6. To load Adium, locate it in the Applications folder and double click. 
-
-You can securely chat with other programs with OTR support such as Adium, Pidgin on the desktop, Gibberbot on Android or ChatSecure on iOS.
-
-Windows - Installing Pidgin
----------------------------
-
-[http://pidgin.im/](http://pidgin.im/)
-
-Pidgin is a secure chat client capable of end-to-end encryption. It works with Google, Facebook, any Jabber or XMPP server. Pidgin uses the Off-the-Record encryption standard (OTR) to enable true verifiable end-to-end encrypted communications.
-
-To use Pidgin with OTR on Windows, you have to install Pidgin and the OTR plugin for Pidgin.
-
- 1. Download the latest version of Pidgin for Windows from [http://www.pidgin.im/download/windows/](http://www.pidgin.im/download/windows/)
- 2. Run the Pidgin Installer
- 3. Download the latest version of "OTR plugin for Pidgin" at [http://www.cypherpunks.ca/otr/#downloads](http://www.cypherpunks.ca/otr/#downloads)
- 4. Run the OTR Plugin Installer
-
-Now you can use OTR with any account you setup in Pidgin.
-
-You can securely chat with other programs with OTR support such as Adium, Pidgin on the desktop, Gibberbot on Android or ChatSecure on iOS.
-
-All OS - crypto.cat
--------------------
+Tous les OS - crypto.cat
+------------------------
 
 [https://crypto.cat](https://crypto.cat)
 
-Cryptocat is an open source web application intended to allow secure, encrypted online chatting. Cryptocat encrypts chats on the client side, only trusting the server with data that is already encrypted. Cryptocat is delivered as a browser extension and offers plugins for Google Chrome, Mozilla Firefox and Apple Safari.
+Cryptocat est une application web open source destiné à permettre la tenu de conversations instantannées en ligne. Cryptocat chiffre les messages du côté client, le serveur récupère les données chiffrées. Cryptocat prend la forme d'une extension pour navigateur disponible sur Google Chrome, Mozilla Firefox et Apple Safari.
 
-Cryptocat intends to provide means for impromptu, encrypted communications that offer more privacy than services such as Google Talk, while maintaining a higher level of accessibility than other high-level encryption platforms, and furthermore allows for multiple users in one chat room.
+Cryptocat veut fournir un moyen de chiffrement des communications instantannées afin de protéger la vie privée de ses utilisateurs tout en ayant un plus haut niveau d'accessibilité que les autres outils de ce type. Il permet, en plus, la tenu de conversations entre plusieurs utilisateurs en même temps.
 
 Chat Log Files
 --------------

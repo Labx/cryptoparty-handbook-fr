@@ -31,14 +31,13 @@ Remplissez les champs du formulaire avec des détails pour pouvoir aisément ide
 
 ![Password Manager](mng_5.png)
 
-KeePassX gives some indication if the passwords you are using are 'strong' or 'weak'. As may be obvious, you should try to use stronger passwords. For advice on this see the chapter on creating good passwords. Press 'OK' when you are done and you will see something like this:
+
 KeePassX nous donne une indication si le mot de passe est "fort" ou "faible". Même si ça semble évident, vous devriez essayer d'utiliser des mots de passe forts. Pour en savoir plus, rendez-vous au chapitre sur la création d'un bon mot de passe. Cliquez sur "OK" quand vous avez terminé et vous verrez quelque chose comme ça :
 
 ![Password Manager](mng_6.png)
 
 Pour retrouver les mots de passe (les voir), vous devez double-cliquer sur l'entrée et vous verrez la même fenêtre que vous avez utilisé lors de la création de cette entrée. Si vous cliquez sur l'icône représentant un oeil à droite du mot de passe, les étoiles (****) seront converties en texte pour que vous puissiez le lire.
 
-Now you you can use KeePassX to store your passwords. However before getting too excited you must do one last thing. When you close KeePassX (choose File->Quit) it asks you if you would like to save the changes you have made.
 Vous pouvez maintenant utiliser KeePassX pour stocker vos mots de passe. Toutefois, vous devez faire une dernière chose. Quand vous fermerez l'application (cliquez sur Fichier -> Quitter), elle vous demandera si vous voulez sauvegarder les changements effectués.
 
 ![Password Manager](mng_7.png)

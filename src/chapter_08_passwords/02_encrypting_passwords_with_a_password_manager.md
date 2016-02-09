@@ -1,99 +1,104 @@
-Encrypting Passwords with a Password Manager
-============================================
+Chiffrer les mots de passe avec un gestionnaire de mots de passe
+================================================================
 
-To encrypt password we use KeePass on Windows and KeePassX Ubuntu, and Keychain on OSX. The basic principle is the same; you have a file on your computer which is encrypted with *one single very secure password*. This is sometimes referred to as a 'Master Password', 'Admin-Password', 'Root-Password' etc. but they are all *the ultimate key* to all your other keys and secure data. For this reason you can't and shouldn't think to light about creating this password.
+Pour chiffrer les mots de passe, nous utilisons KeePass sur Windows, KeepassX sur Ubuntu et Keychain sur OS X. Le principe de base est toujours le même; vous avez un fichier sur votre ordinateur qui est chiffré avec *un seul mot de passe très sûr*. On le retrouve parfois sous le nom de "Master Password", "Admin-Password", "Root-Password", etc ... C'est la *clé ultime* qui protège tous les autres mots de passe. C'est pour cette raison que vous ne devez pas créer un mot de passe trop faible.
 
-If a password manager is part of your OS (like it is with OSX) it unlocks automatically for you after you login to your account and so opening secure information like passwords. For this, and other, reasons you should disable 'Automatically Login'. When you start-up your computer you should always have to login and, even better, set your computer to automatically logout or lock the screen after a set amount of time.
+Si le gestionnaire de mots de passe fait partie de votre système d'exploitation (comme celui d'OS X), il s'ouvre automatiquement lors de l'ouverture de votre session et donc permet l'accès à des données sécurisés comme vos mots de passe. C'est pour cette raison, et bien d'autres, que vous devriez désactiver l'ouverture de session automatique. Lorsque vous démarrez votre ordinateur, vous devriez avoir besoin de taper un mot de passe. Encore mieux, configurez votre ordinateur afin qu'il ferme la session ou qu'il verrouille l'écran après un certain temps d'inactivité.
 
-Encrypting Passwords with KeePassX on Ubuntu
---------------------------------------------
+Chiffrer les mots de passe avec KeepassX sur Ubuntu
+---------------------------------------------------
 
-First open KeePassX from the Applications->Accessories -> KeePassX menu.
+Commencez par ouvrir KeePassX.
 
-The first time you use KeePassX you need to set up a new database to store your passwords. Click on File->New Database
+La première fois que vous utilisez KeePassX, vous devez créer une nouvelle base de données pour enregistrer vos mots de passe. Cliquez sur Fichier -> Nouvelle base de données
 
-You will be asked to set a master key (password).
+Il vous demandera de créer un mot de passe maître.
 
 ![Password Manager](mng_1.png)
 
-Choose a strong password for this field - refer to the chapter about passwords if you would like some tips on how to do this. Enter the password and press 'OK'. You then are asked to enter the password again. Do so and press 'OK'. If the passwords are the same you will see a new KeePassX 'database' ready for you to use.
+Choisissez un mot de passe fort - référez vous au chapitre sur les mots de passe si vous voulez quelques astuces sur la façon de le faire. Entrez le et appuyez sur "OK". Il vous demandera ensuite de retaper le mot de passe et d'appuyer sur "OK". Si les mots de passe correspondent, vous verrez la nouvelle "base de données" KeePassX prête à être utilisée.
 
 ![Password Manager](mng_2.png)
 
-Now you have a place to store all your passwords and protect them by the 'master' password you just set. You will see two default categories 'Internet' and 'Email' - you can store passwords just under these two categories, you can delete categories, add sub-groups, or create new categories. For now we just want to stay with these two and add a password for our email to the email group. Right click on the email category and choose 'Add New Entry...':
+À présent, vous avez un endroit où stocker vos mots de passe en les protégeant par le mot de passe maître que vous venez d'inscrire. Vous verrez deux catégories par défaut, "Internet" et "Email", vous pouvez enregistrer toutes vos données dans ces deux catégories mais vous pouvez aussi créer ou supprimer des catégories, ajouter ou supprimer des groupes, etc... Pour l'instant, nous allons seulement utiliser les catégories par défaut et ajouter un mot de passe pour notre compte email.
+Faîtes un clic droit sur la catégorie "Email" et choisissez "Ajouter une nouvelle entrée ..." :
 
 ![Password Manager](mng_3.png)
 
 ![Password Manager](mng_4.png)
 
-So now fill this form out with the details so you can correctly identify which email account the passwords are associated with. You need to fill out the fields 'Title' and the password fields. All else is optional.
+Remplissez les champs du formulaire avec des détails pour pouvoir aisément identifier avec quel compte email le mot de passe est associé. Vous devez complétez le champ "Titre" ainsi que les champs concernant le mot de passe. Tous les autres sont optionnels.
 
 ![Password Manager](mng_5.png)
 
 KeePassX gives some indication if the passwords you are using are 'strong' or 'weak'. As may be obvious, you should try to use stronger passwords. For advice on this see the chapter on creating good passwords. Press 'OK' when you are done and you will see something like this:
+KeePassX nous donne une indication si le mot de passe est "fort" ou "faible". Même si ça semble évident, vous devriez essayer d'utiliser des mots de passe forts. Pour en savoir plus, rendez-vous au chapitre sur la création d'un bon mot de passe. Cliquez sur "OK" quand vous avez terminé et vous verrez quelque chose comme ça :
 
 ![Password Manager](mng_6.png)
 
-To recover the passwords (see them) you must double click on the enter and you will see the same window you used for recording the information. If you click on the 'eye' icon to the right of the passwords they will be converted from stars (***) to the plain text so you can read it.
+Pour retrouver les mots de passe (les voir), vous devez double-cliquer sur l'entrée et vous verrez la même fenêtre que vous avez utilisé lors de la création de cette entrée. Si vous cliquez sur l'icône représentant un oeil à droite du mot de passe, les étoiles (****) seront converties en texte pour que vous puissiez le lire.
 
 Now you you can use KeePassX to store your passwords. However before getting too excited you must do one last thing. When you close KeePassX (choose File->Quit) it asks you if you would like to save the changes you have made.
+Vous pouvez maintenant utiliser KeePassX pour stocker vos mots de passe. Toutefois, vous devez faire une dernière chose. Quand vous fermerez l'application (cliquez sur Fichier -> Quitter), elle vous demandera si vous voulez sauvegarder les changements effectués.
 
 ![Password Manager](mng_7.png)
 
-Press 'Yes'. If it is the first time you used KeePassX (or you have just created a new database) you must choose a place to store your passwords. Otherwise it will save the updated information in the file you have previously created.
+Appuyez sur le bouton "Oui". Si c'est la première fois que vous utilisez KeePassX (ou que vous venez de créer une nouvelle base de données), vous devez choisir un endroit où stocker le fichier de base de données. Sinon, les modifications seront enregistrées dans le fichier créé précédemment.
 
-When you want to access the passwords you must then open KeePassX and you will be asked for the master key. After typing this in you can add all your passwords to the database and see all your entries. It is not a good idea to open KeePassX and have it open permanently as then anyone could see your passwords if they can access your computer. Instead get into the practice of just opening it when you need it and then closing it again.
+Lorsque vous voulez accèder aux mots de passe, vous devez ouvrir KeePassX et tapez le mot de passe maître. Après cela, vous pourrez ajouter des mots de passe dans la base de données mais aussi lire les entrées créées. Ce n'est pas une bonne idée de garder KeePassX ouvert de façon permanente car tout le monde pourrait voir vos mots de passe si ils peuvent accéder à votre ordinateur. Prenez l'habitude de l'ouvrir au moment où vous avez besoin d'un mot de passe et refermez-le juste après.
 
-Encrypting Passwords with KeePass on Windows
---------------------------------------------
+Chiffrer les mots de passe avec KeePass sur Windows
+---------------------------------------------------
 
-After you installed KeePass on Windows you can find it in the application menu. Launch the application and the following window should appear.
+Après avoir installé KeePass sur Windows. Lancez l'application et la fenêtre suivante devrait apparaître.
 
 ![Password Manager](mng_8.png)
 
-You start by making a database, the file which will contain your key. From the menu select `File > New`. You have to chose the name and the location of the file in the dialog window below. In this example we call our database `my_password_database`.
+Il faut commencer par créer une base de données, le fichier qui contiendra vos mots de passe. Depuis le menu, cliquez sur "Fichier -> Nouvelle base de données". Vous devez choisir le nom et la localisation du fichier dans la fenêtre de dialogue ci-dessous. Dans cet exemple, nous avons appellé notre base de données "ma_base_de_mdp".
 
 ![Password Manager](mng_9.png)
 
-The next screen will ask you for the master password. Enter the password and click on 'OK'. You will not need to select anything else.
+Dans la prochaine fenêtre, on vous demandera d'entrer un mot de passe maître. Entrez le mot de passe et cliquez sur "OK". Vous n'aurez rien d'autre à faire.
 
 ![Password Manager](mng_10.png)
 
-The next window allows you to configure your new database. We do not need to edit anything. Just click on 'OK'.
+La fenêtre suivante vous permettra de configurer votre nouvelle base de données. Vous n'avez pas besoin d'éditer quoi que soit, cliquez simplement sur "OK".
 
 ![Password Manager](mng_11.png)
 
-Now the main window appears again and we see some default password categories on the left side. Lets add a new password in the category 'Internet'. First click on the word 'Internet', then click on the add entry icon under the menu bar.
+La fenêtre principale s'affiche alors et vous pouvez voir quelques catégories de mots de passe sur la colonne de gauche. Nous allons ajouter un nouveau mot de passe dans la catégorie "Internet". Cliquez d'abord sur le mot "Internet" et cliquez ensuite sur l'icône "Ajouter une nouvelle entrée ..." sur la barre de menu.
 
 ![Password Manager](mng_12.png)
 
-A window will appear like below. Use the fields to give a description of this particular password, and of course, enter the password itself. When done, click on 'OK'.
+Une fenêtre apparaitra comme ci-dessous. Inscrivez une description pour ce mot de passe et, bien évidemment, entrez le mot de passe lui-même. Une fois terminé, cliquez sur "OK".
 
 ![Password Manager](mng_13.png)
 
-Encrypting Passwords with Keychain on Mac OSX
----------------------------------------------
+Chiffrer les mots de passe avec le Trousseau de clés sur OS X
+-------------------------------------------------------------
 
-Mac OSX comes pre-installed with the build in password manager 'Keychain'. Because of it's tight integration with the OS most of the time you will hardly know it exists. But every now and then you will have a pop-up window in almost any application asking 'do you want to store this password in your keychain?'. This happens when you add new email accounts to your mail client, login to a protected wireless network, enter your details in your chat client etc. etc. etc.
+Mac OS X fournit par défaut le gestionnaire de mot de passe "Keychain" ou, en français, "Trousseau de clés". En raison de son étroite intégration avec le système d'exploitation, vous aurez du mal à savoir qu'il existe. Mais de temps en temps, vous verrez une fenêtre s'afficher dans presque toutes les applications demandant "Voulez vous stocker le mot de passe dans votre trousseau de clés". Cela arrive lorsque vous ajoutez des nouveaux comptes dans votre client email, lorsque vous vous connectez sur un réseau Wifi protégé, lorsque vous entrez vos coordonnées dans votre client de messagerie instantannée, etc ...
 
-Basically what happens is that Mac OSX offers you to store all that login data and different passwords in an encrypted file which it unlocks as soon as you login to your account. You can then check your mail, logon to your WiFi and use your chat client without having to enter your login data all the time over and over again. This is a fully automated process, but if you want to see what is stored where and alter passwords, or lookup a password you will have to open the Keychain program.
+Basiquement, Mac OS X vous offre la possibilité d'enregistrer toutes les données de connexion et les différents mots de passe dans un fichier chiffré qui est ouvert lorsque vous ouvrez une session sur votre ordinateur.
+vous pouvez alors lire vos emails, vous connecter sur votre réseau Wifi et utiliser votre client de messagerie instantannée sans avoir besoin d'entrer vos identifiants.
+C'est un processus complétement automatique mais, si vous voulez savoir ce qui est enregistré ou que vous voulez changer les mots de passe, vous pouvez simplement ouvrir l'application "Trousseau de clés".
 
-You can find the Keychain program in the Utilities folder which lives in the Applications folder.
+Il est accessible dans le dossier "Utilitaires" qui est placé dans le dossier "Apllications".
 
 ![Password Manager](mng_14.png)
 
-When you open it you will see that your 'Login' keychain is unlocked and see all the items contained in it on the right bottom side of the window.
+Lorsque vous l'ouvrirez, vous verrez que le trousseau est déverrouillé et vous pourrez voir toutes les entrées contenues dedans en bas à droite de la fenêtre.
 
-(note: the window here is empty because it seemed to be deceiving the purpose of this manual to make a screenshot of my personal keychain items and share it here with you)
+(Note : la fenêtre ici est vide pour ne pas partager avec vous mon trousseau personnel)
 
 ![Password Manager](mng_15.png)
 
-You can double click any of the items in the Keychain to view it's details and tick 'Show password:' to see the password associated with the item.
+Vous pouvez double-cliquer sur chaque entrée dans le trousseau pour voir ses détails et cochez "Afficher le mot de passe : " pour voir le mot de passe associé à cet entrée.
 
 ![Password Manager](mng_16.png)
 
-You will note that it will ask you for your master or login password to view the item.
+Vous noterez qu'on vous demandera votre mot de passe maître ou votre mot de passe de session pour voir l'entrée.
 
 ![Password Manager](mng_17.png)
 
-You can access modify any of the items and also use the Keychain to securely save any bits and pieces of text using the notes. To do this click on notes and than choose 'New secure Note item' from the file menu.
+Vous pouvez accèder et modifier chaque entrée et aussi utiliser le trousseau pour protéger chaque bits et morceaux de texte en utilisant les notes. Pour faire cela, cliquez sur "Notes" et choisissez "Nouvelle note sécurisé" depuis le menu de fichier.

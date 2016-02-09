@@ -1,32 +1,32 @@
-Installing on Mac OS X
-======================
+Installation sur Mac OS X
+==========================
 
- 1. To download Firefox, visit [https://www.mozilla.org/firefox](https://www.mozilla.org/firefox) and click on the big green button labeled "Firefox Free Download". The download should start automatically, if it does not, click the link to download it manually.
+ 1. Pour télécharger Firefox, rendez vous sur la page [https://www.mozilla.org/firefox](https://www.mozilla.org/firefox) et cliquez sur le gros bouton vert nommé "Téléchargement gratuit". Le téléchargement devrait commencer automatiquement.
 
   ![Mac OS X Firefox Install](ff_mac_inst_1.png)
 
- 2. When prompted, click **OK**.
+ 2. Quand cette fenêtre s'affiche, cliquez sur **OK** :
 
   ![Mac OS X Firefox Install](ff_mac_inst_2.png)
 
- Once the download is complete a window similar to this appears:
+ Une fois le téléchargement effectué, un fenêtre similaire devrait apparaître :
 
  ![Mac OS X Firefox Install](ff_mac_inst_3.png)
 
- 3. Click and drag the **Firefox** icon on top of the **Applications** icon.
+ 3. Déplacez l'icône **Firefox** dans le dossier **Applications**.
 
- 4. When the installation is finished, close the two small Firefox windows.
- 5. Eject the Firefox disk image. If this does not work by normal means, select the disk image icon and then, in the Finder menu, select `File > Eject Firefox`.
- 6. Now, open the **Applications** directory and drag the **Firefox** icon to the dock:
+ 4. Une fois l'installation terminée, fermez les deux petites fenêtres de Firefox.
+ 5. Éjectez l'image disque de Firefox. Si ça ne marche pas correctement, selectionnez l'image disque et ensuite, dans le menu du Finder, cliquez sur `Fichier -> Éjecter Firefox`.
+ 6. À présent, ouvrez le dossier **Applications** et déplacez l'icône **Firefox** dans le Dock :
 
  ![Mac OS X Firefox Install](ff_mac_inst_4.png)
 
- 7. Click the **Firefox** icon in the Dock to start Firefox. The Import Wizard dialog box appears:
+ 7. Cliquez sur l'icône de **Firefox** dans le Dock pour démarrer Firefox. L'assistant d'importation devrait apparaître :
 
  ![Mac OS X Firefox Install](ff_mac_inst_5.png)
 
- 8. To import your bookmarks, passwords and other data from Safari, click **Continue**. If you don't want to import anything, just select **Cancel**.
+ 8. Pour importer vos marque-pages, vos mots de passe et autres données depuis Safari, cliquez sur **Continuer**. Si vous ne voulez rien importer, cliquez simplement sur **Annuler**.
 
-Congratulations, you are now ready to use Firefox!
+Félicitations, vous êtes maintenant prêt à utiliser Firefox !
 
 ![Mac OS X Firefox Install](ff_mac_inst_8.png)

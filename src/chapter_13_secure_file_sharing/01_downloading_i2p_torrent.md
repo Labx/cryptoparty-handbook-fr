@@ -1,28 +1,27 @@
-Anonymous Bittorrent with I2PSnark
-==================================
+Bittorrent anonyme avec I2PSnark
+================================
 
-We can use the I2P network to share and download files without the entire world knowing who is sharing them. or even the fact that you are running a torrent client, since i2p network is end-to-end encrypted the only thing known to outsider is you are running I2P.
+Il est possible d'utiliser le réseau I2P pour partager et télécharger des fichiers sans que le reste du monde puisse savoir qui les partage. Même le fait que vous utilisez un client torrent est invisible pour les observateurs sur le réseau car I2P chiffre les données de bout-en-bout.
 
-I2p come with a built-in torrent client that run inside the browser called I2PSnark. You can access it through
-this direct link:
+I2P possède par défaut un client torrent qui tourne au sein du navigateur appellé I2PSnark. Vous pouvez y accèder grâce à ce lien :
 
 [http://localhost:7657/i2psnark/](http://localhost:7657/i2psnark/)
 
-or through the router console: [http://localhost:7657/](http://localhost:7657/) and clicking on the torrent icon. Once started you should see a screen similar to the following:
+ou grâce à la console du routeur : [http://localhost:7657/](http://localhost:7657/) en cliquant sur l'icône torrent. Une fois démarré, vous devriez obtenir une interface comme celle ci :
 
 ![I2P](i2p_3.jpg)
 
-You can search for a torrent using one of following bittorrent trackers: 
+Vous pouvez chercher des torrents en utilisant les trackers bittorrent ci dessous :
 
 * [http://tracker.postman.i2p/](http://tracker.postman.i2p/)
 
 * [http://diftracker.i2p/](http://diftracker.i2p/)
 
-Copy the torrent or magnet link and past it in the I2PSnark window, and click **Add torrent**.
-the file will be downloaded inside the **/home/user/.i2p/i2psnark** folder.
+Copiez le fichier torrent ou le lien magnet et coller le dans la fenêtre d'I2PSnark. Cliquez ensuite sur **Add torrent**.
+Le fichier sera téléchargé dans le dossier **/home/user/.i2p/i2psnark**.
 
-**NOTE:**
+**NOTES :**
 
-* Since I2P is a closed network, you can't download normal torrents found on regular internet with it, and it can't be used to make downloading them anonymous!
+* I2P est un réseau fermé, vous ne pouvez pas l'utiliser pour télécharger des torrents normaux trouvés sur Internet et il ne peut être utilisé pour les télécharger anonymement !
 
-* The speed seems to be slightly lower than usual which is caused by the anonymization. I think that the download rates are still acceptable if you consider that you download and share anonymously.
+* La vitesse semble légèrement plus lente qu'en temps normal à cause de l'anonymisation. Je pense que la vitesse de téléchargement reste acceptable si vous prennez en compte que tout est fait anonymement.

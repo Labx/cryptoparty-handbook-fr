@@ -18,7 +18,7 @@ DATE=${DATE:-`date +%F`}
 
 cat > $DIR/main.tex <<EOF
 \documentclass[oribibl]{scrbook}
-
+\usepackage[utf8x]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{amsmath,amssymb,latexsym}
 \usepackage{algorithm, algorithmic}
@@ -59,7 +59,7 @@ for d in chapter*; do
 	echo "\\graphicspath{{./$d/}}" >> $DIR/main.tex
 	title=`echo $d | sed 's/chapter_[0-9][0-9]_//; s/_/ /g; s/^./\U&/; s/ ./\U&/g'`
 	echo "\\chapter{$title}" >> $DIR/main.tex
-	for f in $d/*.md; do 
+	for f in $d/*.md; do
 		pandoc -f markdown -t latex $f -o $DIR/$f.tex
 		echo "\\input{$f.tex}" >> $DIR/main.tex
 	done

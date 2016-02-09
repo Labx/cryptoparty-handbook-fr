@@ -1,43 +1,43 @@
-Installing I2P on Ubuntu Lucid Lynx (and newer) and derivatives like Linux Mint & Trisquel
-===========================================================================================
+Installer I2P sur Ubuntu Lucid Lynx (et plus récent) et sur ses dérivés comme Linux Mint & Trisquel
+===================================================================================================
 
- 1. Open a terminal and enter:
-    
+ 1. Ouvrez un terminal et entrez :
+
  `sudo apt-add-repository ppa:i2p-maintainers/i2p`
- 
- This command will add the PPA to /etc/apt/sources.list.d and fetch the gpg key that the repository has been signed with. The GPG key ensures that the packages have not been tampered with since being built.
 
- 2. Notify your package manager of the new PPA by entering
+ Cette commande ajoutera le dépôt PPA dans /etc/apt/sources.list.d et récupèrera la clé GPG qui a permis de signer le dépôt. La clé GPG permet de s'assurer que la paquet n'a pas été modifié depuis ça création.
+
+ 2. Mettez à jour votre gestionnaire de paquet pour qu'il prenne en compte le nouveau dépôt PPA en entrant :
 
  `sudo apt-get update`
 
- This command will retrieve the latest list of software from each repository that is enabled on your system, including the I2P PPA that was added with the earlier command.
- 
- 3. You are now ready to install I2P!
+ Cette commande va récupérer la liste la plus récente des logiciels disponibles dans chaque dépôt autorisé par le système. Ceci inclut le PPA de I2P qui a été ajouté plus tôt.
+
+ 3. Vous êtes maintenant prêt à installer I2P !
 
  `sudo apt-get install i2p`
- 
- 4. Your browse should open up with your local I2P router console, to browse i2p domains you have to configure your browser to use the i2p proxy. Also check your connection status on the left side on the router console. If your status is **Network: Firewalled** your connection will be rather slow. The first time you start I2P it may take a few minutes to integrate you into the network and find additional peers to optimize your integration, so please be patient.
 
-From the Tools menu, select Options to bring up the Firefox settings panel. Click the icon labelled Advanced, then click on the Network tab. In the Connections section, click on the Settings button. You'll see a Window like the following:
+ 4. Votre navigateur devrait s'ouvrir sur la console du routeur I2P local. Pour naviguer sur des domaines I2P, vous devez configurer votre navigateur afin d'utiliser le proxy I2P. Vérifiez également le statut de votre connexion sur le côté gauche de la console du routeur. Si le statut est **Network: Firewalled**, votre connexion sera plutôt lente. Lors du premier démarrage, I2P peut prendre quelques minutes afin de vous intégrer dans le réseau et de trouver des pairs optimisant votre intégration. Donc, s'il vous plaît, soyez patient.
 
-![I2P](i2p_1.jpg)
-
-In the Connection Settings window, click the circle next to Manual proxy configuration, then enter 127.0.0.1, port 4444 in the HTTP Proxy field. Enter 127.0.0.1, port 4445 in the SSL Proxy field. Be sure to enter localhost and 127.0.0.1 into the "No Proxy for" box.
+Depuis le menu Outils, selectionnez Options pour ouvrir le panneau de configuration de Firefox. Cliquez sur Avancé puis cliquez sur l'onglet Réseau. Dans la section Connexion, cliquez sur le bouton Paramètres. Vous verrez une fenêtre comme celle ci :
 
 ![I2P](i2p_1.jpg)
 
-For more information and proxy settings for other browsers check [https://www.i2p2.de/htproxyports.htm](https://www.i2p2.de/htproxyports.htm)
+Dans la fenêtre Paramètres de connexion, cliquez sur l'option Configuration manuelle du proxy puis, entrez 127.0.0.1, port 4444 dans le champ HTTP Proxy. Entrez 127.0.0.1, port 4445 dans le champ Proxy SSL. N'oubliez pas d'entrer localhost et 127.0.0.1 dans le champ "Pas de proxy pour".
 
-Instructions for Debian Lenny and newer
-=======================================
-For more information visit this page [https://www.i2p2.de/debian.html](https://www.i2p2.de/debian.html)
+![I2P](i2p_1.jpg)
 
+Pour plus d'informations sur la configuration de proxy pour les autres navigateurs, allez sur [https://www.i2p2.de/htproxyports.htm](https://www.i2p2.de/htproxyports.htm).
 
-Starting I2P
+Instructions pour Debian Lenny et plus récent
+=============================================
+
+Pour plus d'informations, allez sur [https://www.i2p2.de/debian.html](https://www.i2p2.de/debian.html).
+
+Démarrer I2P
 ============
-Using these I2P packages the I2P router can be started in the following three ways:
 
-* "on demand" using the i2prouter script. Simply run "i2prouter start" from a command prompt. (Note: Do not use sudo or run it as root!).
-* as a service that automatically runs when your system boots, even before logging in. The service can be enabled with "dpkg-reconfigure i2p" as root or using sudo. This is the recommended means of operation.
+En utilisant les paquets I2P, le routeur I2P peut être démarré de 3 façons :
 
+* "à la demande" en utilisant le script i2prouter. Lancez simplement "i2prouter start" depuis un terminal. (Note: Ne l'utilisez pas en tant que root ou en utilisant sudo !).
+* comme un service que démarre automatiquement lorsque le système charge, avant même l'ouverture d'une session. Le service peut être créé grâce à la commande "dpkg-reconfigure i2p" lancée en tant que root ou en utilisant sudo. C'est la façon recommandée.

@@ -1,10 +1,10 @@
-Accessing Firefox on Ubuntu
+Utiliser Firefox sur Ubuntu
 ===========================
 
-Firefox is already installed on Ubuntu by default. To open it, click on the Unity side bar where you see the Firefox icon:
+Firefox est pré-installé sur Ubuntu par défaut. Pour l'ouvrir, cliquez sur l'icône Firefox dans le lanceur Unity :
 
 ![Firefox on Ubuntu](ff_ubuntu_1.png)
 
-Firefox starts and a welcome window opens:
+Firefox démarre et affiche une page de bienvenue :
 
 ![Firefox on Ubuntu](ff_ubuntu_2.png)

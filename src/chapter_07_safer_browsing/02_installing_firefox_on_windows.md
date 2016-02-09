@@ -1,42 +1,38 @@
-Installing Firefox on Windows
-=============================
+Installation de Firefox sur Windows
+===================================
 
- 1. To download Firefox, visit [https://www.mozilla.com/firefox/](https://www.mozilla.com/firefox/).
+ 1. Pour télécharger Firefox, rendez vous sur [https://www.mozilla.com/firefox/](https://www.mozilla.com/firefox/).
 
- ![Windows Firefox Install](ff_win_inst_1.png)
+ ![Page web de téléchargement de Firefox](ff_win_inst_1.png)
 
- 2. Click the download button and the installation file will begin to download to your computer.
+ 2. Cliquez sur le bouton de téléchargement pour récupérer l'installeur.
 
- 3. Once the download is complete, double-click the installation file to start the Firefox installation wizard.
+ 3. Une fois le téléchargement terminé, double-cliquez sur le fichier téléchargé pour démarrer l'installeur.
 
-    * If you are running Windows Vista, you may get a User Account Control prompt. In this case, allow the setup to run by clicking **Continue**.
-    * If you are running Windows 7, you will be asked whether to allow Firefox to make changes to your computer. Click on **Yes**.
+    * Si vous utilisez Windows Vista, la fenêtre de contrôle de compte utilisateur pourrait s'afficher. Dans ce cas, autorisez l'installation en cliquant sur **Continuer**.
+    * Si vous utilisez Windows 7, on vous demandera d'autoriser Firefox à effectuer des changements sur l'ordinateur. Cliquez sur **Oui**.
 
-    A welcome screen appears.
+    Une fenêtre de bienvenue apparaît.
 
- 4. Click **Next** to continue. You will be asked if you would like the standard installation, or whether you would like to customize it. Choose the standard installation and click **Next**.
+ 4. Cliquez sur **Suivant** pour continuer. L'installeur vous demandera si vous voulez lancer une installation standard ou une installation personnalisée. Choisissez l'installation standard et cliquez sur **Suivant**.
 
- ![Windows Firefox Install](ff_win_inst_2.png)
+ ![Choix du type d'installation](ff_win_inst_2.png)
 
- 5. You will be asked if you want Firefox to be your default browser. This is recommended.
+ 5. Il vous demandera ensuite si vous voulez que Firefox devienne votre navigateur par défaut. C'est recommandé.
 
- ![Windows Firefox Install](ff_win_inst_3.png)
+ ![Firefox est prêt à être installé](ff_win_inst_3.png)
 
- 6. Click **Install**.
+ 6. Cliquez sur **Installer**.
 
- 7. To import your bookmarks and other data from other browsers (for example Internet Explorer), click **Continue**. If you don't want to import anything, just select **Cancel**.
+ 7. Pour importer vos marque-pages et autres données depuis d'autres navigateurs (Internet Explorer, par exemple), cliquez sur **Continuer**. Si vous ne voulez pas, appuyer simplement sur **Annuler**.
 
- ![Windows Firefox Install](ff_win_inst_4.png)
+ ![Assistant d'importation](ff_win_inst_4.png)
 
- 8. Once Firefox has been installed, click **Finish** to close the setup wizard.
+ 8. Une fois l'installation de Firefox terminé, cliquez **Terminé** pour fermer l'installeur.
 
-If the **Launch Firefox now** check box is checked, Firefox will start after you click **Finish**. Otherwise you can launch Firefox through the start menu.
+Si la case **Lancer Firefox maintenant** est coché, Firefox démarrera après avoir cliqué sur **Terminé**. Autrement, vous pouvez lancer Firefox depuis le menu Démarrer.
 
-### Windows Vista Users
+Problèmes
+---------
 
-If at any time throughout the installation process you are prompted with a User Account Control (UAC) window, press Continue, Allow, or Accept.
-
-Troubleshooting
----------------
-
-If you have problems starting Firefox, see [https://support.mozilla.com/kb/Firefox+will+not+start](https://support.mozilla.com/kb/Firefox+will+not+start)
+Si vous avez un problème durant le démarrage de Firefox, rendez vous sur [https://support.mozilla.com/kb/Firefox+will+not+start](https://support.mozilla.com/kb/Firefox+will+not+start).

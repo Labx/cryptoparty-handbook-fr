@@ -1,5 +1,5 @@
-Installation sur Mac OS X
-==========================
+Installation de Firefox sur Mac OS X
+====================================
 
  1. Pour télécharger Firefox, rendez vous sur la page [https://www.mozilla.org/firefox](https://www.mozilla.org/firefox) et cliquez sur le gros bouton vert nommé "Téléchargement gratuit". Le téléchargement devrait commencer automatiquement.
 

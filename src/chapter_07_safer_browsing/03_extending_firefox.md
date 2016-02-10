@@ -1,140 +1,149 @@
-Extending Firefox
+Augmenter Firefox
 =================
 
-When you first download and install Firefox, it can handle basic browser tasks immediately. You can also add extra capabilities or change the way Firefox behaves by installing add-ons, small additions that extend Firefox's power.
+Un fois le téléchargement et l'installation de Firefox terminé, vous pouvez d'ores et déjà faire toutes les choses basiques que permettent les navigateurs.
+Vous pouvez aussi ajouter des outils ou changer la façon dont Firefox fonctionne en installant des modules, des petits ajouts qui augmentent la puissance de Firefox.
 
-Firefox extensions can pimp your browser, but they can also collect and transmit information about you. Before you install any add-on, keep in mind to choose add-ons from trusted sources. Otherwise, an add-on might share information about you without your knowing, keep a record on the sites you have visited, or even harm your computer.
+Ces modules peuvent améliorer votre navigation mais peuvent aussi collecter et transmettre vos informations. Avant d'en installer un, vérifiez bien qu'il provient d'une source de confiance. Autrement, il pourrait partager des informations à propos de vous, garder une sauvegarde des sites visités ou même nuire à votre ordinateur sans que vous le sachiez.
 
-There are several kinds of add-ons:
+Il y a plusieurs types de modules :
 
- * *Extensions* add functionality to Firefox
- * *Themes* change the appearance of Firefox.
- * *Plugins* help Firefox handle things it normally can't process (i.e. Flash movies, Java applications).
+ * Les *extensions* ajoutent des fonctionnalités à Firefox
+ * Les *thèmes* changent l'apparence de Firefox
+ * Les *plugins* aident Firefox à faire des choses qu'il ne sait pas faire par défaut (par exemple, lire des vidéos flash ou des applications Java)
 
-For the topics covered in this book we are only going to need extensions. We will look at some add-ons that are particularly relevant for dealing with Internet security. The variety of available extensions is enormous. You can add dictionaries for different languages, track the weather in other countries, get suggestions for Web sites that are similar to the one you are currently viewing, and much more. Firefox keeps a list of current extensions on its site ([https://addons.mozilla.org/firefox](https://addons.mozilla.org/firefox)), or you can browse them by category at [https://addons.mozilla.org/firefox/browse](https://addons.mozilla.org/firefox/browse).
+Pour rester dans le sujet du livre, nous allons uniquement parler des extensions.
+Nous en verrons quelques unes particulièrement utiles pour se protéger sur Internet.
+Il y a une énorme variété d'extensions.
+Vous pouvez ajouter des dictionnaires pour différentes langues, obtenir la météo d'autres pays, obtenir des suggestions de sites à visister selon vos préférences et beaucoup d'autres.
+Firefox garde une liste des extensions disponibles sur son site ([https://addons.mozilla.org/firefox](https://addons.mozilla.org/firefox)) mais vous pouvez aussi les rechercher par catégories sur le site [https://addons.mozilla.org/firefox/browse](https://addons.mozilla.org/firefox/browse).
 
-**Caution:** We recommend that you never install an add-on for Firefox unless it is available from the Firefox add-on pages. You should also never install Firefox unless you get the installation files from a trusted source. It is important to note that using Firefox on someone else's computer or in an Internet caf increases your potential vulnerability. Know that you can take Firefox on a CD or USB-stick (check our chapter on that issue).
+**Attention :** Nous recommandons de n'installer que des extensions disponibles sur le site de Firefox.
+De plus, vous ne devriez jamais installer Firefox à moins d'avoir récupéré les fichiers d'installation depuis un source de confiance.
+Il est important de préciser qu'utiliser Firefox sur un ordinateur qui ne vous appartient pas augmente votre vulnérabilité.
+Sachez que vous pouvez installer Firefox sur un CD ou une clé USB (allez voir notre chapitre sur ce problème).
 
-While no tool can protect you completely against all threats to your online privacy and security, the Firefox extensions described in this chapter can significantly reduce your exposure to the most common ones, and increase your chances of remaining anonymous.
+Bien qu'aucun outil ne peut vous protéger complètement contre toutes les menaces qui pèsent sur votre vie privée et votre sécurité en ligne, les extensions Firefox décritent dans ce chapitre peuvent réduire considérablement votre exposition aux menaces les plus communes et augmenter vos chances de rester anonyme.
 
 HTTPS Everywhere
 ----------------
 
-HTTP is considered unsafe, because communication is transmitted in plain text. Many sites on the Web offer some support for encryption over HTTPS, but make it difficult to use. For instance, they may connect you to HTTP by default, even when HTTPS is available, or they may fill encrypted pages with links that go back to the unencrypted site. The HTTPS Everywhere extension fixes these problems by rewriting all requests to these sites to HTTPS. Although the extension is called "HTTPS Everywhere", it only activates HTTPS on a particular list of sites and can only use HTTPS on sites that have chosen to support it. It cannot make your connection to a site secure if that site does not offer HTTPS as an option.
+HTTP est considéré comme dangereux car les communications sont transmisent en texte clair (en texte lisible).
+Beaucoup de sites sur le Web proposent l'utilisation du chiffrement au dessus d'HTTP (HTTPS) mais il peut être difficile à utiliser.
+Par exemple, ils peuvent permettre la connexion en HTTP par défaut même lorsque le HTTPS est disponible. Ils peuvent aussi envoyer des pages en HTTPS mais utiliser des liens qui pointent vers la version non sécurisée du site.
+L'extension HTTPS Everywhere supprime ces problèmes en réécrivant toutes les requêtes vers ces sites pour forcer l'utilisation d'HTTPS.
+Bien qu'elle se nomme "HTTPS Everywhere", l'extension ne force l'utilisation d'HTTPS que pour une liste de sites définie et ne peut fonctionner que si le site supporte le chiffrement.
+Il ne peut pas créer une connexion sécurisé avec un site si ce dernier n'offre pas la possibilité d'utiliser HTTPS.
 
-![HTTPS Schema](https_schema.jpg)
+![Schéma expliquant la différence entre HTTP et HTTPS (en anglais)](https_schema.jpg)
 
-Please note that some of those sites still include a lot of content, such as images or icons, from third party domains that is not available over HTTPS. As always, if the browser's lock icon is broken or carries an exclamation mark, you may remain vulnerable to some adversaries that use active attacks or traffic analysis. However, the effort required to monitor your browsing should still be usefully increased.
+Notez que certains de ces sites inclus toujours beaucoup de contenus comme des images ou des icônes qui proviennent d'autres sites web qui ne supportent pas forcément HTTPS.
+Comme toujours, si l'icône de cadenas du navigateur est cassée ou porte un point d'exclamation, vous restez vulnérable à certains adversaires qui utilisent des attaques actives ou d'analyse de trafic.
+Cependant, l'effort nécessaire pour surveiller votre navigation devrait être encore augmenté.
 
-Some Web sites (such as Gmail) provide HTTPS support automatically, but using HTTPS Everywhere will also protect you from TLS/SSL-stripping attacks, in which an attacker hides the HTTPS version of the site from your computer if you initially try to access the HTTP version.
+Certains sites web (comme GMail) demande l'utilisation d'HTTPS par défaut mais l'utilisation d'HTTPS Everywhere vous protégera aussi des attaques dites de "TLS/SSL-stripping" dans lesquels un attaquant vous cache la version HTTPS du site si vous essayer d'utiliser la version HTTP.
 
-Additional information can be found at: [https://www.eff.org/https-everywhere](https://www.eff.org/https-everywhere).
+Vous pouvez obtenir des informations complémentaires sur : [https://www.eff.org/https-everywhere](https://www.eff.org/https-everywhere).
 
 Installation
 ------------
 
-First, download the HTTPS Everywhere extension from the official Web site: [https://www.eff.org/https-everywhere](https://www.eff.org/https-everywhere)
+Commencez par télécharger l'extension depuis son site officiel : [https://www.eff.org/https-everywhere](https://www.eff.org/https-everywhere)
 
-![HTTPS Everywhere](https_everywhere.png)
+![Site web officiel](https_everywhere.png)
 
-Select the newest release. In the example below, version 2.2 of HTTPS Everywhere was used. (A newer version may be available now.)
+Selectionnez la version la plus récente. Dans l'exemple ci-dessous, c'est la version 2.2 mais une version plus récente pourrait être disponible aujourd'hui.
 
-![HTTPS Everywhere](https_everywhere_2.png)
+![Installation de l'extension](https_everywhere_2.png)
 
-Click on "Allow". You will then have to restart Firefox by clicking on the "Restart Now" button. HTTPS Everywhere is now installed.
-
-Configuration
--------------
-
-To access the HTTPS Everywhere settings panel in Firefox 4 (Linux), click on the Tools menu at the top of your screen and then select Add-ons. (Note that in different versions of Firefox and different operating systems, the Add-ons Manager may be located in different places in the interface.)
-
-![HTTPS Everywhere](https_everywhere_3.png)
-
-Click on the Preferences button.
-
-![HTTPS Everywhere](https_everywhere_4.png)
-
-A list of all supported Web sites where HTTPS redirection rules should be applied will be displayed. If you have problems with a specific redirection rule, you can uncheck it here. In that case, HTTPS Everywhere will no longer modify your connections to that specific site.
+Cliquez sur "Autoriser". Vous devrez redémarrer votre navigateur en cliquant sur le bouton "Redémarrer maintenant". HTTPS Everywhere est installé.
 
 Usage
 -----
 
-Once enabled and configured, HTTPS Everywhere is very easy and transparent to use. Type an insecure HTTP URL (for example, [http://www.google.com](http://www.google.com)).
+Une fois installée, l'extension s'utilise très simplement et de façon transparente. Tapez une url en HTTP (par exemple, [http://www.google.com](http://www.google.com)).
 
-![HTTPS Everywhere](https_everywhere_5.png)
+![URL de Google en HTTP](https_everywhere_5.png)
 
-Press Enter. You will be automatically redirected to the secure HTTPS encrypted Web site (in this example: [https://encrypted.google.com](https://encrypted.google.com)). No other action is needed.
+Appuyez sur Entrer. Vous serez automatiquement redirigé vers le site web en HTTPS (dans cet exemple : [https://www.google.com](https://www.google.com)). Il n'y a rien d'autre à faire.
 
-![HTTPS Everywhere](https_everywhere_6.png)
+![Redirection automatique vers le site en HTTPS](https_everywhere_6.png)
 
-If networks block HTTPS
------------------------
+Si le réseau bloque le HTTPS
+----------------------------
 
-Your network operator may decide to block the secure versions of Web sites in order to increase its ability to spy on what you do. In such cases, HTTPS Everywhere could prevent you from using these sites because it forces your browser to use only the secure version of these sites, never the insecure version. (For example, we heard about an airport WiFi network where all HTTP connections were permitted, but not HTTPS connections. Perhaps the WiFi operators were interested in watching what users did. At that airport, users with HTTPS Everywhere were not able to use certain Web sites unless they temporarily disabled HTTPS Everywhere.)
+Votre fournisseur d'accès Internet peut décider de bloquer les versions sécurisées de différents sites afin d'augmenter sa capacité à surveiller ce que vous faites.
+Dans ces cas là, HTTPS Everywhere pourra vous empêcher d'utiliser ces sites car il oblige le navigateur à utiliser la version sécurisé de ces derniers.
+(Par exemple, nous avons entendu parler d'un réseau WiFi dans un aéroport qui autorisait seulement les connexions HTTP.
+Peut-être que les opérateurs du réseau était intéressés par ce que les utilisateurs faisaient dessus. Et dans cet aéroport, les utilisateurs d'HTTPS Everywhere n'étaient pas capable de ce connecter sur certains sites web à moins de désactiver temporairement l'extension.)
 
-In this scenario, you might choose to use HTTPS Everywhere together with a circumvention technology such as Tor or a VPN in order to bypass the network's blocking of secure access to Web sites.
+Dans ce scénario, vous pourriez choisir d'utiliser HTTPS Everywhere avec des outils comme Tor ou un VPN pour contourner les blocages.
 
-Adding support for additional sites in HTTPS Everywhere
--------------------------------------------------------
+L'ajout de support pour d'autres sites
+--------------------------------------
 
-You can add your own rules to the HTTPS Everywhere add-on for your favorite Web sites. You can find out how to do that at: [https://www.eff.org/https-everywhere/rulesets](https://www.eff.org/https-everywhere/rulesets). The benefit of adding rules is that they teach HTTPS Everywhere how to ensure that your access to these sites is secure. But remember: HTTPS Everywhere does not allow you to access sites securely unless the site operators have already chosen to make their sites available through HTTPS. If a site does not support HTTPS, there is no benefit to adding a ruleset for it.
+Vous pouvez ajouter vos propres règles à l'extension pour vos sites web favoris.
+Il existe une page d'explication sur comment le faire à cette adresse : [https://www.eff.org/https-everywhere/rulesets](https://www.eff.org/https-everywhere/rulesets).
+L'avantage d'écrire des règles est de permettre à HTTPS Everywhere de s'assurer que vous vous connectez bien aux sites sécurisés.
+Mais souvenez vous : HTTPS Everywhere ne vous permet d'utiliser le chiffrement que si les administrateurs des sites ont mis en place des versions disponibles en HTTPS.
+Si un site ne le supporte pas, l'ajout d'une règle n'a aucun intérêt.
 
-If you are managing a Web site and have made an HTTPS version of the site available, a good practice would be to submit your Web site to the official HTTPS Everywhere release.
+Si vous administrez un site web ayant une version HTTPS de disponible, vous pouvez envoyer l'adresse de votre site aux développeurs d'HTTPS Everywhere.
 
 Adblock Plus
 ------------
 
-Adblock Plus ([http://www.adblockplus.org](http://www.adblockplus.org)) is mainly known for blocking advertisements on websites. But it also can be used to block other content that may try to track you. To keep current with the latest threats, Adblock Plus relies on blacklists maintained by volunteers.
+Adblock Plus ([http://www.adblockplus.org](http://www.adblockplus.org)) est principalement connu en tant que bloqueur de publicité sur les sites web.
+Mais il est aussi capable de bloquer d'autres contenus qui peuvent vous traquer.
+Pour rester à jour sur les nouvelles menaces, Adblock Plus utilise des listes noires maintenues par des volontaires.
 
-Extra Geek info: How does Adblock Plus block addresses?
+Info geek supplémentaire : Comment Adblock Plus fait-il pour bloquer des adresses ?
 
-The hard work here is actually done by Gecko, the engine on top of which Firefox, Thunderbird and other applications are built. It allows something called "content policies". A content policy is simply a JavaScript (or C++) object that gets called whenever the browser needs to load something. It can then look at the address that should be loaded and some other data and decide whether it should be allowed. There is a number of built-in content policies (when you define which sites shouldn't be allowed to load images in Firefox or SeaMonkey, you are actually configuring one of these built-in content policies) and any extension can register one. So all that Adblock Plus has to do is to register its content policy, other than that there is only application logic to decide which addresses to block and user interface code to allow configuration of filters.
+Le plus gros du travail est aujourd'hui fait par Gecko, le moteur de Firefox, Thunderbird et d'autres applications.
+Il y a quelque chose nommé les "content policies".
+Une "content policy" est un simple bout de code Javascript (ou C++) appellé lorsque le navigateur charge une page web.
+Il regarde si les données qui doivent être chargées et décide si elles doivent être autorisées ou pas.
+Il y a un certain nombre de "content policies" basiques dans les navigateurs (lorsque vous définissez les sites qui ne doivent pas afficher des images dans Firefox ou SeaMonkey, vous configurez l'une de ces "content policies") et toutes les extensions peuvent en ajouter.
+Donc Adblock Plus n'a besoin que d'ajouter ses règles de "content policies" et, de cette manière, un seul logiciel décidera quelles adresses il faut bloquer.
 
-Getting started with Adblock Plus
----------------------------------
+Commencer avec Adblock Plus
+---------------------------
 
-Once you have Firefox installed:
+Une fois Firefox installé :
 
- 1. Download the latest version of Adblock Plus from the Add-On database of Firefox
- 2. Confirm that your want Adblock Plus by clicking "Install Now".
- 3. After Adblock Plus has been installed, Firefox will ask to restart.
+ 1. Téléchargez la dernière version d'Adblock Plus depuis la liste des extensions fournie par Firefox
+ 2. Confirmez que vous voulez installer Adblock Plus en cliquant sur "Installer maintenant"
+ 3. Après l'installation, Firefox devra redémarrer.
 
-Choosing a filter subscription
-------------------------------
+Créer des filtres personnalisés
+-------------------------------
 
-Adblock Plus by itself doesn't do anything. It can see each element that a Web site attempts to load, but it doesn't know which ones should be blocked. This is what Adblock's filters are for. After restarting Firefox, you will be asked to choose a filter subscription (free).
-
-![Ad Block Plus](abp_1.png)
-
-Which filter subscription should you choose? Adblock Plus offers a few in its dropdown menu and you may wish to learn about the strengths of each. A good filter to start protecting your privacy is EasyList (also available at [http://easylist.adblockplus.org/en](http://easylist.adblockplus.org/en)).
-
-As tempting as it may seem, don't add as many subscriptions as you can get, since some may overlap, resulting in unexpected outcomes. EasyList (mainly targeted at English-language sites) works well with other EasyList extensions (such as region-specific lists like RuAdList or thematic lists like EasyPrivacy). But it collides with Fanboy's List (another list with main focus on English-language sites).
-
-You can always change your filter subscriptions at any time within preferences. Once you've made your changes, click OK.
-
-Creating personalized filters
------------------------------
-
-AdBlock Plus also lets you create your own filters, if you are so inclined. To add a filter, start with Adblock Plus preferences and click on "Add Filter" at the bottom left corner of the window. Personalized filters may not replace the benefits of well-maintained blacklists like EasyList, but they're very useful for blocking specific content that isn't covered in the public lists. For example, if you wanted to prevent interaction with Facebook from other Web sites, you could add the following filter:
+Adblock Plus vous permet de créer vos propres filtres.
+Pour en ajouter un, allez dans les préférences d'Adblock Plus et cliquez sur "Ajouter un filtre" en bas à droite de la fenêtre.
+Les filtres personnalisés ne pourront pas forcément remplacer les listes noires communautaires comme EasyList mais elles sont très utiles pour bloquer des contenus qui ne sont pas couverts dans les listes publiques.
+Par exemple, si vous souhaitez supprimer les interactions entre les sites web et Facebook, vous pouvez ajouter le filtre suivant :
 
     ||facebook.*$domain=~facebook.com|~127.0.0.1
 
-The first part (`||facebook.*`) will initially block everything coming from Facebook's domain. The second part (`$domain=~facebook.com|~127.0.0.1`) is an exception that tells the filter to allow Facebook requests only when you are in Facebook or if the Facebook requests come from 127.0.0.1 (your own computer) in order to keep certain features of Facebook working.
+La première partie (`||facebook.*`) permet de bloquer tout ce qui vient des noms de domaine de Facebook.
+La seconde partie (`$domain=~facebook.com|~127.0.0.1`) est une exception qui permet de ne rien bloquer lorsque l'on est sur le site de Facebook ou lorsque les requêtes proviennent de l'adresse IP 127.0.0.1 (votre ordinateur) afin de garder certaines fonctionnalités de Facebook.
 
-A guide on how to create your own Adblock Plus filters can be found at [http://adblockplus.org/en/filters](http://adblockplus.org/en/filters).
+Un guide pour aprendre à créer ses propres filtres Adblock Plus est disponible à l'adresse [http://adblockplus.org/en/filters](http://adblockplus.org/en/filters).
 
-Enabling and disabling AdBlock Plus for specific elements or Web sites
-----------------------------------------------------------------------
+Activer et désactiver Adblock Plus pour des éléments ou des sites web spécifiques
+---------------------------------------------------------------------------------
 
-You can see the elements identified by AdBlock Plus by clicking on the ABP icon AdBlock Plus icon in your browser (usually next to the search bar) and selecting "Open blockable items". A window at the bottom of your browser will let you enable or disable each element on a case-by-case basis. Alternatively, you can disable AdBlock Plus for a specific domain or page by clicking on the ABP icon and ticking the option "Disable on [domain name]" or "Disable on this page only".
+Vous pouvez voir les éléments identifiés par Adblock Plus en cliquant sur l'icône APB dans votre navigateur (la plupart du temps à côté de la barre de recherche) et cliquez sur "Ouvrir la liste des éléments filtrables".
+Une fenêtre en bas du navigateur va vous permettre d'activer ou désactiver chaque élément au cas par cas.
+Vous pouvez aussi désactiver Adblock Plus pour un nom de domaine ou une page web spécifique en cliquant sur l'icône APB et en cochant l'option "Désactiver pour [le nom de domaine]" ou "Désactiver pour cette page uniquement".
 
-Other extensions that can improve your security
------------------------------------------------
+Les autres extensions qui peuvent améliorer votre sécurité
+----------------------------------------------------------
 
-Below is a short list of extensions that are not covered in this book but are helpful to further protect you.
+La liste ci-dessous regroupe des extensions dont on ne parlera pas dans ce livre mais qui sont utiles pour vous protéger.
 
- * **Flagfox** - puts a flag in the location bar telling you where the server you are visiting is most probably located. [https://addons.mozilla.org/en-US/firefox/addon/flagfox/](https://addons.mozilla.org/en-US/firefox/addon/flagfox/)
+ * **Flagfox** - affiche le drapeau du pays où est situé le serveur hébergeant le site web visité. [https://addons.mozilla.org/en-US/firefox/addon/flagfox/](https://addons.mozilla.org/en-US/firefox/addon/flagfox/)
 
- * **BetterPrivacy** - manages "cookies" used to track you while visiting websites. Cookies are small bits of information stored in your browser. Some of them are used to track the sites you are visiting by advertisers. [https://addons.mozilla.org/en-US/firefox/addon/betterprivacy/](https://addons.mozilla.org/en-US/firefox/addon/betterprivacy/)
+ * **BetterPrivacy** - gère les "cookies" utilisés pour vous traquer durant votre navigation. Les cookies sont des petits bouts d'informations stockés dans votre navigateur. Certains d'entre eux permettent aux annonceurs de savoir quels sites vous visitez. [https://addons.mozilla.org/en-US/firefox/addon/betterprivacy/](https://addons.mozilla.org/en-US/firefox/addon/betterprivacy/)
 
- * **GoogleSharing** - If you are worried that google knows your search history, this extension will help prevent that. [https://addons.mozilla.org/en-us/firefox/addon/googlesharing/](https://addons.mozilla.org/en-us/firefox/addon/googlesharing/)
+ * **GoogleSharing** - évite que Google puisse connaître votre historique de recherche. [https://addons.mozilla.org/en-us/firefox/addon/googlesharing/](https://addons.mozilla.org/en-us/firefox/addon/googlesharing/)

@@ -1,129 +1,105 @@
-Using Tor?
-==========
+Utiliser Tor
+============
 
-Tor is a system intended to enable online anonymity, composed of client software and a network of servers which can hide information about users' locations and other factors which might identify them. Imagine a message being wrapped in several layers of protection: every server needs to take off one layer, thereby immediately deleting the sender information of the previous server.
+Tor est un système imaginé pour permettre l'anonymat en ligne, composé d'un logiciel client et d'un réseau de serveurs qui peut cacher la localisation des utilisateurs et d'autres facteurs qui pourraient les identifier.
+Imaginez un message enroulé dans plusieurs couches de protection : chaque serveur retire une couche et, ainsi, supprime les informations de l'expéditeur.
 
-Use of this system makes it more difficult to trace internet traffic to the user, including visits to Web sites, online posts, instant messages, and other communication forms. It is intended to protect users' personal freedom, privacy, and ability to conduct confidential business, by keeping their internet activities from being monitored. The software is open-source and the network is free of charge to use.
+L'utilisation de ce système rend difficile la surveillance du trafic Internet des utilisateurs, y compris les sites web visités, les articles en ligne, les conversations instantannées, etc ...
+Il vise à protéger la liberté des utilisateurs, leur vie privée ainsi que leur capacité à mener des affaires confidentielles, en protégeant leurs activités sur Internet contre la surveillance.
+Le logiciel est open-source et l'utiilisation du réseau est gratuite.
 
-Like all current low latency anonymity networks, Tor cannot and does not attempt to protect against monitoring of traffic at the boundaries of the Tor network, i.e., the traffic entering and exiting the network. While Tor does provide protection against traffic analysis, it cannot prevent traffic confirmation (also called end-to-end correlation)
+Comme tous les autres réseaux d'anonymisation à faible latence, Tor ne peut pas et n'essaye pas de vous protéger contre la surveillance aux extrémités du réseau (le trafic entrant et sortant du réseau Tor).
+Tor vous protège contre l'analyse de trafic mais il ne peut pas vous protéger contre le "traffic confirmation" (aussi appellé "end-to-end correlation")
 
-Caution: As Tor does not, and by design cannot, encrypt the traffic between an exit node and the target server, any exit node is in a position to capture any traffic passing through it which does not use end-to-end encryption such as TLS. (If your postman is corrupt he might still open the envelope and read the content). While this may or may not inherently violate the anonymity of the source, if users mistake Tor's anonymity for end-to-end encryption they may be subject to additional risk of data interception by third parties. So: the location of the user remains hidden; however, in some cases content is vulnerable for analysis through which also information about the user may be gained.
+Attention : Comme Tor ne chiffre pas le trafic entre le noeud de sortie et le serveur cible, n'importe quel noeud de sortie est capable de lire le trafic qui passe au chez lui si celui ci n'est pas chiffré de bout-en-bout avec TLS par exemple.
+(Si votre postier est corrompu, il pourrait encore ouvrir l'enveloppe et lire le contenu).
+Bien que cela ne viole pas forcément l'anonymat de la source, si les utilisateurs de Tor font des erreurs, ils peuveut devenir sujets d'interceptions de données par des tiers.
+Donc : la localisation des utilisateurs reste caché, cependant, dans certains cas, le contenu est vulnérable à l'analyse au travers de laquelle des informations à propos des utilisateurs peuvent être récupérées.
 
-Using Tor Browser Bundle
-------------------------
-
-The Tor Browser Bundle lets you use Tor on Windows, OSX and/or Linux without requiring you to configure a Web browser. Even better, it's also a portable application that can be run from a USB flash drive, allowing you to carry it to any PC without installing it on each computer's hard drive.
-
-Downloading Tor Browser Bundle
+Utiliser le Tor Browser Bundle
 ------------------------------
 
-You can download the Tor Browser Bundle from the torproject.org Web site ([https://www.torproject.org](https://www.torproject.org)), either as a single file (13MB) or a split version that is multiple files of 1.4 MB each which may proof easier to download on slow connections.
+Le Tor Browser Bundle vous permet d'utiliser Tor sur Windows OS X et/ou Linux sans avoir besoin de configurer un navigateur web. Mieux encore, c'est aussi une application portable qui peut être lancée depuis une clé USB afin de pouvoir l'utiliser sur n'importe quel ordinateur sans devoir l'installer sur le disque dur.
 
-If the torproject.org Web site is filtered from where you are, type "tor mirrors" in your favorite Web search engine: The results probably include some alternative addresses to download the Tor Browser Bundle.
+Téléchargement du Tor Browser Bundle
+------------------------------------
 
-Caution: When you download Tor Bundle (plain or split versions), you should check the signatures of the files, especially if you are downloading the files from a mirror site. This step ensures that the files have not been tampered with. To learn more about signature files and how to check them, read [https://www.torproject.org/docs/verifying-signatures](https://www.torproject.org/docs/verifying-signatures)
+Vous pouvez télécharger le Tor Browser Bundle depuis le site web [torproject.org](https://www.torproject.org).
 
-(You can also download the GnuPG software that you will need to check the signature here: [http://www.gnupg.org/download/index.en.html#auto-ref-2](http://www.gnupg.org/download/index.en.html#auto-ref-2))
+Si le site torproject.org est filtré de la où vous êtes, tapez "tor mirrors" dans votre moteur de recherche favoris : Les résultats devrait probablement vous donnez des alternatives pour télécharger le Tor Browser Bundle.
 
-The instructions below refer to installing Tor Browser on Microsoft Windows. If you are using a different operating system, refer to the torproject.org website for download links and instructions.
+Attention : Après avoir téléchargé le Tor Bundle, vous devriez vérifier les signatures des fichiers, notamment si vous les avez téléchargés depuis les sites mirroirs. Cette vérification vous assure que les fichiers téléchargés ne sont pas différents de ceux fournis par le Projet Tor. Pour en apprendre plus sur les signatures et comprendre comment les vérifier, lisez [https://www.torproject.org/docs/verifying-signatures](https://www.torproject.org/docs/verifying-signatures).
 
-### Installing from a single file
+(Vous pouvez aussi télécharger le logiciel GnuPG dont vous aurez besoin pour vérifier la signature sur cette page : [http://www.gnupg.org/download/index.en.html#auto-ref-2](http://www.gnupg.org/download/index.en.html#auto-ref-2))
 
- 1. In your Web browser, enter the download URL for Tor Browser:
-    [https://www.torproject.org/download/download](https://www.torproject.org/download/download)
+Les instructions ci-dessous concernent l'installation du Tor Browser sur Windows. Si vous utilisez un autre système d'exploitation, rendez-vous sur le site torproject.org.
 
- ![Tor](tor_1.png)
+### Installation
 
- 2. Click the link for your language to download the installation file.
+ 1. Dans votre navigateur web, entrez l'URL de téléchargement du Tor Browser : [https://www.torproject.org/download/download](https://www.torproject.org/download/download).
 
- 3. On windows double-click the .EXE file you just downloaded. A "7-Zip self-extracting archive" window appears.
+ ![Page de téléchargement du Tor Browser Bundle](tor_1.png)
 
- ![Tor](tor_2.png)
+ 2. Choisissez votre langue dans le menu déroulant et cliquez sur le bouton **Download Tor Browser**.
 
- 4. Choose a folder into which you want to extract the files and click "Extract".
+ 3. Un fois le fichier téléchargé, double-cliquez dessus pour lancer l'application.
 
- **Note:** You can choose to extract the files directly onto a USB key or memory stick if you want to use Tor Browser on different computers (for instance on public computers in Internet cafes).
+ 4. Choisissez votre langue et cliquez sur OK.
 
- 5. When the extraction is completed, open the folder and check that the contents match the image below:
+ 5. Suivez les instructions afin d'installer le logiciel.
 
- ![Tor](tor_3.png)
+ 6. Une fois le Tor Browser installé, supprimez le fichier précédemment téléchargé.
 
- 6. To clean up, delete the .EXE file you originally downloaded.
+Utilisation du Tor Browser
+--------------------------
 
-### Installing from split files
+Avant de commencer :
 
- 1. In your Web browser, enter the URL for the split version of the Tor Browser Bundle (https://www.torproject.org/torbrowser/split.html), then click the link for your language to get to a page that looks like the one for English below:
+ * **Fermer Firefox** Si Firefox est installé sur votre ordinateur, vérifiez qu'il n'est pas en train de tourner.
 
- ![Tor](tor_4.png)
+ * **Fermez Tor** Si Tor est déjà installé sur votre ordinateur, vérifiez qu'il n'est pas en train de tourner.
 
- 2. Click each file to download it (one ending in ".exe" and nine others ending in ".rar"), one after the other, and save them all in one folder on your hard- or USB-drive.
+Lancez le Tor Browser :
 
- 3. Double-click the first part (the file whose name ends in ".exe"). This runs a program to gather all the parts together.
+ 1. Double-cliquez sur l'icône **Start Tor Browser**. Une fois le panneau de contrôle de Tor ("Vidalia") ouvert cliquez sur le bouton **Se connecter**.
 
- ![Tor](tor_5.png)
+ ![Connexion au réseau Tor ...](tor_7.png)
 
- 4. Choose a folder where you want to install the files, and click "Install". The program displays messages about its progress while it's running, and then quits.
+ 2. Une fois que la connexion est établie, le navigateur va s'ouvrir et automatique se connecter à la page TorCheck pour vous confirmez que vous êtes connecté. Ceci peut prendre un peu de temps en fonction de la qualité de votre connexion Internet.
 
- 5. When the extraction is completed, open the folder and check that the contents match the image below:
+ ![Vérification de la connexion au réseau Tor](tor_8.png)
 
- ![Tor](tor_6.png)
+Surfer sur le Web avec le Tor Browser
+-------------------------------------
 
- 6. To clean up, delete all the files you originally downloaded.
+Essayez de naviguer sur des sites web et voyez comment ils s'affichent. Le chargement des pages est plus long que d'habitude car votre connexion passe par plusieurs serveurs relais.
 
-Using Tor Browser
------------------
+Si ça ne fonctionne pas
+-----------------------
 
-Before you start:
+Si Firefox s'ouvre et affiche la page "Désolé. Vous n'utilisez pas Tor" comme sur l'image ci-dessous, cela signifie que vous n'utilisez pas le réseau Tor.
 
- * **Close Firefox.** If Firefox is installed on your computer, make sure it is not currently running.
+![Erreur de connexion au réseau Tor](tor_10.png)
 
- * **Close Tor.** If Tor is already installed on your computer, make sure it is not currently running.
+Si vous voyez ce message, fermez Firefox et le Tor Browser et recommencez.
 
-Launch Tor Browser:
+Si Firefox ne se lance pas, une autre instance du navigateur pourrait interférer avec le Tor Browser. Pour règler ce problème :
 
- 1. In the "Tor Browser" folder, double-click "Start Tor Browser". The Tor control panel ("Vidalia") opens and Tor starts to connect to the Tor network.
+ 1. Ouvrez le gestionnaire des tâches. Pour cela, tout dépends de la manière dont votre ordinateur est configuré. Sur la plupart des systèmes, vous pouvez faire un clic droit sur la barre des tâches et cliquer sur le "Gestionnaire des tâches".
+ 2. Cliquez sur l'onglet "Processus".
+ 3. Cherchez un processus dans la liste nommé "firefox.exe".
+ 4. Si vous en voyez un, sélectionnez le et cliquez sur "Terminer le processus"
+ 5. Relancez le Tor Browser.
 
- ![Tor](tor_7.png)
+Si le Tor Browser ne fonctionne toujours pas après deux ou trois essais, c'est que Tor est peut-être bloqué par votre FAI et vous devriez essayer d'utiliser la fonction **bridge** de Tor.
 
- 2. When a connection is established, Firefox automatically connects to the TorCheck page and then confirms if you are connected to the Tor network. This may take some time, depending on the quality of your Internet connection.
+Utilisation des Bridges Tor
+---------------------------
 
- ![Tor](tor_8.png)
+Si vous ne pouvez toujours pas vous connecter, votre FAI filtre peut-être votre connexion et vous bloque l'accès au réseau Tor. Dans ce cas, l'utilisation d'un bridge Tor peut aider. Un bridge Tor est un relais qui n'est pas listé. Pour utiliser un bridge, la première étape consiste à trouver un serveur.
 
- 3. If you are connected to the Tor network, a green onion icon appears in the System Tray on the lower-right-hand corner of your screen:
+La façon la plus simple de trouver un bridge est d'aller sur le site du projet Tor ([https://bridges.torproject.org/](https://bridges.torproject.org/)), même si le site est bloqué, vous pouvez envoyer un email (depuis une adresse Gmail, Yahoo ou Riseup uniquement) à bridges@torproject.org avec la line "get bridges" dans le corps du message.
 
- ![Tor](tor_9.png)
+Une fois que vous avez un bridge (ou une liste de bridges), vous pouvez utiliser le panneau de configuration du réseau Tor pour l'ajouter. Cliquez sur le bouton **Oui** à la question "Est-ce que votre Fournisseur d'Accès Internet (FAI) bloque les connexions au réseau Tor", puis, cliquez sur le bouton **Suivant**. Cliquez ensuite sur **Entrer vos bridges personnels** et ajoutez les adresses de vos bridges dans la zone dédiée. Continuer la procédure en cliquant sur **Suivant** et suivez les instructions pour vous connecter au réseau Tor.
 
-Browsing the Web using Tor Browser
-----------------------------------
-
-Try viewing a few Web sites, and see whether they display. The sites are likely to load more slowly than usual because your connection is being routed through several relays.
-
-If this does not work
----------------------
-
-If the onion in the Vidalia Control Panel never turns green or if Firefox opened, but displayed a page saying "Sorry. You are not using Tor", as in the image below, then you are not using Tor.
-
-![Tor](tor_10.png)
-
-If you see this message, close Firefox and Tor Browser and then repeat the steps above. You can perform this check to ensure that you are using tor, at any time by clicking the bookmark button labelled "TorCheck at Xenobite..." in the Firefox toolbar.
-
-If Firefox browser does not launch, another instance of the browser may be interfering with Tor Browser. To fix this:
-
- 1. Open the Windows Task Manager. How you do this depends on how your computer is set up. On most systems, you can right-click in the Task Bar and then click "Task Manager".
- 2. Click the "Processes" tab.
- 3. Look for a process in the list named "firefox.exe".
- 4. If you find one, select the entry and click "End Process".
- 5. Repeat the steps above to launch Tor Browser.
-
-If Tor Browser still doesn't work after two or three tries, Tor may be partly blocked by your ISP and you should try using the **bridge** feature of Tor.
-
-Using Tor Bridges
------------------
-
-If you still can not connect, your ISP may be filtering your connection and preventing access to the Tor network.  In this case, connecting through a Tor bridge may help.  A Tor bridge is a relay that's not listed.  The first step in using a bridge is finding one.
-
-The easiest way to find a bridge is to visit the Tor bridge website ([https://bridges.torproject.org/](https://bridges.torproject.org/)), however if that site is blocked, you can also send an email (it must be from a Gmail account) to bridges@bridges.torproject.org with the line "get bridges" by itself in the body of the mail.
-
-Once you have a bridge, or lists of bridges, you can enter them into Vidalia's network configuration.  Once you click, "My ISP blocks connections to the Tor network," you will be able to enter the bridge address.
-
-![Tor Bridge Configuration](tor_11.png)
+![Configuration des bridges Tor](tor_11.png)

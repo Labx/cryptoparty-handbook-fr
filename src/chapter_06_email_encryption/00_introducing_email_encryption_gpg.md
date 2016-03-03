@@ -1,36 +1,51 @@
-Introducing mail encryption (PGP)
-=================================
+Introduction au chiffrement d'emails (PGP)
+==========================================
 
-![PGP](pgp.jpg)
+![Logo de PGP](pgp.jpg)
 
-This chapter will introduce you to some basic concepts behind mail encryption. It is important to read to get some feeling of how mail encryption actually works and what its caveats and limitations are. **PGP** (Pretty Good Privacy) is the protocol we shall use for e-mail encryption. This protocol allows us to digitally sign and encrypt mail messages. It works on an end-to-end basis: messages will be encrypted on your own computer and will only be decrypted by the recipient of the message. There is no possibility for a 'man-in-the-middle' to decipher the contents of your encrypted message. This *excludes* the subject lines and the 'from' and 'to' addresses, which unfortunately are not encrypted in this protocol.
+Au travers de ce chapitre, nous verrons quelques concepts basiques du chiffrement d'emails.
+C'est important de les voir afin de mieux cerner le fonctionnement de ce système et de comprendre quelles sont ses limites.
+Nous allons utiliser le protocole **PGP** (Pretty Good Privacy) qui vous permet de chiffrer vos emails mais aussi de faire des signatures numériques.
+Il fonctionne sur le principe de chiffrement de bout-en-bout : le message est chiffré sur votre ordinateur et sera déchiffré par le destinataire uniquement.
+Même s'il est intercepté sur le réseau, le contenu du message ne pourra pas être décrypter.
+Cependant, les meta-données comme le sujet de l'email, l'expéditeur ou le destinataire ne seront pas chiffrées.
 
-After having introduced these basic concepts, the next chapters will give you a hands-on guide to install the necessary tools on your operating system and get encryption up and running. We will focus on using Enigmail which is an extension for Thunderbird that helps you manage PGP encryption for your email. The installation process for Enigmail / PGP is different for Mac OSX, Windows and Ubuntu so please see the appropriate chapters in this section for instructions.
+Après cette introduction aux concepts de base, les prochains chapitres vous guideront dans l'installation et l'utilisation des outils nécessaires en fonction de votre système d'exploitation.
+Nous nous concenterons sur Enigmail qui est une extension pour Thunderbird qui permet de gérer le chiffrement des emails avec PGP.
+Le processus d'installation d'Enigmail et PGP est différent si vous êtes sur Windows, Mac OSX ou Ubuntu donc veillez à bien suivre le chapitre dédié à votre système d'exploitation.
 
-![GPG Schema](gpg-schema.jpg)
+![Schéma présentant le fonctionnement de GPG](gpg-schema.jpg)
 
-Using a key-pair to encrypt your mail
--------------------------------------
+Utiliser une paire de clés pour chiffrer vos emails
+---------------------------------------------------
 
-A crucial concept in mail encryption is the usage of so-called *key-pairs*. A key-pair is just two separate files sitting on your harddisk or USB stick. Whenever you want to encrypt mails for a certain mail-account, you will need to have these files available to yourself in some form. If they are sitting at home on your computer, you will not be able to decrypt mail at the office. Putting them on a USB stick should provide a solution to this problem.
+PGP repose sur un concept crucial, l'usage des **paires de clés**.
+Une paire de clés est simplement constituée de deux fichiers séparés sur votre disque dur ou une clé USB.
+Lorsque vous voudrez chiffrer vos emails, vous aurez besoin de ces fichiers.
+Si ils sont sur votre ordinateur chez vous, vous ne pourrez pas déchiffrer vos emails à votre bureau.
+Vous pouvez mettre ces fichiers sur une clé USB pour résoudre ce problème.
 
-A key-pair consists of the two different keys: a public key and a secret key.
+Une paire de clés est composée de deux clés différentes : une publique et une privée.
 
-The public key: you can give this key to other people, so they can send you encrypted mails. This file does not have to be kept secret.
+La clé publique : vous pouvez la donner à tout le monde pour que les gens puissent vous envoyer des emails chiffrés. Ce fichier n'a pas vocation à rester secret.
 
-The secret key: this basically is your secret file to decrypt emails people send to you. It should *never* be given to someone else.
+La clé privée : c'est le fichier secret qui est indispensable pour déchiffrer les emails que les gens vous envoient. Vous devez garder cette clé en sécurité et ne *jamais* la partager.
 
-Sending encrypted mails to other people: you need their public key
-------------------------------------------------------------------
+Pour envoyer des emails chiffrés à des gens : vous devez avoir leur clé publique
+--------------------------------------------------------------------------------
 
-I have five colleagues at work and I want to send encrypted mails to them. I need to have public keys for each of their addresses. They can send me these keys using ordinary mail, or they can give them to me in person, or put them on a USB stick, or they can have their keys on a website. It doesn't matter, as long as I can trust those keys really belong to the person I want to correspond with. My software puts the keys on my `keyring', so my mail application knows how to send them encrypted mails.
+J'ai cinq collègues au travail et je veux leur envoyer un email.
+J'ai donc besoin d'avoir la clé publique de chacun d'entre eux.
+Ils peuvent m'envoyer leur clé dans un email classique, la mettre sur ma clé USB ou simplement la mettre sur un site web.
+Cela n'a pas d'importance tant que je peux être sûr que ces clés appartiennent vraiment à mes destinataires.
+Mon logiciel ajoute les clés dans le gestionnaire de clés et, ainsi, mon logiciel de mail sera capable de leur envoyer des emails chiffrés.
 
-Receiving encrypted mails from other people: they need my public key
---------------------------------------------------------------------
+Pour recevoir des emails chiffrés : ils ont besoin de ma clé publique
+---------------------------------------------------------------------
 
-For my five (or thirty) colleagues to be able to send *me* encrypted mails, the process goes the other way around. I need to distribute my public key to each of them.
+Pour que mes cinq (ou trente) collègues puissent m'envoyer des emails chiffrés, le processus est le même que celui détaillé précédemment mais à l'envers. Je dois distribuer ma clé publique à chacun d'entre eux.
 
-Conclusion: encryption requires public key distribution!
---------------------------------------------------------
+Conclusion : la distribution de clés publiques est nécessaire au chiffrement !
+------------------------------------------------------------------------------
 
-All the people in a network of friends or colleagues wanting to send each other encrypted emails, need to distribute their public keys to each other, while keeping their secret keys a closely guarded secret. The software described in this chapter will help you do this key management.
+Toutes les personnes dans un groupe d'amis ou de collègues qui veulent s'envoyer des emails chiffrés doivent distribuer leur clé publique tout en gardant secrète leur clé privée. Le logiciel décrit dans ce chapitre vous aidera à gérer vos clés.

@@ -1,18 +1,16 @@
-Installing PGP on Ubuntu
-========================
+Installation de PGP sur Ubuntu
+==============================
 
-We will use the Ubuntu Software Centre for installing PGP (Enigmail and accessories). First open the Ubuntu Software Center through the Unity menu by typing 'software' into the Unity search area
+Nous allons utiliser la logithèque d'Ubuntu pour installer PGP (Enigmail et ses composants). Pour commencer, ouvrez la logithèque grâce au menu Unity en tapant 'logithèque' dans la barre de recherche.
 
-![PGP Install](pgp_ubuntu_inst_1.png)
+![Recherche de la logithèque dans le menu Unity](pgp_ubuntu_inst_1.png)
 
-Click on the 'Ubuntu Software Center'.
+Cliquez sur "Logithèque Ubuntu".
 
-Type into the search field 'Enigmail' and search results should be returned automatically:
+Tapez "Enigmail" dans la barre de recherche de la logithèque et l'extension Enigmail devrait apparaître. Cliquez sur "Installer" et authentifiez vous pour continuer.
 
-Highlight the Enigmail item (it should be highlighted by default) and click 'Install' and you will be asked to authenticate the installation process.
+![Authentification avec l'installation d'Enigmail](pgp_ubuntu_inst_2.png)
 
-![PGP Install](pgp_ubuntu_inst_2.png)
+Entrez votre mot de passe et cliquez sur "S'authentifier". L'installation devrait démarrer.
 
-Enter your password and click 'Authenticate'. The installation process will begin.
-
-When the process is completed you get very little feedback from Ubuntu. The progress bar at the top left disappears. The 'In Progress' text on the right also disappears. Enigmail should now be installed.
+Une fois l'installation terminée, la barre de progression devrait disparaître. Enigmail est maintenant installé.

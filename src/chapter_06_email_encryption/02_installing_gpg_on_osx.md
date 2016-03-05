@@ -1,78 +1,67 @@
-Installing PGP on OSX
-=====================
+Installation de PGP sur OS X
+============================
 
-The GNU Privacy Guard (GnuPG) is software which enables you to send PGP encrypted or signed emails. It is necessary to install this software before being able to do any encryption. This chapter covers the installation steps required to install GnuPG on Mac OSX.
+Le logiciel GPG (GNU Privacy Guard ou GnuPG) vous permet d'envoyer des emails chiffrés ou signés grâce au protocole PGP. Vous devez installer ce logiciel avant de pouvoir utiliser ce protocole. Ce chapitre couvre les étapes d'installation du logiciel GPG sur Mac OS X et de l'extension Enigmail pour Thunderbird.
 
-Getting started
----------------
+Pour commencer
+--------------
 
-For this chapter we assume you have the latest version of:
+Dans ce chapitre, nous considérons que vous avez les dernières versions d'OS X et Thunderbird.
 
- * OSX installed (10.6.7)
- * Thunderbird (3.1.10)
+ **Note à propos de Mail** : Il est possible d'utiliser PGP avec le client mail par défaut d'OS X. Cependant, nous ne le recommandons pas car cette option repose sur un hack de ce programme qui n'est ni ouvert ni pris en charge par son développeur et pose problème à chaque mise à jour du client mail. Donc, à moins de ne pas avoir d'autre option, nous vous recommendons de passer sur Mozilla Thunderbird en tant que client mail par défaut si vous souhaitez utiliser PGP.
 
- **Note on OSX Mail:** It is possible to use PGP with the build-in mail program of OSX. But we do not recommend this because this option relies on a hack of the program which is neither open or supported by its developer and breaks with every update of the mail program. So unless you really have no other option we advice you to switch to Mozilla Thunderbird as your default mail program if you want to use PGP.
+Téléchargement et installation du logiciel
+------------------------------------------
 
-Downloading and installing the Software
----------------------------------------
+ 1. Pour OS X, il y a un paquet de disponible qui permet d'installer tout ce dont on a besoin en une seule fois. Vous pouvez le récupérer depuis votre navigateur à cette adresse : [https://gpgtools.org/](https://gpgtools.org/). Cliquez sur le bouton "Download GPG Suite" pour télécharger l'image disque.
 
- 1. For OSX there is a bundle available which will install everything you need in one installation. You can get it by directing your browser to [http://www.gpgtools.org/](http://www.gpgtools.org/) and clicking on the big blue disk with "Download GPGTools Installer" written under it. It will redirect you to another page on [http://www.gpgtools.org/installer/index.html](http://www.gpgtools.org/installer/index.html) where you can actually download the software.
+![Page de téléchargement de la Suite GPG pour OS X](gpg_mac_inst_1.jpg)
 
-*(nb. We are using the latest version Firefox for this manual, so the screens might look a little bit different if you are using a different browser)*
+ 2. Téléchargez le logiciel en choisissant "Enregistrer le fichier" et en cliquant sur "OK" dans la fenêtre qui s'affiche.
 
-![GPG Install](gpg_mac_inst_1.jpg)
+ ![Sauvegarde de l'image disque de la Suite GPG](gpg_mac_inst_2.jpg)
 
- 2. Download the software by choosing 'Save File' and clicking 'OK' in the dialogue.
+ 3. Naviguez dans le dossier de téléchargements et double-cliquez sur le fichier .dmg téléchargé pour ouvrir le disque virtuel qui contient l'installeur.
 
- ![GPG Install](gpg_mac_inst_2.jpg)
+ ![Image disque de la Suite GPG](gpg_mac_inst_3.jpg)
 
- 3. Navigate to the folder where you normally store your downloads (Mostly the desktop or the downloads folder surprisingly) en double click the '.DMG' file to open the virtual disk containing the installer.
+ 4. Ouvrez l'installeur en double-cliquant sur l'icône.
 
- ![GPG Install](gpg_mac_inst_3.jpg)
+ ![Installeur de la Suite GPG](gpg_mac_inst_4.jpg)
 
- 4. Open the installer by double-clicking on the icon.
+ 5. Le programme vérifiera que le logiciel peut être utilisé sur votre ordinateur
 
- ![GPG Install](gpg_mac_inst_4.jpg)
+ (Note, si vous avez acheté votre Mac avant 2006, il ne possèdera pas un processeur Intel requis pour utiliser la Suite GPG et l'installation échouera.)
 
- 5. The program will check your computer to see if it can run on the computer.
+ ![Vérification de l'ordinateur](gpg_mac_inst_5.jpg)
 
- (Note, if you're Mac is bought before 2006 it will not have an intel processor required to run this software and the installation will fail. Sadly it is beyond the scope op this manual to also take into account computers over five year old)
+ Vous serez guidé par l'installeur dans les étapes suivantes comme l'acceptation de la lience. Mais arrêtez d'appuyer sur OK lorsque vous arriverez à l'étape "Type d'installation" :
 
- ![GPG Install](gpg_mac_inst_5.jpg)
+ ![Choix du type d'installation](gpg_mac_inst_6.jpg)
 
- You will be guided by the program through the next steps like accepting the license agreement. But stop pressing all the OK's and Agrees as soon as you come to the 'Installation Type' screen:
-
- ![GPG Install](gpg_mac_inst_6.jpg)
-
- 6. Clicking 'Customize' will open this screen where you several options of programs and software to install. You can click on each one of them to get a little bit of information on what is is, what it does and why you might need it.
+ 6. Cliquez sur "Personnaliser" pour ouvrir cette fenêtre où plusieurs options de programmes et logiciels sont disponibles à l'installation. Vous pouvez cliquer sur chacune d'entre elles pour obtenir quelques informations sur le logiciel, ce qu'il fait et pourquoi vous pourriez en avoir besoin.
 
  ![GPG Install](gpg_mac_inst_7.jpg)
 
-As said in the intro; we advise against using Apple Mail in combination with PGP. Therefore you won't be needing 'GPGMail', as this enables PGP on Apple Mail, and you can uncheck it.
+Comme nous l'avons dit dans l'intro, nous conseillons de ne pas utiliser PGP avec Apple Mail. Vous n'avez donc pas besoin de "GPGMail" qui sert à activer PGP avec Apple Mail, vous pouvez le décocher.
 
-'**Enigmail**' on the other hand is very important as it is the component that will enable Thunderbird to use PGP. In the screen shot here it is greyed out as the installer wasn't able to identify my installation of Thunderbird. Since this seems to be a bug. You can also install Enigmail from within Thunderbird as is explained in another chapter.
+Cochez tous les composants que vous voulez installer et cliquez sur "Installer". L'installeur vous demandera votre mot de passe et commencera l'installation.
 
-If the option is not greyed out in your installation, you should tick it.
+![Installation de la Suite GPG terminée](gpg_mac_inst_8.jpg)
 
-After you checked all the components you want to install click 'Install' to proceed. The installer will ask you for your password and after you enter that the installation will run and complete; Hooray!
+Installation d'Enigmail
+-----------------------
 
-![GPG Install](gpg_mac_inst_8.jpg)
+ 1. Ouvrez **Thunderbird** puis cliquez sur `Outils > Modules complémentaires` pour ouvrir la fenêtre des modules complémentaires.
 
-Installing up Engimail
-----------------------
+ 2. Dans cette fenêtre, vous pouvez rechercher l'extension 'Enigmail' et l'installer en cliquant sur "Ajouter à Thunderbird ...".
 
- 1. Open **Thunderbird**, then `Select Tools > Add-ons` to activate the *Add-ons* window; the Add-ons window will appear with the default *Get Add-ons* pane enabled.
+ ![Recherche de l'extension Enigmail dans Thunderbird](enigmail_mac_inst_1.jpg)
 
- In the Add-On window, you can search for 'Enigmail' and install the extension by clicking 'Add to Thunderbird ...'
+ 3. Cliquez sur "Installer maintenant" pour télécharger et installer l'extension.
 
- 2. After you open the Add-On window, you can search for 'Enigmail' and install the extension by clicking 'Add to Thunderbird ...'
+ ![Installation d'Enigmail](enigmail_mac_inst_2.jpg)
 
- ![GPG Install](enigmail_mac_inst_1.jpg)
+**N'oubliez pas de redémarrer Thunderbird pour pouvoir utiliser cette extension !**
 
- 3. Click on 'Install Now' to download and install the extension.
-
- ![GPG Install](enigmail_mac_inst_2.jpg)
-
-**Be aware that you will have to restart Thunderbird to use the functionality of this extension!**
-
-Now that you have successfully downloaded and installed Enigmail and PGP you can go on to the Chapter that deals with setting up the software for use.
+Enigmail et PGP sont maintenant installés. Dans les prochains chapitres, nous verrons comment les utiliser et comment les configurer.

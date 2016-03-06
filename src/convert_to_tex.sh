@@ -57,7 +57,7 @@ for d in chapter*; do
 		mkdir $DIR/$d
 	fi
 	echo "\\graphicspath{{./$d/}}" >> $DIR/main.tex
-	title=`echo $d | sed 's/chapter_[0-9][0-9]_//; s/_/ /g; s/^./\U&/; s/ ./\U&/g'`
+	title=`cat $d/title.txt`
 	echo "\\chapter{$title}" >> $DIR/main.tex
 	for f in $d/*.md; do
 		pandoc -f markdown -t latex $f -o $DIR/$f.tex

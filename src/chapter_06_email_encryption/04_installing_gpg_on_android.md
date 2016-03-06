@@ -1,29 +1,30 @@
-Installing GPG on Android
-=========================
+Installation de GPG sur Android
+===============================
 
-With the growing usage of mobile phones for e-mail, it's interesting to be able to use GPG also on your mobile. This way you can still read the messages sent to you in GPG on your phone and not only on your computer. 
+Avec l'utilisation grandissante des emails sur les téléphones portables, il peut être intéressant de pouvoir utiliser GPG sur ces derniers. Grâce à cela, vous pourrez lire et envoyer des messages chiffrés avec PGP depuis votre téléphone et plus seulement depuis votre ordinateur.
 
-Install the *Android Privacy Guard (APG)* and *K-9 Mail* applications to your Android device from the Google Play Store or another trusted source.
+Installez les applications *Android Privacy Guard (APG)* et *K-9 Mail* sur votre appareil Android depuis le Google Play Store ou autre source sûre.
 
- 1. Generate a new private key that uses DSA-Elgamal with your PC's GPG installation (You can only create keys with up to 1024bit key length on Android itself).
- 2. Copy the private key to your Android device.
- 3. Import the private key to APG. You may wish to have APG automatically delete the plaintext copy of your private key from your Android device's filesystem.
- 4. Set-up your e-mail accounts in *K-9 Mail*.
- 5. In the settings for each account, under *Cryptography*, make sure that K-9 Mail knows to use APG. You can also find options here to make K-9 Mail automatically sign your messages and/or encrypt them if APG can find a public key for the recipient(s).
- 6. Try it out.
+ 1. Générez une nouvelle clé privée qui utilise l'algorithme DSA-Elgamal grâce au logiciel GPG sur votre ordinateur (Vous ne pouvez pas générer des clés de plus 1024 bits sur votre téléphone).
+ 2. Copiez la clé privée sur votre appareil Android.
+ 3. Importez la clé privée dans APG. Vous pouvez demander à APG de supprimer automatiquement la copie de votre clé privée du système de fichiers d'Android.
+ 4. Configurez votre compte email dans l'application *K-9 Mail*.
+ 5. Dans les paramètres de votre compte, en dessous de *Cryptographie*, vérifiez que K-9 Mail sais qu'il doit utiliser APG. Vous pouvez également trouver des options pour permettre à K-9 Mail de chiffrer et/ou signer les emails automatiquement lorsqu'il trouve la clé publique de votre destinataire.
+ 6. Essayez le.
 
 APG
 ---
 
-This is a small tool which makes GPG encryption possible on the phone. You can use APG to manage your private and public keys. The options in the application are quite straightforward if you are a little knowledge of GPG in general.
+C'est un petit outil permettant d'utiliser GPG sur un téléphone Android. Vous pouvez aussi utiliser APG pour gérer vos clés publiques et privées. Les options proposées par l'application sont assez compréhensibles si vous connaissez un peu GPG en général.
 
-Management of keys is not very well implemented yet. The best way is to manually copy all your public keys to the SD card in the APG folder. Then it's easy to import your keys. After you've imported your public and private keys, GPG encrypting, signing and decrypting will be available for other applications as long as these applications have integrated encryption/GPG.
+Le système de gestion de clés n'est cependant pas très bien implémenté. Le plus simple est de copier manuellement vos clés publiques dans le dossier APG. Ce sera ensuite plus facile d'importer ces clés. Une fois vos clés publiques et privées importées, le chiffrement PGP, la signature et le déchiffrement seront disponibles pour les autres applications si elles intègrent GPG.
 
-GPG enabled e-mail on Android: K-9 Mail
----------------------------------------
+Le chiffrement GPG sur Android : K-9 Mail
+-----------------------------------------
 
-The default mail application does not support GPG. Luckily there is an excellent alternative: K-9 Mail. This application is based on the original Android mail application but with some improvements. The application can use APG as it's GPG provider. Setting up K-9 Mail is straightforward and similar to setting up mail in the Android default mail application. In the settings menu there is an option to enable "Cryptography" for GPG mail signing.
+L'application mail par défaut ne supporte pas GPG. Heureusement, il y a une excellente alternative : K-9 Mail. Cette application est basée sur l'application mail par défaut d'Android avec quelques fonctionnalités en plus.
+Elle utiliser APG en tant qu'interface avec GPG et sa configuration est simple et similaire à la configuration du client mail de base d'Android. Dans les paramètres, il y a une option permettant d'utiliser GPG pour le chiffrement des emails.
 
-If you want to access your GPG mails on your phone this application is a must have.
+Si vous voulez avoir accès à vos emails chiffrés sur votre téléphone portable, cette application est indispensable.
 
-Please note, due to some small bugs in K-9 Mail and/or APG, it's very advisable to disable HTML mail and use only Plain text. HTML mails are not encrypted nicely and are often not readable.
+Notez que, en raison de quelques petits bugs dans K-9 Mail et/ou APG, il est plus sûr de désactiver l'HTML dans les emails et de n'utiliser que du texte clair. Les emails en HTML ne sont pas chiffrés correctement et sont souvent illisibles.

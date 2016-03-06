@@ -1,37 +1,73 @@
-Publishing Anonymously
-======================
+Publier anonymement
+===================
 
-Whether you are an activist operating under a totalitarian regime, an employee determined to expose some wrongdoings in your company or a vengeful writer composing a bitchy portrait of your ex-wife, you need to protect your identity. If you are not collaborating with others, the focus lies on anonymity and not encryption or privacy. 
+Peut importe que vous soyez un activiste sous le coup d'une opération d'un régime totalitaire, un employé déterminé à exposer les malfaçons de son entreprise ou un écrivain vengeur composant un portrait peut flatteur de votre ex-femme, vous avez besoin de protéger votre identité.
+Si vous ne collaborez pas avec les autres, il faut mettre l'accent sur l'anonymat plus que sur le chiffrement.
 
-If the message is urgent and the stakes are high, one easy way to just get it out quickly is going to an internet cafe one usually does not frequent, create accounts specifically set up for the task, deliver the data and discard those accounts right after that. If you are in a hurry, consider MintEmail ([http://www.mintemail.com/](http://www.mintemail.com/)) or FilzMail ([http://www.filzmail.com/](http://www.filzmail.com/)), where your address will expire from 3 to 24 hours respectively. Do not do anything else while you're there; don't check your Gmail account, do not have a quick one on Facebook and clear all cache, cookies and history and close the browser before you leave.
+Si le message est urgent et l'enjeu est important, la façon la plus simple d'aller dans un cybercafé que vous ne fréquentez pas d'habitude, créez un compte spécifique pour la tâche, délivrez les données et supprimez ces comptes juste après.
+Si vous êtes pressé, pensez à des services comme MintEmail ([http://www.mintemail.com/](http://www.mintemail.com/)) ou FilzMail ([http://www.filzmail.com/](http://www.filzmail.com/)) où votre adresse expirera après, respectivement, 3 et 24 heures.
+Ne faites rien d'autres en même temps, ne vérifiez pas votre compte GMail, n'allez pas sur Facebook, supprimez le cache, les cookies, l'historique et fermez le navigateur avant de quitter.
 
-If you keep these basic rules, the worst – though highly improbable – thing that could happen would be that the offered computer is compromised and logging keystrokes, revealing passwords or even your face, in case an attached webcam is remotely operated. Don't do this at work or in a place where you are a registered member or a regular visitor, like a club or a library.
+Si vous gardez ces règles basiques en tête, la pire - mais hautement improbable - chose qui pourrait arriver serait d'utiliser un ordinateur compromis, enregistrant vos touches, révélant vos mots de passe ou éventuellement, si il y a une webcam, elle pourrait être contrôler à distance.
+Ne faites pas cela au travail ou dans un endroit où vous êtes enregistrer comme membre ou vous êtes un visiteur régulier comme un club ou une bibliothèque.
 
-If you want to maintain a constant stream of communication and maybe even establish an audience, this method quickly becomes quite cumbersome, and you might also run out of unused internet cafes. In this case you can use a machine you own, but, if you cannot dedicate one especially to this purpose, boot your computer with a different operating system (OS). This can be easily done by using a USB stick to boot a live operating system like Tails ([https://tails.boum.org/](https://tails.boum.org/)), which comes with Tor enabled by default and includes state-of-the-art cryptographic tools. In any case, use Tor to disguise your IP.
+Si vous maintenez un flux constant de communications et, peut-être même, que vous avez une audience, cette méthode peut rapidement devenir aussez lourde, et vous pourriez manquer de cybercafés inutilisés.
+Dans ce cas, vous pouvez utiliser une machine qui vous appartient, mais, si vous ne pouvez pas obtenir un ordinateur dédié à ce sujet, démarrez votre ordinateur sur un système d'exploitation (OS) complètement différent.
+Ça peut-être facilement effectué avec une clé USB qui charge un système d'exploitation éphémère comme Tails ([https://tails.boum.org/](https://tails.boum.org/)), celui ci vient avec Tor par défaut et inclut des outils cryptoraphiques réputés.
+Dans tous les cas, utilisez Tor pour cacher votre adresse IP.
 
-Turn off all cookies, history and cache options and never use the same profile or the same browser for other activities. Not only would that add data to your topography as a user in the Net, but it also opens a very wide window for mistakes. If you want extra support, install *Do Not Track Plus* and *Trackerblock* or *Ghostery* in your browser add-ons menu.
+Bloquer tous les cookies, l'enregistrement de l'historique et la sauvegarde du cache et n'utilisez jamais le même profil ou le même navigateur pour les autres activités.
+Non seulement cela va ajouter des données à vous propos en tant qu'utilisateur sur Internet mais ouvre également une large fenêtre à des potentielles erreurs.
+Si vous voulez un support supplémentaire, intallez *Do Not Track* et *Trackerblock* ou *Ghostery* dans le menu d'extensions de votre navigateur.
 
-Use passwords for different accounts and choose proper passwords or even passphrases (more about that in the basic tips section). Protect your entire system with a general password, change it often and do not share it with anyone, *especially* not your lover. Install a keystroke logger to see if someone sneaks into your email, especially your lover. Set up your preferences everywhere to log out of every service and platform after 5 minutes of non-use. Keep your superhero identity to yourself.
+Utilisez des mots de passe différents pour chaques comptes et choisissez soigneusement vos mots de passe voir même des phrases de passe (La section des conseils basiques vous en apprendra plus).
+Protégez votre système avec un mot de passe général, changez le régulièrement et ne le partager avec personne, *particulièrement* avec votre petit(e) ami(e).
+Installez un enregistreur de frappes pour voir si quelqu'un tente de mettre son nez dans vos mails, particulièrement votre petit(e) ami(e).
+Configurez vos paramètres partout pour vous déconnectez automatiquement de tous les services et plateformes après 5 minutes d'inactivités.
+Gardez votre identité de superhéro pour vous.
 
-If you can mantain such level of discipline, you should even be capable of using your own internet connection. But consider this: not using a dedicated system makes it incredibly difficult to keep all the different identities separated in a safe way, and the feeling of safety often leads to carelessness. Keep a healthy level of neurosis.
+Si vous pouvez maintenir une telle discipline, vous pourriez être capable d'utiliser votre propre connexion Internet.
+Mais gardez cela en tête : ne pas utiliser un système dédié rend extrèmement compliqué la séparation complète des différentes identités et le sentiment de sécurité entraine souvent une perte d'attention.
+Restez attentif.
 
-Today there are many publishing possibilities, from cost-free blogging sites (Blogspot, Tumblr, WordPress, Identi.ca) to PasteBins (see glossary) and some specifically catered to anonymous users like BlogACause. Global Voices Advocacy recommends using WordPress through the Tor network. Keep a sane level of cynicism; they all act in commercial interests that you use for 'free' and so cannot be trusted at all, especially in that they may be bound to the demands of a legal juristiction that is not your own. All providers are, when it comes down to it, traitors.
+Aujourd'hui, il y beaucoup de possibilités pour publier, de services de blogs gratuits (Blogsport, Tumblr, WordPress, Identi.ca) à PasteBin (reportez vous au glossaire) en passant par des services spécifiques pour les utilisateurs anonymes comme BlogACause.
+Global Voices Advocacy recommande d'utiliser WordPress au travers du réseau Tor.
+Gardez un certain niveau de cynisme; ils agissent tous en fonction d'intérêts commerciaux. Il est donc impossible d'avoir complètement confiance en eux. De plus, ils dépendent souvent des juridications différentes de vous, il doivent parfois répondre et aider la police dans leurs enquêtes.
+Tous les fournisseurs de services sont, quand ça arrive, des traitres.
 
-If registration with these services requires a working email address, create one dedicated solely to this purpose. Avoid Gmail, Yahoo, Hotmail and other big commercial platforms with a history of turning over their users and go for an specialized service like Hushmail ([https://www.hushmail.com/](https://www.hushmail.com/)). For more on anonymous email, please find the chapter Anonymous email in the previous section.
+Si l'inscription à ces services demandent une adresse email valide, créez en une dédié à ce propos.
+Évitez GMail, Yahoo, Hotmail et toutes les autres plateformes commerciales ayant déjà "balancés" leurs utilisateurs et allez vers un service spécialisé comme Hushmail ([https://www.husmail.com/](https://www.hushmail.com/)).
+Pour en savoir plus à propos des emails anonymes, reportez vous au chapitre Emails anonymes dans la section précédente.
 
-Several Don'ts
---------------
+Quelques mauvaises pratiques
+----------------------------
 
-**Don't register a domain.** There are services that will protect your identity from a simple who is query, like Anonymous Speech or Silent Register, but they will know who you are through your payment data. Unless you have the chance to purchase one in BitCoins, limit yourself to one of the domains offered by your blogging platform like yourblogname.blogspot.com and choose a setting outside your native country. Also, find a name that doesn't give you away easily. If you have problems with that, use a blog name generator online.
+**N'enregistrez pas un nom de domaine.**
+Il y a des service qui protégeront votre identité des requêtes whois comme Anonymous Speech ou Silent Register mais ils sauront qui vous êtes grâce à vos données de paiement.
+À moins que vous ayez la chance d'acheter des BitCoins, limitez vous à un des domaines offerts par votre plateforme de blogs comme lenomdevotreblog.blogspot.com et changez la langue d'utilisateur.
+Trouvez également un nom qui n'est pas facile a lié à vous.
+Si vous avez un problème avec ça, utilisez un générateur de nom de blog en ligne.
 
-**Don't open a social network account associated to your blog.** If you must, keep the level of hygiene that you keep for blogging and never ever login while using your regular browser. If you have a public social network life, avoid it all together. You will eventually make a mistake.
+Si vous le devez, gardez le même niveau d'hygiène que vous avez pour blogger et ne vous connectez jamais lorsque vous utilisez votre navigateur habituel.
+Si vous avez une vie publique sur un réseau social, évitez complétement.
+Vous ferez probablement des erreurs.
 
-**Don't upload video, photo or audio files** without using an editor to modify or erase all the meta data (photos contain information up to the GPS coordinates of the location the photo was taken at) that standard digital cameras, SmartPhones, recorders and other devices add by default. The *Metadata Anonymisation Toolkit* or *ExifTool* might help you with that.
+**N'uploadez pas de vidéos, de photos ou de fichiers audio** sans utiliser un éditeur pour modifier ou supprimer les meta-données (les photos contiennent des informations comme les coordonnées GPS d'où la photo a été prise) que les caméras numériques, smartphones, enregistreurs et d'autres appareils ajoutent par défaut.
+L'outil *Metadata Anonymisation Toolkit* ou *ExifTool* peut vous aidez à regler ce problème.
 
-**Don't leave a history.** Add X-Robots-Tag to your http headers to stop the searching spiders from indexing your website. That should include repositories like the Wayback Machine from archive.org. If you don't know how to do this, search along the lines of "Robots Text File Generator".
+**Ne laissez pas d'historique.**
+Ajoutez X-Robots-Tag à votre entête HTTP pour empêcher l'indexation de votre site par des robots.
+Cela devrait inclure des plateformes comme *The Wayback Machine* sur archive.org.
+Si vous ne savez pas comment faire ça, recherchez les lignes de "Robots Text File Generator".
 
-**Don't leave comments.** If you must, maintain the levels of hygiene that you use for blogging and always logout when you're done and for god sakes do not troll around. Hell hath no fury like a blogger scorned. 
+**Ne laissez pas de commentaires.**
+Si vous devez, maintenez votre niveau d'hygiène que vous utilisez pour blogguer et déconnectez vous toujours quand vous avez fini et, pour l'amour de Dieu, ne trollez pas. L'Enfer n'est rien comparé à la vie d'un bloggeur méprisé.
 
-**Don't expect it to last.** If you hit the pot and become a blogging sensation (like *Belle de Jour*, the British PhD candidate who became a sensation and sold a book and mused two TV shows about her double life as a high escort) there will be a legion of journalists, tax auditors and obsessive fans scrutinizing your every move. You are only human: they will get to you.
+**Ne vous attendez pas à ce que ça dure.**
 
-**Don't linger.** If you realize you have already made any mistakes but nobody has caught you yet, do close all your accounts, cover your tracks and start a totally new identity. The Internet has infinite memory: one strike, and you're out of the closet.
+Si vous devenez un bloggeur à succès (comme *Belle de Jour*, une doctorante anglaise qui est devenue populaire, a vendue un livre et sa double vie a inspiré deux séries télévisées.) il y aura des légions de journalistes, d'inspecteurs des impôts et de fans scruteront chacun de vos mouvements.
+Vous êtes seulement un être humain : ils vous trouveront
+
+**Ne traînez pas.**
+Si vous réalisez que vous avez fait des erreurs mais que personne ne vous a encore pris, fermez tous vos comptes, effacer vos traces et créer une nouvelle identité.
+Internet a une mémoire infinie : une erreur et vous êtes à découvert.

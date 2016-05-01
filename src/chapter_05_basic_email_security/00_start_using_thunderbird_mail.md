@@ -1,117 +1,115 @@
-Start Using Thunderbird
-=======================
+Découverte de Thunderbird
+=========================
 
 ![Thunderbird](thunderbird.jpg)
 
-In upcoming sections, we will be using Mozilla's Thunderbird e-mail program to show you how to configure your e-mail client for maximum security. Similar to Mozilla's Firefox browser, Thunderbird has many security advantages over its counterparts like Apple Mail and Outlook.
+Dans les prochains chapitres, nous allons utiliser le client mail de Mozilla du nom de Thunderbird et vous apprendre à configurer le configurer avec un haut niveau de sécurité. De la même manière que le navigateur Firefox de Mozilla, Thunderbird est plus sécurisé que ses homologues Apple Mail et Outlook.
 
-Thunderbird is a so-called "mail user agent" (MUA). This is different from web-based e-mail services like Google's Gmail. You must install the Thunderbird application on your computer. Thunderbird has a nice interface and features that enable you to manage multiple mailboxes, organize messages into folders, and search through mails easily.
+Thunderbird est un logiciel de messagerie (MUA en anglais ou "mail user agent") ce qui est différent des services e-mail accessible via une interface web comme GMail de Google. Vous devez installer l'application Thunderbird sur votre ordinateur pour l'utiliser. Le logiciel possède une jolie interface et des fonctionnalités qui vous permettront de gérer plusieurs boîtes mail, organiser vos messages dans des dossiers et effectuer des recherches facilement.
 
-Thunderbird can be configured to work with your existing e-mail account, whether that account is through your Internet Service Provider (such as Comcast) or through an web-based email provider (such as Gmail).
+Thunderbird peut être configuré pour fonctionner avec votre compte e-mail existant qu'il s'agisse d'un compte obtenu via votre fournisseur d'accès internet (comme Orange) ou via un fournisseur de service mail (comme Gmail).
 
-Using Thunderbird has many advantages over using web-based e-mail interfaces. These will be discussed in the following chapter. To summarize, though, Thunderbird enables much greater privacy and security than web-based e-mail services.
+L'utilisation de Thunderbird a beaucoup d'avantages par rapport aux autres interfaces basées sur le web. Ces questions seront abordées dans le prochain chapitre. Pour résumer, retenez que Thunderbird offre une meilleure protection de la vie privée et une meilleure sécurité que les clients web.
 
-This section provides information on how to install Thunderbird on Windows, Mac OS X, and Ubuntu.
+Nous verrons dans ce chapitre comment installer Thunderbird sur Windows, Mac OS X et Ubuntu.
 
-Installing Thunderbird on Windows
+Installer Thunderbird sur Windows
 ---------------------------------
 
-Installing Thunderbird involves two steps: first, download the software and then run the installation program.
+L'installation de Thunderbird se passe en deux étapes : télécharger le logiciel et, ensuite, lancer le programme d'installation.
 
- 1. Use your web browser to visit the Thunderbird download page at [http://www.mozillamessaging.com/en-US/thunderbird/](http://www.mozillamessaging.com/en-US/thunderbird/). This page detects your computer's operating system and language, and recommends the best version of Thunderbird for you to use.
+ 1. Utilisez votre navigateur web pour vous rendre sur la page de téléchargement de Thunderbird : [https://www.mozilla.org/fr/thunderbird/](https://www.mozilla.org/fr/thunderbird/). 
+ Cette page détecte votre système d'exploitation ainsi que votre langue et vous recommande la meilleure version à télécharger.
 
  ![Thunderbird Install](thunderbird_inst_1.jpg)
 
- If you want to use Thunderbird in a different language or with a different operating system, click the *Other Systems and Languages* link on the right side of the page and select the version that you need.
+ Si vous voulez utiliser Thunderbird dans une langue différente ou avec un autre système d'exploitation, cliquez sur le lien *Systèmes et langues* en dessous du bouton et sélectionnez la version que vous voulez.
 
- 2. Click the download button to save the installation program to your computer.
+ 2. Cliquez sur le bouton de téléchargement pour récupérer le programme d'installation.
 
  ![Thunderbird Install](thunderbird_inst_2.jpg)
 
- Click the **Save** button to save the Thunderbird Setup file to your computer.
+ Cliquez sur le bouton **Enregistrer**.
 
- 3. Close all applications running on your computer.
- 4. Find the setup file on your computer (it's usually in the Downloads folder or on your desktop) and then double-click it to start the installation. The first thing that the installer does is display the **Welcome to the Mozilla Thunderbird Setup Wizard** screen.
+ 3. Fermez toutes les applications qui sont en marche sur votre ordinateur.
+ 4. Trouvez le programme d'installation sur votre ordinateur (il est habituellement dans le dossier Téléchargements ou sur votre bureau) et double-cliquez dessus pour démarrer l'installation. La première chose qui apparaîtra, c'est l'écran de bienvenue de l'installeur.
 
  ![Thunderbird Install](thunderbird_inst_3.jpg)
 
- Click the **Next** button to start the installation. If you want to cancel it, click the **Cancel** button.
+ Cliquez sur le bouton **Suivant** pour démarrer l'installation. Si vous voulez l'annuler, cliquez sur le bouton **Annuler**.
 
- 5. The next thing that you see is the **Setup Type** screen. For most users the Standard setup option is good enough for their needs. The Custom setup option is recommended for experienced users only. Note that Thunderbird installs itself as your default mail application. If you do not want this, clear the checkbox labeled **Use Thunderbird as my default mail application**.
+ 5. La fenêtre suivante demande le **type d'installation**. Pour la plupart des utilisateurs, le mode Standard est une bonne option. Le mode Personnalisé est recommandé pour les utilisateurs expérimentés uniquement. Notez que Thunderbird s'installe comme logiciel de mail par défaut. Si vous ne voulez pas de cela, décochez l'option **Faire de Thunderbird mon logiciel de mail par défaut**.
 
  ![Thunderbird Install](thunderbird_inst_4.jpg)
 
- Click the **Next** button to continue the installation.
+ Cliquez sur le bouton **Suivant** pour continuer l'installation.
 
- 6. After Thunderbird has been installed, click the **Finish** button to close the setup wizard.
+ 6. Une fois Thunderbird installé, cliquez sur le bouton **Terminer** pour fermer l'installeur.
 
  ![Thunderbird Install](thunderbird_inst_5.jpg)
 
- If the **Launch Mozilla Thunderbird** now checkbox is selected, Thunderbird starts after it has been installed.
+ Si l'option **Lancer Mozilla Thunderbird** est cochée, Thunderbird démarrera après son installation.
 
-Installing Thunderbird on Ubuntu
+Installer Thunderbird sur Ubuntu
 --------------------------------
 
-There are two different procedures for installing Thunderbird on Ubuntu: one for version 10.04 or later, and one for earlier versions of Ubuntu. We describe both below.
+Il y a deux procédures pour installer Thunderbird sur Ubuntu : l'une pour la version 10.04 et plus et l'autre pour les versions antérieures d'Ubuntu. Nous allons décrire les deux.
 
-Thunderbird will not run without the following libraries or packages installed on your computer:
+Thunderbird ne fonctionnera pas sans les bibliothèques suivantes :
 
- * GTK+ 2.10 or higher
- * GLib 2.12 or higher
- * Pango 1.14 or higher
- * X.Org 1.0 or higher
+ * GTK+ 2.10 ou plus
+ * GLib 2.12 ou plus
+ * Pango 1.14 ou plus
+ * X.Org 1.0 ou plus
 
-Mozilla recommends that a Linux system also has the following libraries or packages installed:
+Mozilla recommande pour les systèmes GNU/Linux d'avoir les bibliothèques suivantes :
 
- * NetworkManager 0.7 or higher
- * DBus 1.0 or higher
- * HAL 0.5.8 or higher
- * GNOME 2.16 or higher
+ * NetworkManager 0.7 ou plus
+ * DBus 1.0 ou plus
+ * HAL 0.5.8 ou plus
+ * GNOME 2.16 ou plus
 
-Installing Thunderbird on Ubuntu 12.04 or newer
------------------------------------------------
+Installer Thunderbird sur Ubuntu 12.04 ou plus
+----------------------------------------------
 
-If you're using Ubuntu 12.04 or newer, the easiest way to install Thunderbird is through the Ubuntu Software Center.
+Si vous utilisez Ubuntu 12.04 ou plus, le plus simple est d'installer Thunderbird via la logithèque.
 
- 1. Type Software in the Untiy search window.
+ 1. Tapez 'logithèque' dans la barre de recherche de Unity.
 
  ![Thunderbird Install](thunderbird_inst_ubuntu_1.jpg)
 
- 2. Click on 'Ubuntu Software Center'
- 3. Type "Thunderbird" in the search box and press the Enter on your keyboard. The Ubuntu Software Center finds Thunderbird in its list of available software.
- 4. Click the **Install** button. If Thunderbird needs any additional libraries, the Ubuntu Software Center alerts you and installs them along with Thunderbird.
+ 2. Cliquez sur 'Logithèque Ubuntu'.
+ 3. Tapez "Thunderbird" dans la barre de recherche et cherchez Thunderbird dans la liste des logiciels disponibles.
+ 4. Cliquez sur le bouton **Installer**. Si Thunderbird a besoin de bibliothèques supplémentaires, la logithèque vous avertira et les installera.
 
-You can find the shortcut to start Thunderbird in the Internet option under the Applications menu:
-
-![Thunderbird Install](thunderbird_inst_ubuntu_2.jpg)
-
-Installing Thunderbird on Mac OS X
+Installer Thunderbird sur Mac OS X
 ----------------------------------
 
-To install Thunderbird on your Mac, follow these steps:
+Pour installer Thunderbird sur votre Mac, suivez ces étapes :
 
- 1. Use your web browser to visit the Thunderbird download page at [http://www.mozillamessaging.com/en-US/thunderbird/](http://www.mozillamessaging.com/en-US/thunderbird/). This page detects your computer's operating system and language, and it recommends the best version of Thunderbird for you to use.
+ 1. Utilisez votre navigateur web pour vous rendre sur la page de téléchargement de Thunderbird : [https://www.mozilla.org/fr/thunderbird/](https://www.mozilla.org/fr/thunderbird/).
+ Cette page détecte votre système d'exploitation ainsi que votre langue et vous recommande la meilleure version à télécharger.
 
  ![Thunderbird Install](thunderbird_inst_mac_1.jpg)
 
- 2. Download the Thunderbird disk image. When the download is complete, the disk image may automatically open and mount a new volume called *Thunderbird*.
+ 2. Téléchargez l'image disque de Thunderbird. Une fois le téléchargement terminé, l'image disque s'ouvrira automatiquement et montera un nouveau volume appellé *Thunderbird*.
 
- If the volume did not mount automatically, open the Download folder and double-click the disk image to mount it. A Finder window appears:
+ Si le volume ne se monte pas automatiquement, ouvrez le dossier Téléchargements et double-cliquez sur l'image disque. Une fenêtre du Finder apparaîtra :
 
  ![Thunderbird Install](thunderbird_inst_mac_2.jpg)
 
- 3. Drag the Thunderbird icon into your Applications folder. You've installed Thunderbird!
- 4. Optionally, drag the Thunderbird icon from the Applications folder into the Dock. Choosing the Thunderbird icon from the Dock lets you quickly open Thunderbird from there.
+ 3. Déplacez l'icône Thunderbird dans votre dossier Applications et c'est tout !
+ 4. Vous pouvez aussi déplacer l'icône de Thunderbird depuis le dossier Applications vers le Dock. Ceci permet de lancer Thunderbird en un clic sur l'icône du Dock.
 
  ![Thunderbird Install](thunderbird_inst_mac_3.jpg)
 
-**Note:** When you run Thunderbird for the first time, newer versions of Mac OS X (10.5 or later) will warn you that the application Thunderbird.app was downloaded from the Internet.
+**Note :** Lorsque vous lancer Thunderbird pour la première fois, les nouvelles versions de Mac OS X (10.5 ou plus) vous avertiront que l'application Thunderbird.app a été téléchargée depuis Internet.
 
-If you downloaded Thunderbird from the Mozilla site, click the **Open** button.
+Si vous l'avez téléchargée depuis le site de Mozilla, cliquez sur le bouton **Ouvrir**.
 
 ![Thunderbird Install](thunderbird_inst_mac_4.jpg)
 
-Starting Thunderbird for the first time
----------------------------------------
+Utiliser Thunderbird pour la première fois
+------------------------------------------
 
-After you have installed Thunderbird for the first time you will be guided through the configuration of your mail account. These settings are defined by your e-mail provider (your Internet Service Provider or web-based e-mail service provider). The next chapter describes how to set up your account and configure it for maximum security.
+Une fois installé, Thunderbird vous guidera afin de configurer votre compte email. Ces paramètres sont définis par votre fournisseur de service mail. Le chapitre suivant décrira comment configurer votre compte avec un maximum de mesures de sécurité.

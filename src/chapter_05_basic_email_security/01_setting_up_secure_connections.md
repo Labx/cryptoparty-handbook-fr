@@ -1,75 +1,70 @@
-Setting up secure connections
-=============================
+Mettre en place des connexions sécurisés
+========================================
 
-There is a right (secure) way to configure your connection to your provider's mail servers and a wrong (insecure) way. The most fundamental aspect of e-mail security is the type of connection that you make to your e-mail provider's mail server.
+Il y a une bonne manière (sécurisé) de configurer votre connexion avec les serveurs de votre fournisseur de service mail et une mauvaise. L'aspect le plus fondamental de la sécurité des emails est le type de connexion que vous utilisez avec les serveurs mails de votre fournisseur de service.
 
-Whenever possible, you should connect using the **SSL** (Secure Socket Layer) and **TLS** (Transport Layer Security) protocols. (**STARTTLS**, which is another option available when configuring an account, is a variation of SSL / TLS.) These protocols prevent your own system (beyond Thunderbird) and any points between your system and the mail server from intercepting and obtaining your password. SSL / TLS also prevent eavesdroppers from reading the content of your messages.
+À chaque fois que cela est possible, vous devriez utiliser les protocoles **SSL** (Secure Socket Layer) et **TLS** (Transport Layer Security). (**STARTTLS**, qui est également une option disponible lorsque vous configurez votre compte, est une variation de SSL / TLS). Ces protocoles empêchent l'interception et la récupération de vos mots de passe par votre propre système (derrière Thunderbird) et par tous les points entre votre système et le serveur mail. SSL / TLS empêche également la lecture du contenu des messages sur le réseau.
 
-These protocols, however, only secure the connection between your computer and the mail server. They do not secure the information channel all the way to the message recipient. Once the mail servers forward the message for delivery, the message may be intercepted and read by points in between the mail server and the recipient.
+Toutefois, ces protocoles ne sécurise que la connexion entre votre ordinateur et le serveur mail, ils ne protègent pas le contenu du message. Une fois que le serveur mail a transféré le message, il peut être intercepté et lu par chacun des noeuds sur le trajet vers le destinataire.
 
-This is where **PGP** (Pretty Good Privacy) comes in, which is described in the next chapter.
+C'est là que **PGP** (Pretty Good Privacy) est utile. Son utilisation sera décrite dans le prochain chapitre.
 
-The first step in establishing e-mail security is a secure connection between your system and the mail servers. This chapter describes how to set up your e-mail account the right way.
+La premère étape consiste à mettre en place une connexion sécurisé entre votre systèe et les serveurs mail. Ce chapitre décrit comment mettre en place votre compte mail de la bonne manière.
 
-Configuration requirements
---------------------------
+Configuration requise
+---------------------
 
-When you configure an account, Thunderbird attempts to determine (from the email account and the account details that you provide) the connection parameters to your email provider. While Thunderbird knows the connection parameters for many email providers, it does not know them all. If the parameters are not known to Thunderbird, you will need to provide the following information to configure your account:
+Lorsque vous configurer un compte, Thunderbird tente de déterminer (depuis votre compte et des détails que vous fournissez) les paramètres de connexion à votre fournisseur de service. Bien que Thunderbird connaisse les paramètres de connexion pour de nombreux fournisseurs, il ne les connait pas tous. Si les paramètres ne sont pas connus, vous devrez fournir les informations suivantes pour configurer votre compte :
 
- * **Your username**
- * **Your password**
- * **Incoming server:** name (such as `imap.example.com`), protocol (POP or IMAP), port (by default, 110), and security protocol
- * **Outgoing server:** name (such as `smtp.example.com`), port (by default, 25), and  security protocol
+ * **Votre nom d'utilisateur**
+ * **Votre mot de passe**
+ * **Serveur entrant :** adresse (sous la forme `imap.example.com`), protocole (POP ou IMAP), port (par défaut, 110) et protocole de sécurité
+ * **Serveur sortant :** adresse (sous la forme `smtp.example.com`), port (par défaut, 25) et protocole de sécurité
 
-You should have received this information from your hosting provider. Alternatively, you can usually find this information on the support pages on the website of your hosting provider. In our example we will be using the Gmail server configuration. You can use Thunderbird with your Gmail account. To do so, you must change a configuration setting in your account. If you are not using a Gmail account, skip the next section.
+Votre fournisseur de service a dû vous envoyer ces informations. Vous pouvez aussi les retrouver sur leur site web. Dans notre exemple, nous allons utiliser la configuration pour les serveurs Gmail. Pour ce faire, vous devez changer les paramètres de configuration de votre compte. Si vous n'utilisez pas un compte Gmail, allez directement au chapitre suivant.
 
-Preparing a Gmail account for use with Thunderbird
---------------------------------------------------
+Préparer un compte Gmail pour l'utiliser avec Thunderbird
+---------------------------------------------------------
 
-Log in to your Gmail account in your browser. Select **Settings** from options in the top right, then go to the tab **Forwarding and POP/IMAP**. Click **Enable IMAP** and then **Save Changes**.
+Connectez vous sur votre compte Gmail avec votre navigateur. Cliquez sur la roue denté en haut à droite puis sur **Paramètres**. Cliquez ensuite sur **Transfert et POP/IMAP**. Choisissez l'option **Activer IMAP** puis, cliquez sur **Enregistrer les modifications**. 
 
 ![Gmail enable IMAP](gmail_imap.png)
 
-Configuring Thunderbird to use SSL/TLS
---------------------------------------
+Configurer Thunderbird pour utiliser SSL/TLS
+--------------------------------------------
 
-When you start up Thunderbird for the first time, you will enter a step-by-step configuration procedure for setting up your first account. (You can invoke the account setup interface any time by selecting **File | New | Mail Account**). On the first screen, you will be asked for your name, your email-address and your password. The value you enter for your name does not have to be your real name. It will be shown to the recipient of your messages. Enter the information and click **Continue**.
+Lorsque vous lancez Thunderbird pour la première fois, vous devrez suivre, étape par étape, la procédure pour configurer votre premier compte. (Vous pouvez utiliser l'interface de configuration à n'importe quel moment en sélectionnant **Fichier -> Nouveau -> Compte courrier existant**). Pour commencer, vous devez entrer votre nom, votre adresse e-mail et votre mot de passe. Vous n'êtes pas obligé d'entrer votre vrai nom, c'est ce qui sera affiché lorsque vous recevrez un e-mail à cette adresse. Entrez vos informations et cliquez sur **Continuer**. 
 
 ![Thunderbird Configure](thunderbird_conf_1.png)
 
-On the next screen, Thunderbird will attempt to determine the server names based on your email address. This may take some time, and will only work if Thunderbird knows the settings for the mail servers for your email provider. In either case you will be presented with a window where you can modify the settings. In the example below, Thunderbird has detected the settings automatically. You can see the protocol at the right side of the server names. This should be either **SSL/TLS** or **STARTTLS**. *Otherwise your connection is insecure and you should attempt manual setup.*
+Pour la seconde étape, Thunderbird tentera de déterminer les adresses des serveurs de votre fournisseur de service e-mail. Cela peut prendre quelques minutes, et ne marchera que si Thunderbird connait les paramètres nécessaires à l'utilisation de ces serveurs. Dans tous les cas, une fenêtre qui vous permettra de modifier la configuration par défaut apparaitra. Dans l'exemple ce-dessous, Thunderbird a détecté les paramètres automatiquement. Vous pouvez voir le protocole utilisé à droite du nom des serveurs. Cela devrait être **SSL/TLS** ou **STARTTLS**. *Dans le cas contraire, votre connexion ne sera pas protégé et vous devriez tenter de faire la configuration manuellement*.
 
 ![Thunderbird Install](thunderbird_conf_2.png)
 
-When you are finished, click **Create account**. If Thunderbird could not determine your server settings, click on **Manual setup** to configure the server names yourself.
+Une fois que c'est terminé, cliquez sur **Terminé**. Si Thunderbird ne peut pas déterminer de configuration, cliquez sur **Configuration manuelle** pour entrer les bons paramètres.
 
-Manual setup
-------------
+Configuration manuelle
+----------------------
 
-Use the Account Settings interface to manually configure accounts in Thunderbird. The Account Settings dialog will automatically open if you select **Manual setup** in the configuration wizard. In this case we are only interested in the incoming and outgoing mail server names, and the protocol we use to connect with them. As you can see in the examples below, we enter the Gmail server names and we force them to use **TLS/SSL**, a secure method to connect to the servers.
+Pour configurer manuellement les comptes sur Thunderbird, vous pouvez cliquer sur le bouton **Configuration manuelle** su l'interface de création d'un compte. Dans ce cas, nous devrons inscrire les adresses des serveurs entrant et sortant et des protocoles à utiliser pour s'y connecter. Comme vous pouvez le voir dans les exemples ci-dessous, nous inscrivons les adresses des serveurs Gmail et nous forcons l'utilisation d'**SSL/TLS** afin de protéger les données entre notre ordinateur et les serveurs. 
 
 ![Thunderbird Install](thunderbird_conf_3.png)
 
-Under 'Server Settings', we will find only the incoming (**IMAP**) server and its settings for that specific account.
 
 ![Thunderbird Install](thunderbird_conf_4.png)
 
-After **Server Name** enter the name of the IMAP server, in this case `mail.gmail.com`.
+À côté de **Serveur entrant**, entrez l'adresse du serveur IMAP, dans ce cas `mail.gmail.com`.
 
-*As you can see we have selected **'SSL/TLS'** under the connection security setting. This enforces encryption.* Do not be scared by the authentication method **Normal password**. The password will be automatically encrypted due to our secured connections to the server.
+*Comme vous pouvez le voir, nous avons sélectionné **'SSL/TLS'**. Cela permet de forcer le chiffrement.* Ne soyez pas effrayé par la méthode d'authentification **Mot de passe normal**. Le mot de passe sera automatiquement chiffré grâce à notre connexion sécurisé.
 
-Finally, configure the outgoing server for the account. Click on **Outgoing Server (SMTP)** in the left panel.
+Enfin, configurez le serveur sortant pour le compte de la même manière.
 
-![Thunderbird Install](thunderbird_conf_5.png)
+Les différentes méthodes de chiffrement
+---------------------------------------
 
-Again, we have selected **SSL/TLS** under **Connection security**. The port will default to 465 and this should generally not have to be changed.
+Vous pouvez tester votre configuration Thunderbird en essayant d'envoyer et de recevoir des e-mails. Certains fournisseur de service e-mails ne supportent pas les protocoles SSL/TLS. Vous obtiendrez une erreur disant que le protocole d'authentification n'est pas supporté par le serveur. Vous devrez utiliser STARTTLS à la place. Pour ce faire, il faut sélectionner **STARTTLS** dans le menu SSL. Si cette méthode ne fonctionne pas, contactez votre fournisseur de service et demandez si ils permettent une autre méthode pour se connecter à leurs serveurs de façon sécurisé. Si il n'y a rien, vous devriez sérieusement réfléchir à changer de fournisseur.
 
-Finishing the setup, different encryption methods
--------------------------------------------------
+Reconfigurer son compte
+-----------------------
 
-Test your Thunderbird setup by trying to send and receive mails. Some email hosting providers may not support the SSL/TLS protocol, which is the preferred choice. You will get an error message saying the authentication protocol is not supported by the server. You may then switch to using STARTTLS instead. In the above two screens, select 'STARTTLS' under 'Connection security'. If this method also fails, contact your email hosting provider and ask them if they provide another way to securely connect to their servers. If they do not allow you to securely connect to their servers, then you should complain and seriously consider switching to a different provider.
-
-Returning to the configuration screens
---------------------------------------
-
-At any time you can reconfigure your email accounts by going to the Thunderbird menu bar and clicking **Edit | Account Settings** (Linux), **Tools | Account Settings** (Windows and Mac OS X).
+Vous pouvez reconfigurer votre compte e-mail n'importe quand via une interface accessible en cliquant sur **Édition -> Paramètres des comptes** (GNU/Linux) ou **Outils -> Paramètres des comptes** (Windows et Mac OS X).

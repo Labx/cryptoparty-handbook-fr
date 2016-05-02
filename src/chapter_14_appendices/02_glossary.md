@@ -1,19 +1,22 @@
-Glossary
-========
+Glossaire
+=========
 
-Much of this content is based on [http://en.cship.org/wiki/Special:Allpages](http://en.cship.org/wiki/Special:Allpages)
+La plupart du contenu de ce glossaire est issu du site [http://en.cship.org/wiki/Special:Allpages](http://en.cship.org/wiki/Special:Allpages)
 
-aggregator
-----------
+aggregator (agrégateur)
+-----------------------
 
 An aggregator is a service that gathers syndicated information from one or many sites and makes it available at a different address. Sometimes called an RSS aggregator, a feed aggregator, a feed reader, or a news reader. (Not to be confused with a Usenet News reader.)
+Un agrégateur est un service qui va chercher des informations depuis un ou plusieurs sites et les rende accessible à un seul endroit. On l'appelle parfois un agrétateur RSS, un agrégateur de flux, un lecteur de flux ou un lecteur de news. (Il ne doit pas être confondu avec un lecteur de Usenet News.)
 
-anonymity
-----------
+anonymity (anonymat)
+--------------------
 
-(Not be confused with privacy, pseudonymity, security, or confidentiality.)
+(À ne pas confondre avec la vie privée, le pseudoymat, la sécurité ou la confidentialité.)
 
 Anonymity on the Internet is the ability to use services without leaving clues to one's identity or being spied upon. The level of protection depends on the anonymity techniques used and the extent of monitoring. The strongest techniques in use to protect anonymity involve creating a chain of communication using a random process to select some of the links, in which each link has access to only partial information about the process. The first knows the user's Internet address (IP) but not the content, destination, or purpose of the communication, because the message contents and destination information are encrypted. The last knows the identity of the site being contacted, but not the source of the session. One or more steps in between prevents the first and last links from sharing their partial knowledge in order to connect the user and the target site.
+
+L'anonymat sur Internet, c'est la capacité d'utiliser un service sans laisser d'indice de son identité .... Le niveau de protection dépend des techniques d'anonymisation utilisées et du niveau de surveillance. Les méthodes les plus sûrs pour protéger son anonymat implique de créer une chaine de communication en utilisant un processus aléatoire pour sélectionner des noeuds et que chaque noeud n'ai accès qu'à quelques informations à propos du processus. Le premier connait l'adresse Internet (IP) de l'utilisateur mais pas le contenu, la destination ou le propos des message car ces informations sont chiffrés. Le dernier noeud connait l'identité du site contacté mais pas la source. Entre ces deux serveurs, un ou plusieurs noeuds peuvent être utilisés pour empêcher le partage d'information entre le premier noeud et le dernier. 
 
 anonymous remailer
 ------------------
@@ -28,32 +31,35 @@ An ASP is an organization that offers software services over the Internet, allow
 backbone
 --------
 
-A backbone is one of the high-bandwidth communications links that tie together networks in different countries and organizations around the world to form the Internet.
+Un backbone est un câble de communication avec une très grande bande passante qui relie les réseaux des différents pays et organisations autour du monde pour former Internet.
 
 badware
 -------
 
-See malware.
+Voir malware.
 
-bandwidth
----------
+bandwidth (bande passante)
+--------------------------
 
 The bandwidth of a connection is the maximum rate of data transfer on that connection, limited by its capacity and the capabilities of the computers at both ends of the connection.
+La bande passante d'une connexion est le taux maximun de données transférés sur cette connexion, limitée par sa capacité et la capacité des ordinateurs au extrémités de la connexion.
 
 bash (Bourne-again shell)
 -------------------------
 
-The bash shell is a command-line interface for Linux/Unix operating systems, based on the Bourne shell.
+Le bash shell est une interface en ligne de commande pour les systèmes d'exploitation Linux/Unix basé sur le Bourne shell.
 
 BitTorrent
 ----------
 
-BitTorrent is a peer-to-peer file-sharing protocol invented by Bram Cohen in 2001. It allows individuals to cheaply and effectively distribute large files, such as CD images, video, or music files.
+BitTorrent est un protocole de partage de fichiers en pair-à-pair inventé par Bram Cohen en 2001. Il permet à chacun de distribuer facilement des gros fichiers comme des images CD, des vidéos ou des fichiers musicaux.
 
-blacklist
----------
+blacklist (liste noire)
+-----------------------
 
 A blacklist is a list of forbidden things. In Internet censorship, lists of forbidden Web sites or the IP addresses of computers may be used as blacklists; censorware may allow access to all sites except for those specifically listed on its blacklist. An alternative to a blacklist is a whitelist, or a list of permitted things. A whitelist system blocks access to all sites except for those specifically listed on the whitelist. This is a less common approach to Internet censorship. It is possible to combine both approaches, using string matching or other conditional techniques on URLs that do not match either list.
+
+Une liste noire est une liste de choses interdites. Pour censurer Internet, on peut utiliser une liste de sites web ou d'adresses IP en tant que liste noire; les utilisateurs censurés pourront accéder ç tous les sites sauf ceux de la liste. Il existe une alternative à la liste noire, c'est la liste blanche, une liste des choses permisent. Une liste blanche bloque l'accès à tous les sites sauf ceux listés. C'est l'approche la moins commune pour censurer Internet. Cependant, il est possible d'utiliser les deux approches, utiliser le repérage de chaines de caractères ou autre sur les URLs qui ne correspondent pas avec la liste.
 
 bluebar
 -------
@@ -62,10 +68,10 @@ The blue URL bar (called the Bluebar in Psiphon lingo) is the form at the top of
 
 See also Psiphon node
 
-block
------
+block (blocage)
+---------------
 
-To block is to prevent access to an Internet resource, using any number of methods.
+Le blocage consiste à empêcher l'accès à une ressource sur Internet en utilisant différentes méthodes.
 
 bookmark
 --------
@@ -77,42 +83,51 @@ bridge
 
 See Tor bridge.
 
-brute-force attack
-------------------
+brute-force attack (attaque par force brute)
+--------------------------------------------
 
-A brute force attack consists of trying every possible code, combination, or password until you find the right one. These are some of the most trivial hacking attacks.
+Une attaque par force brute consiste à tester tous les codes, combinaisons ou mots de passe possibles afin de trouver le bon. C'est l'une des attaques des simples.
 
 cache
 -----
 
 A cache is a part of an information-processing system used to store recently used or frequently used data to speed up repeated access to it. A Web cache holds copies of Web page files.
+Un cache est lieu de stockage pour les données récemment ou fréquemment utilisées pour accélerer leur accès par le système. Un cache Web retient des copies des pages web visitées. 
 
-censor
-------
+censor (censure)
+----------------
 
-To censor is to prevent publication or retrieval of information, or take action, legal or otherwise, against publishers and readers.
+La censure consiste à empêcher la publication ou la révélation d'informations mais aussi à lancer des actions juridiques ou autres contre les éditeurs et les lecteurs
 
 censorware
 ----------
 
 Censorware is software used to filter or block access to the Internet. This term is most often used to refer to Internet filtering or blocking software installed on the client machine (the PC which is used to access the Internet). Most such client-side censorware is used for parental control purposes.
-
+-
 Sometimes the term censorware is also used to refer to software used for the same purpose installed on a network server or router.
+
+Un censorware est un logiciel utilisé pour filtrer ou bloquer l'accès à Internet. Ce terme est plus utilisé pour parler de filtrage d'Internet ou du blocage de logiciels installés sur la machine client (le PC utilisé pour accèder à Internet). La plupart de ces censorwares situés du côté client sont utilisés pour faire du contrôle parental.
+
+Parfois le terme censorware est utilisé pour parler d'un logiciel utilisé dans le même but mais en étant installé sur un serveur ou un routeur.
 
 CGI (Common Gateway Interface)
 ------------------------------
 
 CGI is a common standard used to let programs on a Web server run as Web applications. Many Web-based proxies use CGI and thus are also called "CGI proxies". (One popular CGI proxy application written by James Marshall using the Perl programming language is called CGIProxy.)
 
-chat
----
+chat (tchat)
+-----------
 
 Chat, also called instant messaging, is a common method of communication among two or more people in which each line typed by a participant in a session is echoed to all of the others. There are numerous chat protocols, including those created by specific companies (AOL, Yahoo!, Microsoft, Google, and others) and publicly defined protocols. Some chat client software uses only one of these protocols, while others use a range of popular protocols.
+-
+Un tchat, aussi appellé messagerie instantannée, est un moyen de communication entre deux personnes ou plus où chaque line écrite par un participant est transmise à tous les autres. Ils y a beaucoup de protocoles de tchat, cela inclus ceux créés par des entreprises (AOL, Yahoo!, Mircrosoft, Google et d'autres) et les protocoles définis publiquement. Plusieurs clients de tchat utilisent uniquement ces protocoles tandis que les autres utilisent la plupart des protocoles populaires.
 
-cipher
-------
+cipher (algorithme de chiffrement)
+----------------------------------
 
 In cryptography, a cipher (or cypher) is an algorithm for performing encryption or decryption
+-
+En cryptographie, un algorithme de chiffrement sert à chiffrer et déchiffrer.
 
 circumvention
 -------------
@@ -149,23 +164,29 @@ DARPA (Defense Advanced Projects Research Agency)
 
 DARPA is the successor to ARPA, which funded the Internet and its predecessor, the ARPAnet.
 
-decryption
-----------
+decryption (déchiffrement)
+--------------------------
 
 Decryption is recovering plain text or other messages from encrypted data with the use of a key.
-
+-
 See also encryption.
 
-disk encryption
----------------
+Le déchiffrement consite à retrouver un message en clair depuis des données chiffrées grâce à l'utilisation d'une clé.
+-
+Voir aussi chiffrement (encryption)
+
+disk encryption (chiffrement de disque)
+---------------------------------------
 
 Disk encryption is a technology which protects information by converting it into unreadable code that cannot be deciphered easily by unauthorized people. Disk encryption uses disk encryption software or hardware to encrypt every bit of data that goes on a disk or disk volume. Disk encryption prevents unauthorized access to data storage.
 
-domain
-------
+Le chiffrement de disque est une technologie permettant de protéger des informations en les convertissant en des données illisibles qui sont difficilement déchiffrable par des personnes non autorisés. Le chiffrement de disque à besoin d'un logiciel de chiffrement de disque ou de matériel physique pour chiffrer chaque données qui vont sur le disque ou sur un volume disque. Le chiffrement de disque vous protège contre l'accès non autorisé aux données stockés.
+
+domain (domaine)
+---------------
 
 A domain can be a Top-Level Domain (TLD) or secondary domain on the Internet.
-
+-
 See also Top-Level Domain, country code Top-Level Domain and secondary domain.
 
 DNS (Domain Name System)
@@ -173,10 +194,13 @@ DNS (Domain Name System)
 
 The Domain Name System (DNS) converts domain names, made up of easy-to-remember combinations of letters, to IP addresses, which are hard-to-remember strings of numbers. Every computer on the Internet has a unique address (a little bit like an area code+telephone number).
 
+Le système de nom de domaine (Domain Name System ou DNS) convertit les noms de domaine, contitués de combinaisons de lettres, en adresses IP, constitués de combinaisons de chiffres (et de lettres pour la version 6) difficile à mémoriser. Tous les ordinateurs sur Internet ont une adresse unique (un peu comme un numéro de téléphone). 
+
 DNS leak
 --------
 
 A DNS leak occurs when a computer configured to use a proxy for its Internet connection nonetheless makes DNS queries without using the proxy, thus exposing the user's attempts to connect with blocked sites. Some Web browsers have configuration options to force the use of the proxy.
+Une fuite DNS apparaît quand un ordinateur est configuré pour utiliser un proxy pour aller sur Internet mais que les questions DNS passent sur le réseau normal et non via le proxy. 
 
 DNS server
 ----------

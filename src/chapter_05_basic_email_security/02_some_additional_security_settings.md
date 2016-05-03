@@ -1,100 +1,96 @@
-Some Additional Security Settings
-=================================
+Quelques protections supplémentaires
+====================================
 
-Thunderbird provides additional security measures to protect you from junk mail, identity theft, viruses (with the help of your anti-virus software, of course), intellectual property theft, and malicious web sites.
+Thunderbird apporte des mesures de sécurité supplémentaires pour vous protéger contre les spams, l'usurpation d'identité, les virus (avec l'aide de votre logiciel anti-virus, bien sûr), les vols de propriété intellectuelle et des sites web dangereux.
 
-We will look at the following Thunderbird security features. First a little background on why you need to consider some of these measures:
+Nous examinerons ces fonctionnalités mais avant il faut comprendre pourquoi vous avez besoin de certaines protections : 
 
- * **Adaptive junk mail controls**. Adaptive junk mail controls allow you to train Thunderbird to identify junk email (SPAM) and remove it from your inbox. You can also mark messages as junk mail manually if your email provider's system misses the junk mail and lets it go through.
- * **Integration with anti-virus software.** If your anti-virus software supports Thunderbird, you can use that software to quarantine messages that contain viruses or other malicious content. If you're wondering what anti-virus software works with Thunderbird, you can find a list here: [http://kb.mozillazine.org/Antivirus_software](http://kb.mozillazine.org/Antivirus_software).
- * **Master password.** For your convenience, you can have Thunderbird remember each of your individual passwords of your e-mail accounts. You can specify a master password that you enter each time you start Thunderbird. This will enable Thunderbird to open all your email accounts with your saved passwords.
- * **Restrictions on cookies.** Some blogs and websites attempt to send cookies (a piece of text that stores information from Web sites on your computer) with their RSS feeds. These cookies are often used by content providers to provide targeted advertising. Thunderbird rejects cookies by default, but you can configure Thunderbird to accept some or all cookies.
+ * **Le contrôle de courriers indésirables adaptatif**. Cela vous permet d'entrainer Thunderbird à identifier les courriers indésirables (SPAMS) et les retirer de votre boîte de réception. Vous pouvez aussi marquer des messages comme spam si votre fournisseur de service à laisser passer un e-mail indésirable.
+ * **Intégration avec les logiciels anti-virus** . Si votre anti-virus supporte Thunderbird, vous pouvez l'utiliser pour mettre en quarantaine les e-mails contenant des virus. La liste des anti-virus qui supportent Thunderbird est disponible à cette adresse : [http://kb.mozillazine.org/Antivirus_software](http://kb.mozillazine.org/Antivirus_software)
+ * **Mot de passe maître**. Pour votre confort, Thunderbird peut enregistrer les mots de passe de vos comptes. Vous pouvez ajouter un mot de passe maître que vous devrez entrer à chaque fois que vou slancez Thunderbird. Ainsi Thunderbird ne pourra ouvrir vos comptes sauvegardés uniquement si vous avez entrer le bon mot de passe.
+ * **Limiter les cookies**. Certains blogs et sites web tentent d'envoyer des cookies (une ligne de texte qui représente des données utiles pour certains sites web) avec leurs flux RSS. Ces cookies sont souvent utilisés par les fournisseurs de contenu afin d'envoyer de la publicité ciblée. Thunderbird rejete les cookies par défaut mais vous pouvez le configurer pour qu'il accepte certains ou tous les cookies.
 
-In the Security Preferences section of Thunderbird's Options/Preferences dialog box you can set up the preferences for these features.
+Dans la section Sécurité des préférences Thunderbird, vous pouvez configurer ces fonctionnalités.
 
- * In Windows and Mac OS X, go to the 'Tools' menu and click 'Options'.
- * On Ubuntu or other versions of Linux, go to the 'Edit' menu and click 'Preferences'.
+ * Sur Windows et Mac OS X, allez dans le menu 'Outils' puis cliquez sur 'Options'.
+ * Sur Ubuntu ou d'autres distributions GNU/Linux, allez dans le menu 'Édition' puis cliquez sur 'Préférences'.
 
-Junk mail settings
-------------------
+Configuration des courriers indésirables
+----------------------------------------
 
- 1. In the Preferences/Options dialog box, click 'Security' and then click the 'Junk' tab.
+ 1. Dans l'interface de configuration de Thunderbird, cliquez sur 'Sécurité' puis sur l'onglet 'Indésirables'.
+ 
+ ![Thunderbird Security](thunderbird_sec_1.png)
 
- ![Thunderbird Security](thunderbird_sec_1.jpg)
+ 2. Faites les choses suivantes :
+ 
+    * Pour dire à Thunderbird ce qu'il doit faire lorsque qu'un e-mail est marqué comme indésirable, sélectionnez l'option 'Quand je marque des messages comme indésirables'. 
+    * Pour lui dire de déplacer ces messages vers le dossier 'Indésirables', sélectionnez l'option 'les déplacer dans le dossier "Indésirables"'.
+    * Pour lui dire de supprimer les courriers indésirables lorsque qu'ils arrivent, sélectionnez l'option 'les supprimer'.
+ 
+ 3. Thunderbird marquera les courriers indésirables comme lus si vous sélectionnez l'option 'Marquer les messages détectés indésirables comme lus'.
+ 4. Si vous voulez garder une trace des spams reçus, sélectionnez l'option 'Activer la journalisation du filtre adaptatif des indésirables'.
+ 5. Cliquez sur le bouton 'Fermer' pour fermer l'interface de configuration. 
 
- 2. Do the following:
-    * To tell Thunderbird that it should handle messages marked as junk, select the check box labelled 'When I mark message as junk'.
-    * To have Thunderbird move these messages to a junk folder, select the 'Move them to account's 'Junk' folder' radio button.
-    * To have Thunderbird delete junk mail upon receiving it, select the 'Delete them' radio button.
+Détection de courriers fraduleux et système d'alerte
+----------------------------------------------------
 
- 3. Thunderbird will mark junk message as read if you select the check box labeled 'Mark messages determined to be Junk as read'.
- 4. If you want to keep a log of junk mail received, select the 'Enable junk filter logging' check box.
- 5. Click the 'OK' button to close the 'Options/Preferences' dialog box.
+ 1. Dans l'interface de configuration de Thunderbird, cliquez sur 'Sécurité' puis sur l'onglet 'Courrier frauduleux'.
 
-Scam detection and warning system
+ ![Thunderbird Security](thunderbird_sec_2.png)
+
+ 2. Pour dire à Thunderbird de vous alerter en cas de courriers potentiellement frauduleux, sélectionnez l'option 'Signaler si le message en cours de lecture est susceptible d'être frauduleux'.
+ 
+ 3. Cliquez sur le bouton 'Fermer' pour fermer l'interface de configuration.
+
+L'intégration de votre anti-virus
 ---------------------------------
 
- 1. In the Preferences/Options dialog box, click 'Security' and then click the 'E-mail Scams' tab.
+ 1. Dans l'interface de configuration de Thunderbird, cliquez sur 'Sécurité' puis sur l'onglet 'Antivirus'.
+ 
+ ![Thunderbird Security](thunderbird_sec_3.png)
 
- ![Thunderbird Security](thunderbird_sec_2.jpg)
+ 2. Pour activer l'intégration de votre anti-virus, sélectionnez l'option 'Permettre aux logiciels antivirus de mettre individuellement en quarantaine les messages entrants'. Pour désactiver cette fonctionnalité, il vous suffit de décocher l'option. 
+ 3. Cliquez sur le bouton 'Fermer' pour fermer l'interface de configuration.
 
- 2. To have Thunderbird warn you about possible email scams, select the check box labelled 'Tell me if the message I'm read is a suspected email scam'. To turn off this feature, deselect this check box.
+Ajouter un mot de passe maître
+------------------------------
 
- 3. Click the 'OK' button to close the 'Options/Preferences' dialog box.
+ 1. Dans l'interface de configuration de Thunderbird, cliquez sur 'Sécurité' puis sur l'onglet 'Mots de passe'.
+ 
+ ![Thunderbird Security](thunderbird_sec_4.png)
 
-Anti-virus integration
-----------------------
+ 2. Cochez l'option 'Utiliser un mot de passe principal'.
+ 3. Entrez votre mot de passe dans les champs 'Saisissez le nouveau mot de passe' et 'Saisissez-le à nouveau'.
+ 
+ ![Thunderbird Security](thunderbird_sec_5.png)
 
- 1. In the Preferences/Options dialog box, click 'Security' and then click the 'Anti-Virus' tab.
+ 4. Cliquez sur 'OK' pour fermer l'interface et enregistrer le nouveau mot de passe. 
+ 5. Si vous voulez voir les mots de passe que vous avez enregistrer dans Thunderbird, cliquez sur 'Mots de passe enregistrés'. L'interface 'Enregistrement des mots de passe' s'ouvre alors.
+ 
+ ![Thunderbird Security](thunderbird_sec_6.png)
 
- ![Thunderbird Security](thunderbird_sec_3.jpg)
+ 6. Pour voir les mots de passe, cliquez sur 'Afficher les mots de passe'.
+ 7. Cliquez sur le bouton 'Fermer' pour fermer l'interface.
+ 8. Cliquez sur le bouton 'OK' pour fermer l'interface de configuration de Thunderbird.
 
- 2. To turn on anti-virus integration, select the check box labeled 'Allow anti-virus clients to quarantine individual incoming messages'. To turn off this feature, deselect this check box.
- 3. Click the 'OK' button to close the 'Options/Preferences' dialog box.
+Un contrôle adaptatif des courriers indésirables
+------------------------------------------------
 
-Set a master password
----------------------
+Vous allez avoir besoin d'ouvrir l'interface de configuration de comptes. Notez que vous devez choisir un compte à configurer via cette interface, il n'est pas possible de modifier les paramètres de tous les comptes en même temps. 
 
- 1. In the Preferences/Options dialog box, click 'Security' and then click the 'Passwords' tab.
-
- ![Thunderbird Security](thunderbird_sec_4.jpg)
-
- 2. Select the check box labeled 'Use a master password'.
- 3. Enter your password into the 'Enter new password' and 'Re-enter password' fields.
-
- ![Thunderbird Security](thunderbird_sec_5.jpg)
-
- 4. Click the 'OK' button to close the Change Master Password dialog box.
- 5. If you want to see the passwords that you have saved in Thunderbird, click the 'Saved Passwords' button. This will open the 'Saved Passwords' dialog box.
-
- ![Thunderbird Security](thunderbird_sec_6.jpg)
-
- 6. To see the passwords, click the 'Show Passwords' button.
-
- ![Thunderbird Security](thunderbird_sec_7.jpg)
-
- 7. Click the 'Close' button to close 'Saved Passwords' dialog box.
- 8. Click the 'OK' button to close the 'Options/Preferences' dialog box.
-
-Adaptive junk mail controls
----------------------------
-
-You need to first open Account Settings window. Note that settings configured in the Account Settings window apply only to the account that you select in the Folders pane. You must configure local folders separately.
-
- 1. In the Folders pane right-click on an account name and select 'Settings'.
-
+ 1. Dans la colonne de gauche, faites un clic-droit sur le nom d'un compte puis choissisez 'Paramètres' dans le menu. Si vous êtes sur Windows ou Mac, vous pouvez aussi cliquez sur 'Outils -> Paramètres des comptes' ou sur GNU/Linux, 'Édition -> Paramètres des comptes'.
+ 
  ![Thunderbird Security](thunderbird_sec_8.jpg)
 
- 2. In Windows or Mac go to the 'Tools' menu and select 'Account Settings'. In Linux, go to the 'Edit menu' and select 'Account Settings'.
+ 2. Pour configurer le traitement adaptatif des courriers indésirables, choisissez un compte et cliquez sur 'Paramètres des indésirables'.
 
- 3. To set adaptive junk mail controls for a specific account, pick an account and click 'Junk Settings'.
+ ![Thunderbird Security](thunderbird_sec_9.png)
 
- ![Thunderbird Security](thunderbird_sec_9.jpg)
-
- 4. To turn on the controls, select the check box labeled 'Enable adaptive junk mail controls for this account'. To turn them off, deselect this check box.
- 5. If you want the controls to ignore mail from senders in your Address Book, select the check boxes next to any of the listed address books.
- 6. To use a mail filter such as SpamAssassin or SpamPal, select the check box labelled 'Trust junk mail headers sent by:' and pick a filter from the menu.
- 7. Select the check box labeled 'Move new junk messages to' if you want to move junk mail to a specified folder. Then select the destination folder to be either at your email provider or a local folder on your computer.
- 8. Select the 'Automatically delete junk mail other 14 days' check box to have Thunderbird regularly remove junk mail. To change the time period for this process, enter a different number (in days) in the text box.
- 9. Click 'OK' to save your changes.
+ 3. Pour activer le contrôle, cochez l'option 'Activer les contrôles adaptatifs de courriels indésirables pour ce compte'. Pour le désactiver, il suffit de décocher la case.
+ 4. Vous pouvez ignorer le contrôle des e-mails provenant des personnes de votre carnet d'adresses en cochant la case 'Adresse personnelles'.
+ 5. Pour utiliser un filtre d'e-mails comme SpamAssassin ou SpamPal, cochez la case 'Se fier aux en-têtes de courrier indésirable placés par :' et choisissez un filtre dans le menu.
+ 6. Cochez l'option 'Déplacer les nouveaux courriels indésirables vers :' si vous voulez dépacer automatiquement les spams vers un dossier dédié. Vous devrez également sélectionner un dossier de destination présent soit chez votre fournisseur de service, soit localement.
+ 7. Cochez l'option 'Supprimer automatiquement les courriels indésirables âgés de plus de' si vous voulez que votre dossier de spams soit vidé régulièrement. Vous pouvez définir une durée en choisissant un autre nombre de jours dans le champs à disposition.
+ 8. Cliquez sur 'OK' pour enregistrer vos modifications.
  

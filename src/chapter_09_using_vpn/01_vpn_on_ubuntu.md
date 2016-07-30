@@ -1,100 +1,99 @@
+VPN sur Ubuntu
+==============
 
-VPN on Ubuntu
-=============
+Si vous utilisez Ubuntu, vous pouvez vous connecter à un VPN en utilisant l'application pré-installée *Réseau*. Cette application est capable de se connecter aux réseaux OpenVPN. PPTP ne devrait pas être utilisé pour des raisons de sécurité. Malheureusement, lors de l'écriture de ce livre, il n'existe pas d'interface pour gérer les connexions L2TP sur Ubuntu. (Il peut être réalisé manuellement mais cela ne rentre pas dans le cadre de ce livre).
 
-If you use Ubuntu as your operating system, you can connect to a VPN by using the built-in *NetworkManager*. This application is able to set up networks with OpenVPN. PPTP should not be used for security reasons. Unfortunately at the time of writing a L2TP interface is not available in Ubuntu. (It can be done manually, but it goes beyond the scope of this document).
+L'exemple suivant expliquera comment vous connecter à un serveur OpenVPN. Nous considérons que vous avez déjà un compte VPN chez un fournisseur comme décrit dans le chapitre précédent.
 
-The following example will explain how to connect with an OpenVPN-server. Under all situations we assume you already have a VPN account as described earlier in this section.
+Préparer le gestionnaire de réseaux pour utiliser un VPN
+--------------------------------------------------------
 
-Preparing Network Manager for VPN networks
-------------------------------------------
+Pour Ubuntu, il y a un très bon logiciel de gestion des réseaux : le Network Manager (l'application Réseau en français). C'est le même utilitaire que vous utilisez lorsque vous configurez une connexion Wi-Fi ou filaire. Cet outil est capable de gérer les VPNs mais, avant cela, il faut installer quelques extensions.
 
-For Ubuntu there is an excellent network utility: Network Manager. This is the same utility you use to set up your Wireless (or wired) network and is normally in the upper right corner of your screen (next to the clock). This tools is also capable of managing your VPNs, but before it can do so, it's necessary to install some extensions.
+### Installer l'extension OpenVPN pour le Network Manager 
 
-### Installing OpenVPN extension for Network Manager
+Pour installer les extensions pour le Network Manager, nous utiliserons la logithèque Ubuntu.
 
-To install the plugins for Network Manager we will use the Ubuntu Software Center.
-
- 1. Open the Ubuntu Software Center by typing software in the Unity search bar
-
+ 1. Ouvrez la logithèque Ubuntu en tapant "logithèque" dans la barre de recherche de Unity.
+ 
  ![VPN on Ubuntu](vpn_ubuntu_001.png)
 
- 2. The Ubuntu Software Center enables you to search, install and remove software on your computer. Click on the search box at the top right of the window.
-
+ 2. La logithèque vous permet de rechercher, installer et supprimer des logiciels sur votre ordinateur. Cliquez sur la barre de recherche en haut à droite de la fenêtre.
+ 
  ![VPN on Ubuntu](vpn_ubuntu_002.png)
 
- 3. In the search box, type in "network-manager-openvpn-gnome" (which is the extension that will enable OpenVPN). It's necessary to type the full names because the packages are classified as "technical" and don't pop-up earlier. These packages include all the files you need to establish a VPN connection successfully.
+ 3. Tapez "network-manager-openvpn-gnome" (extension qui permet d'activer OpenVPN). Il est nécessaire de taper le nom complet car ces paquets sont considérés comme "techniques" et ne s'affiche pas rapidement dans les suggestions. Ils incluent tous les fichiers dont vous aurez besoin pour établir une connexion VPN.
 
  ![VPN on Ubuntu](vpn_ubuntu_003.png)
 
- 4. Ubuntu may ask you for additional permissions to install the program. If that is the case, type in your password and click Authenticate. Once the package is installed, you can close the Software Center window.
+ 4. Ubuntu vous demandera probablement des permissions supplémentaires pour installer le programme. Si c'est le cas, tapez votre mot de passe et cliquez sur S'authentifier. Une fois le paquet installé, vous pourrez fermer la logithèque.
 
  ![VPN on Ubuntu](vpn_ubuntu_004.png)
 
- 5. To check if the extensions are correctly installed, click on the NetworkManager (the icon at the left of your system clock) and select VPN Connections > Configure VPN.
-
+ 5. Pour vérifier si les extensions ont été correctement installées, ouvrez l'icône du Network Manager en haut à droite de l'écran et sélectionnez `Connexions VPN > Configurer le VPN ...`. 
+ 
  ![VPN on Ubuntu](vpn_ubuntu_005.png)
 
- 6. Click Add under the VPN tab.
+ 6. Cliquez sur Ajouter dans la colonne de gauche.
 
  ![VPN on Ubuntu](vpn_ubuntu_006.png)
 
- 7. If you see a pop-up asking for the type of VPN and the tunnel technology (OpenVPN) option is available, this means that you have installed the VPN extension in Ubuntu correctly. If you have your VPN login information ready, you can continue right away, else you first have to get a VPN account from a VPN-provider. If this is the case, click cancel to close the Network Manager.
-
+ 7. Si vous voyez une fenêtre vous demandant le type de connexion que vous voulez et que l'option OpenVPN est disponible, cela veut dire que les extensions ont bien été installées. Si vous avez les informations pour vous connecter à votre VPN, vous pouvez continuer, sinon, allez récupérer un compte chez un fournisseur et fermez le Network Manager. 
+ 
  ![VPN on Ubuntu](vpn_ubuntu_007.png)
 
-Configuring an OpenVPN network
-------------------------------
+Configurer un client OpenVPN
+----------------------------
 
-Let us assume you have received your configuration files and credentials from your VPN provider. This information should contain the following
+Nous considérons que vous avez reçu vos fichiers de configuration et vos clés depuis votre fournisseur de VPN. Les fichiers suivants devraient être présent :
 
- * an *.ovpn file, ex. air.ovpn
- * The file: ca.crt (this file is specific for every OpenVPN provider)
- * The file: user.crt (this file is your personal certificate, used for encryption of data)
- * The file: user.key (this file contains your private key. It should be protected in a good manner. Losing this file will make your connection insecure)
+ * un fichier .ovpn
+ * Le fichier : ca.crt (ce fichier est spécifique pour chaque fournisseur OpenVPN)
+ * Le fichier : user.crt (ce fichier est votre certificat personnel, utilisé pour chiffrer vos données)
+ * Le fichier : user.key (ce fichier contient votre clé privée. Il devrait être bien protégé. Perdre ce fichier empêchera la mise en place d'une connexion sécurisé)
+ 
+Dans la plupart des cas, votre fournisseur vous enverra ces fichiers dans un fichier .zip. Certains fournisseurs OpenVPN utilisent l'authentification par nom d'utilisateur et mot de passe qui ne sera pas couverte dans ce livre.
 
-In most cases your provider will send these files to you in a zip file. Some openvpn providers use username and password authentication which will not be covered.
-
- 1. Unzip the file you have downloaded to a folder on your hard drive (for example "/home/[yourusername]/.vpn"). You should now have four files. The file "air.ovpn" is the configuration file that you need to import into NetworkManager.
-
+ 1. Décompressez le fichier que vous venez de télécharger dans un dossier sur votre disque dur (par exemple "/home/[utilisateur]/.vpn"). Vous devriez maintenant avoir vos fichiers. Le fichier "air.ovpn" est le fichier de configuration que vous devrez importer dans le Network Manager. 
+ 
  ![VPN on Ubuntu](vpn_ubuntu_008.png)
 
- 2. To import the configuration file, open NetworkManager and go to VPN Connections > Configure VPN.
-
+ 2. Pour importer le fichier de configuration, ouvrez le Network Manager et sélectionnez `Connexions VPN > Configurer le VPN ...`.
+ 
  ![VPN on Ubuntu](vpn_ubuntu_009.png)
 
- 3. Under the VPN tab, click Import.
-
+ 3. Cliquez sur Ajouter puis, sélectionnez "Importer une configuration VPN enregistrée ..." dans la liste déroulante. 
+ 
  ![VPN on Ubuntu](vpn_ubuntu_010.png)
 
- 4. Locate the file air.ovpn that you have just unzipped. Click Open.
-
+ 4. Recherchez le fichier air.ovpn que vous venez de décompresser et cliquez sur Ouvrir.
+ 
  ![VPN on Ubuntu](vpn_ubuntu_011.png)
 
- 5. A new window will open. Leave everything as it is and click Apply.
-
+ 5. Une nouvelle fenêtre s'affichera. Ne changez rien et cliquez sur "Enregistrer". Si votre clé est protégée par un mot de passe, entrez le avant d'enregistrer.
+ 
  ![VPN on Ubuntu](vpn_ubuntu_012.png)
 
- 6. Congratulations! Your VPN connection is ready to be used and should appear on the list of connections under the VPN tab. You can now close NetworkManager.
-
+ 6. Félicitations ! Votre connexion VPN est prête à être utilisée. Vous pouvez désormais fermer la fenêtre du Network Manager.
+ 
  ![VPN on Ubuntu](vpn_ubuntu_013.png)
 
-Using your new VPN connection
------------------------------
+Utiliser votre nouvelle connexion VPN
+-------------------------------------
 
-Now that you configured NetworkManager to connect to a VPN service using the OpenVPN client, you can use your new VPN connection to circumvent Internet censorship. To get started, follow these steps:
+Maintenant que votre client OpenVPN est configuré, vous pouvez utiliser votre connexion VPN pour naviguer sur Internet et éviter la censure. Pour commencer, suivez les étapes suivantes : 
 
- 1. In the NetworkManager menu, select your new connection from VPN Connections.
-
+ 1. Dans le menu du Network Manager, sélectionnez votre connexion VPN.
+ 
  ![VPN on Ubuntu](vpn_ubuntu_014.png)
 
- 2. Wait for the VPN connection to be established. When connected, a small padlock should appear right next to your NetworkManager icon, indicating that you are now using a secure connection. Move your cursor over the icon to confirm that the VPN connection is active.
-
+ 2. Attendez que la connexion VPN s'établisse. Une fois connecté, un petit cadenas devrait apparaître à côté de l'icône du Network Manager ce qui signifie que votre connexion est sécurisé. Placez votre curseur au dessus de l'icône pour être sûr que la connexion VPN est active.
+ 
  ![VPN on Ubuntu](vpn_ubuntu_015.png)
 
- 3. Test your connection, using the method described in the "Make sure it works" section of this chapter.
-
- 4. To disconnect from your VPN, select VPN Connections > Disconnect VPN in the NetworkManager menu. You are now using your normal connection again.
-
+ 3. Testez votre connexion en utilisant la méthode décrite dans la section "Vérifier que tout fonctionne" de ce chapitre.
+ 
+ 4. Pour se déconnecter de votre VPN, sélectionnez `Connexions VPN > Déconnecter le VPN`. Vous utiliserez alors votre connexion internet habituelle.
+ 
  ![VPN on Ubuntu](vpn_ubuntu_016.png)
 

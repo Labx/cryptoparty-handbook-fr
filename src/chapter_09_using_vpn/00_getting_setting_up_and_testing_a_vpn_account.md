@@ -1,63 +1,61 @@
-Getting, setting-up and testing a VPN account
-=============================================
+Choisir, mettre en place et tester un compte VPN
+================================================
 
-In all the VPN systems, there is one computer set up as a server (in an unrestricted location), to which one or more clients connect. The set up of the server is out of the scope of this manual and the set up of this system is in general covered by your VPN provider. This server is one of the two ends of the encrypted tunnel. It is important that the company running this server can be trusted and is located in an area you trust. So to run a VPN, an account is needed at such a trusted server.
+Dans tous les systèmes VPN, il y a un ordinateur configuré en tant que serveur (à une localisation avantageuse) et est connecté à un ou plusieurs clients. La configuration de ce type de serveur n'est pas le sujet de ce livre et la configuration du client est généralement couverte par votre fournisseur de VPN. Le serveur est l'un des deux bouts du tunnel chiffré. Il est important d'avoir confiance dans la société qui possède ce serveur et que celui-ci soit localisé dans un endroit sûr.
 
-Please keep in mind that an account can often only be used on one device at a time. If you want to use a VPN with both your mobile and laptop concurrently, it is very well possible you need two accounts.
+Gardez bien en tête qu'un compte n'est utilisable, la plupart du temps, uniquement sur un appareil à la fois. Si vous voulez utiliser un VPN sur votre téléphone et votre ordinateur en même temps, il faudra probablement deux comptes. 
  
-An account from a commercial VPN provider
------------------------------------------
+Un compte sur un fournisseur de VPN commercial
+----------------------------------------------
 
-There are multiple VPN providers out there. Some will give you free trial time, others will begin charging right away at an approximate rate of €5 per month. Look for a VPN provider that offers OpenVPN accounts - it is an Open Source, trusted solution available for Linux, OS X, and Windows, as well as Android and iOS.
+Il y a de nombreux fournisseurs de VPN différents. Certains permettent d'essayer gratuitement leur service, d'autres vous demanderont de payer pour commencer à l'utiliser (environ 5 € par mois en moyenne). Préférez un fournisseur de VPN qui offre des comptes OpenVPN qui est la solution VPN Open-Source la plus sûr disponible sur Linux, OS X, Windows, Android et iOS.
 
-When choosing a VPN provider you need to consider the following points:
+Lorsque du choix d'un fournisseur, vous devez faire attention aux points suivants :
 
- * Information that is required from you to register an account - the less that is needed the better. A truly privacy concerned VPN provider would only ask you for email address (make a temporary one!), username and password. More isn't required unless the provider creates a user database which you probably don't want to be a part of.
- * Payment method to be used to pay for your subscription. Cash-transfer is probably the most privacy-prone method, since it does not link your bank account and your VPN network ID. Paypal can also be an acceptable option assuming that you can register and use a temporary account for every payment. Payment via a bank transfer or by a credit card can severely undermine your anonymity on and beyond the VPN.
- * Avoid VPN providers that require you to install their own proprietary client software. There is a perfect open source solution for any platform, and having to run a "special" client is a clear sign of a phony service.
- * Avoid using PPTP based VPNs, as several security vulnerabilities exist in that protocol. In fact, if two providers are otherwise equal, choose the one _not_ offering PPTP if feasible.
- * Look for a VPN provider that's using OpenVPN - an open source, multi-platform VPN solution.
- * Exit gateways in countries of your interest. Having a choice of several countries allows you to change your geo-political context and appears to come from a different part of the world. You need to be aware of legislation details and privacy laws in that particular country.
- * Anonymity policy regarding your traffic - a safe VPN provider will have a non-disclosure policy. Personal information, such as username and times of connection, should not be logged either.
- * Allowed protocols to use within VPN and protocols that are routed to the Internet. You probably want most of the protocols to be available
- * Price vs. quality of the service and its reliability.
- * Any known issues in regard to anonymity of the users the VPN provider might have had in the past. Look online, read forums and ask around. Don't be tempted by unknown, new, cheap or dodgy offers.
-
-There are several VPN review oriented places online that can help you make the right choice:
+ * Quelles informations personnelles devrez-vous donner en échange d'un compte - moins il y en a, mieux c'est. Un fournisseur de VPN respectueux de la vie privée ne vous demandera que votre adresse email (créer en une jetable), un nom d'utilisateur et un mot de passe. C'est le minimum requis pour la mise en place du service, le reste ira forcément dans une base de données dans laquelle vous ne voulez certainement pas être intégré.
+ * La méthode de paiement. Le transfert d'argent liquide est probablement la méthode la plus respectueuse de la vie privée tant qu'il ne fait pas de lien entre votre compte bancaire et votre identifiant sur le réseau VPN. Paypal est également utilisable à condition d'utiliser un compte différent pour chaque paiement. Le virement ou le paiement par carte de crédit peut sévèrement endommager votre anonymat sur le réseau VPN et en dehors. 
+ * Le client VPN. Évitez les fournisseurs de VPN qui vous demande d'installer leur propre logiciel client. Il existe une solution open-source parfaite pour chaque plateforme et devoir installer un client "spécial" est un signe clair de service bidon.
+ * Les VPN basés sur le protocole PPTP. Évitez les fournisseurs proposant ce type de service car de multiples failles de sécurité ont été découverte dans ce protocole. En fait, si deux fournisseurs proposent les mêmes options, préférez celui qui ne propose _pas_ le PPTP.
+ * La solution VPN. Ne cherchez que les fournisseurs qui utilisent OpenVPN (une solution multiplateforme open-source).
+ * Le pays de sortie. Avoir le choix entre de multiples pays vous permet de changer de contexte géo-politique et permet de disperser son trafic dans le monde entier. Vous devez être au courant de la législation sur la vie privée dans les pays que vous choisirez pour faire sortir votre trafic.
+ * La politique du fournisseur à propos de votre trafic. Un fournisseur VPN sûr possède une clause de non-divulgation. Les informations personnelles comme le nom d'utilisateur et le temps de connection ne devrait pas être sauvegardé non plus.
+ * Les protocoles autorisés au travers du VPN. Vous voudrez probablement utiliser la plupart des protocoles existants.
+ * Le rapport qualité/prix du service et sa fiabilité.
+ * Si des utilisateurs ont eu des problèmes d'anonymat avec le fournisseur dans le passé. Regardez en ligne, lisez les forums et demandez autour de vous. Ne soyez pas tenté par des offres inconnus, nouvelles ou peu chères.
+ 
+Il y a de nombreux comparateurs de VPN en ligne qui peuvent vous aider à faire le bon choix : 
 
  * http://www.bestvpnservice.com/vpn-providers.php
  * http://vpncreative.com/complete-list-of-vpn-providers
  * http://en.cship.org/wiki/VPN
 
  
-Setting up your VPN client
+Configurer votre client VPN
 
- > "OpenVPN [..] is a full featured SSL VPN software solution that integrates OpenVPN server capabilities, enterprise management capabilities, simplified OpenVPN Connect UI, and OpenVPN Client software packages that accommodate GNu/Linux, OSX, Windows and  environments. OpenVPN Access Server supports a wide range of configurations, including secure and granular remote access to internal network and/or private cloud network resources and applications with fine-grained access control." ([http://openvpn.net/index.php/access-server/overview.html](http://openvpn.net/index.php/access-server/overview.html))
+Il y a de nombreux standards pouvant servir à créer un VPN, y compris PPTP, LL2P/IPSec et **OpenVPN**. Leurs différences reposent sur leur complexité, le niveau de sécurité qu'ils apportent et quels systèmes d'exploitations ils supportent. N'utilisez pas PPTP car il possède de nombreuses failles de sécurité. Dans ce livre, nous allons nous concentrer sur OpenVPN. Il fonctionne avec la plupart des versions de GNU/Linux, OS X et Windows. OpenVPN est basé sur les protocoles SSL/TLS (le même type de chiffrement qui est utilisé dans HTTPS (Secure HTTP) et beaucoup d'autres protocoles chiffrés. Le chiffrement d'OpenVPN est basé sur l'échange de clés **RSA**. Pour que cela fonctionne, il faut que le client et le serveur possèdent chacun une clé RSA publique et une clé privée. 
 
-There is a number of different standards for setting up VPNs, including PPTP, LL2P/IPSec and **OpenVPN**. They vary in complexity, the level of security they provide, and which operating systems they are available for. Do not use PPTP as it has several security vulnerabilities. In this text we will concentrate on OpenVPN. It works on most versions of GNU/Linux, OSX, Windows. OpenVPN is TLS/SSL-based - it uses the same type of **encryption** that is used in HTTPS (Secure HTTP) and a myriad of other encrypted protocols. OpenVPN encryption is based on **RSA** key exchange algorithm. For this to work and in order to communicate, both the server and the client need to have public and private RSA keys.
+Une fois que vous avez obtenu accès à votre compte VPN, le serveur génére ces clés et vous n'aurez qu'à les télécharger depuis le site web de votre fournisseur de VPN ou vous seront envoyées par email. Avec vos clés, vous recevrez un *certificat racine (\*.ca)* et un *fichier de configuration (\*.conf ou \*.ovpn)*. Dans la plupart des cas, les fichiers suivant sont les seuls nécessaires afin de configurer et utiliser votre client OpenVPN.
 
-Once you obtain access to your VPN account the server generates those keys and you simply need to download those from the website of your VPN provider or have them sent to your email address. Together with your keys you will receive a *root certificate (\*.ca)* and a *main configuration file (\*.conf or \*.ovpn)*. In most cases only the following files will be needed to configure and run an OpenVPN client:
+ * **client.conf** (ou client.ovpn) - le fichier de configuration qui contient tous les paramètres nécessaires à l'utilisation du VPN. NOTE : dans la plupart des cas, les certificats et les clés sont intégrés dans le fichier de ce fichier. Dans ce cas, les fichiers ci-dessous ne sont pas nécessaires.
+ * **ca.crt** (si il n'est pas présent dans le fichier de configuration) - certificat racine de votre serveur VPN, utilisé pour signé et vérifier les autres clés fournies par votre fournisseur.
+ * **client.crt** (si il n'est pas présent dans le fichier de configuration) - certificat de votre client. Il vous permet de communiquer avec votre serveur VPN.
 
- * **client.conf** (or client.ovpn) - configuration file that includes all necessary parameters and settings. NOTE: in some cases certificates and keys can come embedded inside the main configuration file. In such a case the below mentioned files are not necessary.
- * **ca.crt** (unless in configuration file) - root authority certificate of your VPN server, used to sign and check other keys issued by the provider.
- * **client.crt** (unless in configuration file) - your client certificate, allows you to communicate with VPN server.
+Basé sur une configuration particulière, votre fournisseur de VPN peut demander un nom d'utilisateur et un mot de passe afin d'identifier votre connexion. Souvent, pour faciliter les choses, ils peuvent être enregistrés dans un fichier à part ou ajoutés dans le fichier de configuration principal. Dans les autres cas, l'authentification par clé est utilisé et la clé est stockée dans un fichier différent :
 
-Based on a particular configuration, your VPN provider might require a username and password to authenticate your connection. Often, for convenience, these can be saved into a separate file or added to the main configuration file. In other cases, key-based authentication is used, and the key is stored in a separate file:
+ * **client.key** (si il n'est pas présent dans le fichier de configuration) - clé d'authentification du client, utilisé pour être authentifié sur le serveur VPN et établir un canal de données chiffré.
+ 
+Dans la majorité des cas, vous n'aurez rien à changer dans le fichier de configuration et, évidemment, **n'éditez pas les clés et les certificats !**. Tous les fournisseurs de VPN ont des tutoriels pour aider les utilisateurs à configurer leur client. Lisez et suivez ces instructions pour être sûr que votre client soit correctement configuré.
 
- * **client.key** (unless in configuration file) - client authentication key, used to authenticate to the VPN server and establish an encrypted data channel.
+NOTE : Habituellement, il n'est pas possible d'utiliser plus d'une clé par connexion, il n'est donc pas de recommandé d'utiliser une même clé sur différents appareils. Prenez une nouvelle paire de clés pour chaque appreil que vous voudrez connecter au VPN.
 
-In most cases, unless otherwise necessary, you don't need to change anything in the configuration file and (surely!) **do not edit key or certificate files!** All VPN providers have thorough instructions regarding the setup. Read and follow those guidelines to make sure your VPN client is configured correctly.
+Téléchargez votre configuration OpenVPN et les clés, placez les dans un endroit sûr puis, suivez le chapitre suivant.
 
-NOTE: Usually it's only allowed to use one key per one connection, so you probably shouldn't be using the same keys on different devices at the same time. Get a new set of keys for each device you plan to use with a VPN, or attempt to set up a local VPN gateway (advanced, not covered here).
+La configuration du client OpenVPN
+----------------------------------
 
-Download your OpenVPN configuration and key files copy them to a safe place and proceed to the following chapter.
+Dans les chapitres suivants, plusieurs exemples de configuration du client OpenVPN seront présentés. Sur GNU/Linux, utilisez votre gestionnaire de paquets favoris et installez le paquet **openvpn** ou **openvpn-client**.
 
-Setting up OpenVPN client
--------------------------
+Si vous voulez utiliser OpenVPN sur Windows ou OS X, rendez-vous sur :
 
-In the following chapters some examples are given for setting up OpenVPN client software. On any flavor of GNU/Linux use your favorite package manager and install **openvpn** or **openvpn-client** package.
-
-If you want to use OpenVPN on Windows or OSX, have look at:
-
- * [http://openvpn.se](http://openvpn.se) (Windows interface)
- * [http://code.google.com/p/tunnelblick](http://code.google.com/p/tunnelblick) (OSX interface)
+* [http://openvpn.se](http://openvpn.se) (Windows interface)
+* [http://code.google.com/p/tunnelblick](http://code.google.com/p/tunnelblick) (OSX interface)

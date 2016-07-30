@@ -1,10 +1,10 @@
-Making Sure Your VPN Works
-==========================
+S'assurer que votre VPN fonctionne
+==================================
 
-Once you're done setting up your VPN, one of the first things you should do is test whether your data is actually being transferred through your VPN network. The simplest way to test this is to check your public IP address, which is the IP address you're exposing to the internet.
+Une fois que vous avez terminé de configurer votre VPN, l'une des premières choses à faire est de vérifier que vos données passent bien au travers du réseau VPN. La façon la plus simple de vérifier cela est de regarder votre adresse IP publique. C'est cette adresse qui vous identifie sur le réseau.
 
-There are numerous websites that will tell you what your IP address is, and where that IP address is located (also known as its geolocation). Many search engines will report your IP address if you search for "My IP," but you can also use dedicated services like [http://www.myip.se](http://www.myip.se) and [http://www.ipchicken.com](http://www.ipchicken.com).
+Il y a de nombreux sites web qui vous donneront votre adresse IP publique et où celle ci est géolocalisé. Beaucoup de moteurs de recherche afficheront votre adresse si vous recherchez "my ip" mais vous pouvez aussi utiliser un site dédié comme [http://www.myip.se](http://www.myip.se) et [http://www.ipchicken.com](http://www.ipchicken.com).
 
-Check your IP address before connecting to your VPN. Once you connect to your VPN, your computer's public IP address should change to match that of your VPN server, and your geolocation should change to wherever your VPN server is located. 
+Vérifiez votre adresse IP avant de vous connecter à votre VPN. Une fois connecté, votre adresse IP publique devrait changer pour devenir similaire à celle de votre serveur VPN. Votre géolocalisation devrait changer aussi en fonction de la localisation du serveur.
 
-Once your external IP is the same as the IP of your VPN server, you can rest assured your communication is encrypted.
+Si votre adresse IP publique est la même que celle de votre serveur VPN, vous pouvez être sûr que vos données sont chiffrés.

@@ -1,72 +1,72 @@
-VPN on Windows
-==============
+VPN sur Windows
+===============
 
-Setting up a VPN on Windows is very easy once you have your account details ready. Let's assume have your credentials from your VPN provider for L2TP/IPSec connection ready. This information should contain the following:
+Mettre en place un VPN sur Windows est très simple une fois que votre compte est prêt. Nous considérons que vous avez un compte chez un fournisseur de VPN pour L2TP/IPSec. Les informations disponibles devraient contenir les données suivantes :
 
- * Username, ex. `bill2`
- * Password, ex. `verysecretpassword`
- * VPN server, ex. `tunnel.greenhost.nl`
- * A Pre-Shared-Key or Machine-certificate
+ * Un nom d'utilisateur
+ * Un mot de passe
+ * L'adresse d'un serveur VPN.
+ * Des clés et certificats
 
-Setup
------ 
+Configuration
+-------------
 
- 1. Before getting started, please be sure you've read the paragraph "testing before and after account set up", this way you will be able to validate if your connection is actually working after set up.
+ 1. Avant de commencer, assurez vous d'avoir lu le paragraphe "tester avant et après la configuration de compte", de cette manière, vous pourrez vérifier si votre connexion fonctionne correctement.
 
- 2. We need to go to the "Network and Sharing Center" of Windows to create a new VPN connection. We can access this center easily by clicking on the network icon next to the systemclock en click on "open Network and Sharing Center"
-
+ 2. Pour ajouter une connexion VPN, on peut utiliser le menu "Réseau et centre de partage". Nous pouvons accéder à ce centre facilement en cliquant sur l'icône réseau à côté de l'horloge puis en cliquant sur "Ouvrir Réseau et Centre de partage".
+ 
  ![VPN on Windows](vpn_windows_01.jpg)
 
- 3. The "Network and Sharing Center" will popup. You will see some information about your current network. Click on "Connect to a network" to add a VPN connection.
-
+ 3. Une fenêtre s'ouvrira et vous pourrez voir quelques informations à propos de votre connexion actuelle. Cliquez sur "Connexion à un réseau" pour ajouter une connexion VPN.
+ 
  ![VPN on Windows](vpn_windows_02.jpg)
 
- 4. The wizard to setup a connection will popup. Choose the option to "connect to a workplace", which is Microsoft's way of naming a VPN connection.
+ 4. L'assistant de connexion s'ouvrira. Choisissez l'option "Connection à un ........" (c'est comme cela que Windows nomme une connexion VPN).
 
  ![VPN on Windows](vpn_windows_03.jpg)
 
- 5. The next screen asks us if we want to use our Internet connection or an old-school phone line to connect to the VPN. Just choose the first option then.
-
+ 5. Le message suivant nous demande si nous voulons utiliser notre connexion Internet ou une ligne téléphonique pour nous connecter à notre VPN. Choisissez la première option. 
+ 
  ![VPN on Windows](vpn_windows_04.jpg)
 
- 6. The next screen asks for the connection details. Enter here the server of your VPN-provider (called "Internet address" in this dialog). On the bottom please check the box "Don't connect now; just set it up". Using this option the connection will be automatically saved and it's easier to control extra settings. If this is all done, hit the "next" button
+ 6. Le message suivant nous demande des détails sur notre VPN. Entrez le nom de votre serveur VPN (appellé ici "Adresse internet"). En bas de la page, pensez à cocher l'option "Ne pas se connecter". Grâce à cela, la connexion sera automatiquement sauvegardée et il sera plus facile de modifier certains paramètres. Une fois que tout est rempli, cliquez sur le bouton "Suivant". 
 
  ![VPN on Windows](vpn_windows_05.jpg)
 
- 7. Next up are your username and password. Just give them like you received them from your VPN-provider. If the connection fails, Windows forgets them. So keep them with you, you maybe need them later. If this is done. Click "create".
-
+ 7. À présent, il faut donner vos identifiants. Remplissez les champs avec le nom d'utilisateur et le mot de passe que vous avez reçu. Si la connexion échoue, Windows les oubliera. Gardez ces informations près de vous, vous en aurez peut-être besoin plus tard. Si tout fonctionne, cliquez sur "Créer". 
+ 
  ![VPN on Windows](vpn_windows_06.jpg)
 
- 8. Your connection is now available, if you click the the network icon again, you will see a new option in the network menu, the name of your VPN connection, just click it to connect.
-
+ 8. Votre connexion est maintenant disponible. Si vous cliquez sur l'icône réseau une nouvelle fois, vous verrez une nouvelle connexion VPN. Cliquez dessus pour vous y connecter.
+ 
  ![VPN on Windows](vpn_windows_07.jpg)
 
- 9. And click "connect"
-
+ 9. Cliquez sur "Se connecter".
+ 
  ![VPN on Windows](vpn_windows_08.jpg)
-
- 10. A VPN connection dialog appears. This give us the opportunity to review our settings and to connect. You can try to connect, Windows will try to discover all other settings automatically. Unfortunately, this does not always work, so if this is not working for you, hit the "properties" button.
+ 
+ 10. Une fenêtre apparaît. Cela vous donne l'opportunité de vérifier vos paramètres et de vous connecter. Vous pouvez tenter de vous connecter, Windows tentera de découvrir lui-même les autres paramètres automatiquement. Malheureusement, cela ne fonctionne pas toujours donc si cela ne fonctionne pas pour vous, appuyer sur le bouton "Propriété".
 
  ![VPN on Windows](vpn_windows_09.jpg)
 
- 11. The properties windows appear. The most important page is the "Security" page, click on the Security tab to open it.
-
+ 11. Une fenêtre apparaît. La page la plus importante est celle concernant la sécurité. Cliquez sur l'onglet "Sécurité".
+ 
  ![VPN on Windows](vpn_windows_10.jpg)
 
- 12. In the security tab you can specify VPN type, normally L2TP/IPSec. Do not use PPTP as it has several security vulnerabilities. For L2TP/IPSec also have a look at the Advanced settings.
+ 12. Dans l'onglet "Sécurité", vous pouvez spécifier un type de VPN, normallement L2TP/IPSec. N'utilisez pas PPTP car des vulnérabilités ont été découvertes. Choisissez L2TP/IPSec pour ouvrir les paramètres avancés. 
 
  ![VPN on Windows](vpn_windows_11.jpg)
 
- 13. In the Advanced Settings window, you can specify if you are using a pre-shared key or a certificate. This depends on your VPN-provider. If you have received a pre-shared-key, Select this option and fill in this key. Hit ok afterwards. You will return to the previous window, click ok there also
+ 13. Dans la fenêtre "Paramètres avancés", vous pouvez spécifier si vous utilisez une clé partagée ou un certificat. Cela dépend de votre fournisseur de VPN. Si vous avez reçu une clé partagée, sélectionnez cette option. Appuyer ensuite sur OK. Vous arriverez sur la fenêtre précédente, cliquez de nouveau sur OK.
 
  ![VPN on Windows](vpn_windows_12.jpg)
 
- 14. Back in to connection window try to connect now. Please be sure your username and password are filled out.
-
+ 14. Retournez sur le fenêtre de connexion pour tenter de vous connecter. 
+ 
  ![VPN on Windows](vpn_windows_13.jpg)
 
- 15. A connection popup will appear
-
+ 15. Une fenêtre de connexion apparaîtra.
+ 
  ![VPN on Windows](vpn_windows_14.jpg)
 
- 16. Online! Don't forget to check if your VPN is working properly. 
+ 16. Normallement, vous devriez être connecté. Vérifiez que votre VPN fonctionne.

@@ -1,70 +1,68 @@
+VPN sur Mac OS X
+================
 
-VPN on MacOSX
-=============
+Mettre en place un VPN sur Mac OS X est très simple une fois que votre compte est prêt. Nous considérons que vous avez un compte chez un fournisseur de VPN pour L2TP/IPSec. Les informations disponibles devraient contenir les données suivantes :
 
-Setting up a VPN on MacOSX is very easy once you have your account details ready, Let's assume have your credentials from your VPN provider for L2TP/IPSec connection ready. This information should contain the following:
+ * Un nom d'utilisateur
+ * Un mot de passe
+ * Un serveur VPN
+ * Des clés et certificats
 
- * Username, ex. `bill2`
- * Password, ex. `verysecretpassword`
- * VPN server, ex. `tunnel.greenhost.nl`
- * A Pre-Shared-Key or Machine-certificate
+Configuration
+-------------
 
-Setup
------
-
- 1. Before getting started, please be sure you've read the paragraph "testing before and after account set up", this way you will be able to validate if your connection is actually working after set up.
-
- 2. A VPN is configured in the network settings, that are accessible via "System Preferences.." in the Apple menu.
-
+ 1. Avant de commencer, assurez vous d'avoir lu le paragraphe "tester avant et après la configuration de compte", de cette manière, vous pourrez vérifier si votre connexion fonctionne correctement. 
+ 
+ 2. La configuration d'un VPN s'effectue dans les paramètres réseau, accessible via "Préférences Système ..." dans le menu Apple. 
+ 
  ![VPN on Mac OS X](vpn_osx_02.jpg)
 
- 3. Next, open the Network preferences.
+ 3. Ouvrez les paramètres Réseau.
 
  ![VPN on Mac OS X](vpn_osx_03.jpg)
 
- 4. OSX uses this nifty system to lock windows. To add a VPN it is necessary to unlock the screen: you can do this by clicking on the lock on the left bottom of the screen.
+ 4. OS X utilise ..... pour verrouiller la fenêtre. Pour ajouter un VPN, il est nécessaire de déverouiller l'interface : cliquez sur le cadenas en haut à gauche de la fenêtre.
 
  ![VPN on Mac OS X](vpn_osx_04.jpg)
 
- 5. Enter our user credentials
+ 5. Entrez vos identifiants.
 
  ![VPN on Mac OS X](vpn_osx_05.jpg)
 
- 6. Now we can add a new network. Do this by clicking on the "+" sign
+ 6. Maintenant, nous pouvons ajouter notre VPN. Ciquez sur le bouton "+".
 
  ![VPN on Mac OS X](vpn_osx_06.jpg)
 
- 7. In the pop-up you need to specify the type of connection. In this case choose an VPN interface with L2TP over IPSec. This is the most common system. Also don't forget to give the connection a nice name.
-
+ 7. Dans la fenêtre qui s'affiche, vous devez spécifier le type de connexion. Dans notre cas, choisissez VPN avec L2TP au dessus d'IPSec. C'est le système le plus populaire. N'oubliez pas de donner un nom au réseau.
+ 
  ![VPN on Mac OS X](vpn_osx_07.jpg)
 
- 8. Next comes the connection data. Please fill in the provided server name and user name (called 'Account Name'). If this is done, click on the "Authentication Settings..." button
+ 8. Il faut maintenant donner les informations de connexion. Remplissez les champs demandés concernant le serveur et le compte utilisateur. Une fois terminé, cliquez sur le bouton "Paramètres d'authentification ...".
 
  ![VPN on Mac OS X](vpn_osx_08.jpg)
 
- 9. In the new pop-up you can specify connection specific information. This is the way the user is authenticated and how the machine is authenticated. The user is very commonly authenticated by using a password, although other methods are possible. Machine authentication is often done by a Shared Secret (Pre-Shared-Key/PSK), but also quite often by using a certificate. In this case we use the Shared Secret method. When this is done click OK.
+ 9. Dans la fenêtre suivante, vous pouvez spécifier certaines informations. Il s'agit de la manière dont l'utilisateur s'authentifie et la manière dont la machine s'authentifie. La plupart du temps, l'utilisateur s'authentifie grâce à un mot de passe mais d'autres méthodes sont disponibles. L'authentification de machine s'effectue la plupart du temps grâce à un secret partagé (Pre-Shared-Key/PSK) mais aussi régulièrement en utilisant un certificat. Dans ce cas, nous utilisons la méthode du secret partagé. Une fois terminé, cliquez sur "OK".
 
  ![VPN on Mac OS X](vpn_osx_09.jpg)
 
- 10. Now you return back to the network screen. The next step is very important, so click on "Advanced..."
+ 10. À présent, retournez à l'écran Réseau. La prochaine étape est très importante, cliquez sur "Avancée ...".
 
  ![VPN on Mac OS X](vpn_osx_09b.jpg)
 
- 11. In the new pop up you will see an option to route all traffic through the VPN connection. We want to enable this, so all our traffic is encrypted.
-
+ 11. Dans la fenêtre, vous verrez une option pour faire passer tout le trafic dans une connexion VPN. Cochez l'option pour chiffrer votre trafic.
+ 
  ![VPN on Mac OS X](vpn_osx_10.jpg)
 
- 12. Well, all is done. Now hit the Connect button!
-
+ 12. Vous avez terminé. Cliquez maintenant sur le bouton "Connexion".
+ 
  ![VPN on Mac OS X](vpn_osx_11.jpg)
 
- 13. A pop-up appears. You need to confirm your changes, just hit "Apply"
+ 13. Une fenêtre apparaît. Vous devez confirmer les changements, cliquez simplement sur "Appliquer".
 
  ![VPN on Mac OS X](vpn_osx_12.jpg)
 
- 14. After a few seconds, on the left side the connection should turn green. If so, you are connected!
+ 14. Après quelques secondes, un voyant vert devrait s'afficher à côté du nom de la connexion. Si c'est le cas, cela signifie que vous êtes connecté.
 
  ![VPN on Mac OS X](vpn_osx_13.jpg)
 
- 15. Ok, now test your connection!
-
+ 15. Vous pouvez maintenant tester votre connexion.

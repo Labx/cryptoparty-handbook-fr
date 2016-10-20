@@ -1,7 +1,7 @@
 À propos de ce Livre
 ====================
 
-Le CryptoParty Handbook a été créé suite à une suggestion de Marta Peirano ([http://petitemedia.es](http://petitemedia.es)) et Adam Hyde ([http://booksprints.net](http://booksprints.net)) après la première CryptoParty de Berlin, le 29 août 2012. Julian Oliver ([http://julianoliver.com](http://julianoliver.com)) et Danja Vasiliev ([http://k0a1a.net](http://k0a1a.net)), co-organisateurs de la CryptoParty berlinoise avec Marta, étaient très enthousiastes sur cette idée, voyant l'opportunité de faire un livre de cas pratiques faciles d'accès à utiliser pour les soirées suivantes. Asher Wolf, à l'origine du mouvement des CryptoParty, a ensuite été invité à rejoindre cette collaboration et le projet est né.
+Le CryptoParty Handbook a été créé suite à une suggestion de Marta Peirano ([http://petitemedia.es](http://petitemedia.es)) et Adam Hyde ([http://booksprints.net](http://booksprints.net)) après la première CryptoParty de Berlin, le 29 août 2012. Julian Oliver ([http://julianoliver.com](http://julianoliver.com)) et Danja Vasiliev ([http://k0a1a.net](http://k0a1a.net)), co-organisateurs de la CryptoParty berlinoise avec Marta, étaient très enthousiastes à propos de cette idée, voyant l'opportunité de faire un livre de cas pratiques faciles d'accès à utiliser pour les soirées suivantes. Asher Wolf, à l'origine du mouvement des CryptoParties, a ensuite été invité à rejoindre cette collaboration et le projet est né.
 
 Ce livre a été écrit durant les 3 premiers jours d'Octobre 2012, au Studio Weise7 à Berlin, entouré de bonne nourriture et d'un petit océan de café. Environ 20 personnes ont participé à sa création, certains plus que d'autres, certains sur place et d'autres plus loin.
 
@@ -80,6 +80,6 @@ Les manuels utilisés dans la seconde partie de ce livre ont été empruntés de
 
  * "Basic Internet Security" 2011 Adam Hyde (Facilitator), Jan Gerber, Dan Hassan, Erik Stein, Sacha van Geffen, Mart van Santen, Lonneke van der Velden, Emile den Tex and Douwe Schmidt
 
-Le contenu du CryptoPart Handbook est partagé sour licence [Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)](https://creativecommons.org/licenses/by-sa/3.0/).
+Le contenu du CryptoParty Handbook est partagé sour licence [Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)](https://creativecommons.org/licenses/by-sa/3.0/).
 
 Tous les chapitres © les contributeurs à moins que cela soit spécifié autrement.

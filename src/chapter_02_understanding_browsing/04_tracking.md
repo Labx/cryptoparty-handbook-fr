@@ -1,119 +1,90 @@
 Tracking
 ========
 
-When you browse the web tiny digital traces of your presence are left behind. Many web sites harmlessly use this data to compile statistics and see how many people are looking at their site and which pages are popular, but some sites go further and use various techniques to track individual users, even going as far as trying to identify them personally. It doesn't stop there however. Some firms store data in your web browser which can be used to track you on other web sites. This information can be compiled and passed on to other organizations without your knowledge or permission.
+Lorsque vous naviguez sur le web, vous laissez des petites traces sur votre chemin. Beaucoup de sites web utilisent ces données pour établir des statistiques, compter les visiteurs et connaître les pages les plus populaires mais certains sites utilisent diverses techniques afin de suivre individuellement chaque visiteur. Malheureusement, cela ne s'arrête pas là car certaines entreprises stockent vos données pour vous suivre sur d'autres sites. Ces informations peuvent être compilées et partagées à d'autres organisations sans que vous le sachiez.
 
-This all sounds ominous but really who cares if some big company knows about a few web sites that we have looked at? Big web sites compile and use this data for "behavioral advertising" where ads are tailored to fit your interests exactly. That's why after looking at say, the Wikipedia entry for Majorca, one may suddenly start seeing lots of ads for packaged vacations and party hats. This may seem innocent enough, but after doing a search for "Herpes Treatments" or "Fetish Communities" and suddenly seeing listings for relevant products, one may start to feel that the web is getting a bit too familiar.
+Cela peut sembler inquiétant mais peu de gens se posent la question de savoir ce que les sites web ont sur eux ? Les gros sites web compilent et utilisent ces données pour faire de la *publicité comportementale* où les messages publicitaires sont taillés sur mesure pour nous satisfaire. C'est pour cette raison que lorsque vous visitez la page Wikipedia concernant Majorque, des publicités s'affichent alors pour vous proposer des voyages. Cela peut sembler anodin mais lorsque vous effectuez une recherche sur des traitements contre l'herpès ou sur des communautés fétichistes et que vous apercevez des publicités sur ces sujets là, il est probable que vous vous sentiez mal à l'aise et que vous pensiez que le *web* en connaît trop sur vous.
 
-Such information is also of interest to other parties, like your insurance company. If they know you have been looking at skydiving sites or forums for congenital diseases, your premiums may mysteriously start going up.  Potential employers or landlords may turn you down based on their concerns about your web interests. In extreme instances, the police or tax authorities may develop an interest without you ever having committed a crime, simply based on suspicious surfing.
+Ces informations intéressent aussi d'autres entités comme votre compagnie d'assurances. Si ils savent que vous avez recherché des sites de parachutisme ou que vous avez visité des forums à propos de malformations congénitales, vos primes augmenteront probablement. Vos employeurs potentiels ou propriétaires pourrait ne pas vous choisir en raison de ce qu'ils ont vu sur le web. Dans le pire des cas, la police ou l'inspection des finances pourraient développer des suspicions à votre propos sans que vous n'ayez commis un crime ou délit mais simplement basés sur une navigation *anormale* sur le web. 
 
-How do they track us?
----------------------
+Comment nous suivent-ils ? 
+--------------------------
 
-Every time you load a web page, the server software on the web site generates a record of the page viewed in a log file. This is not always a bad thing. When you log in to a website, there is a need for a way to establish your identity and keep track of who you are in order to save your preferences, or present you with customized information. It does this by passing a small file to your browser and storing a corresponding reference on the web server. This file is called a *cookie*. It sounds tasty but the problem is that this information stays on your computer even after leaving the web site and may phone home to tell the owner of the cookie about other web sites you are visiting. Some major sites, like Facebook and Google have been caught using them to keep track of your browsing even after you have logged out.
+À chaque fois que vous chargez une page web, le serveur enregistre une ligne dans un journal avec différentes informations comme votre adresse IP, l'heure de chargement de la page et son nom. En plus de cela, le serveur peut créer un fichier temporaire permettant de stocker d'autres informations. Cela n'est pas toujours une mauvaise chose car, lorsque vous vous connectez sur un site, le serveur peut garder une trace de vous afin de sauvegarder certaines de vos préférences. Le fichier en question est désigné par le nom **cookie** et est placé sur votre navigateur. Cela peut sembler inoffensif mais le problème est que ces informations restent sur votre ordinateur même après avoir quitté le site qui les a déposé. Quelques sites web importants comme Facebook et Google gardent une trace de votre navigation même après votre déconnexion. 
 
-Supercookies / Evercookie / Zombie Cookies?
 
-How can I prevent tracking?
----------------------------
+Comment puis-je éviter d'être suivi ?
+-------------------------------------
 
-The simplest and most direct way to deal with tracking is to delete the cookie files in your browser:
+Le moyen le plus simple pour empêcher le tracking est de supprimer les cookies depuis votre navigateur :
 
-In **Firefox**:
- 1. Click the **Firefox menu**. 
- 2. Click **Options**.
- 3. Click **Privacy**.
- 4. Click **Clear your recent history**.
-
-  ![Delete Firefox History](firefox_delete_cookies_01.png)
- 5. Make sure **Time range to clear** is set to **Everything**.
- 6. Tick **Cookies**.
-
-  ![Delete Firefox Cookies](firefox_delete_cookies_02.png)
- 7. Click **Clear now**.
+Dans **Firefox** :
  
-In **Chrome**:
- 1. Click the **Chrome menu**.
- 2. Click **Tools**.
- 3. Click **Clear browsing data**.
- 4. Make sure **Obliterate the following items from** is set to **The beginning of time**.
- 5. Tick **Delete cookies and other site and plug-in data**.
- 6. Click **Clear browsing data**.
+ 1. Ouvrez le **menu de Firefox**.
+ 2. Cliquez sur **Préferences**.
+ 3. Cliquez sur **Vie privée**.
+ 4. Cliquez sur **Afficher les cookies ...**.
+ 5. Cliquez sur **Tout supprimer**.
  
- ![Delete Chrome Cookies](chrome_delete_cookies_02.png)
+Dans **Chrome** :
 
-In **Internet Explorer**: 
- 1. Click the **Tools** button (shaped like a gear).
- 2. Click **Safety**.
- 3. Click **Delete Browsing History**.
- 4. Tick **Cookies**.
- 5. Click **Delete**.
- 
-  ![Delete IE Cookies](ie_delete_cookies_02.png)
+ 1. Cliquez sur le **menu de Google Chrome**.
+ 2. Cliquez sur **Paramètres**.
+ 3. Cliquez sur **Historique**.
+ 4. Cliquez sur **Effacer les données de navigation ...**.
+ 5. Dans la liste déroulante, choisissez **tous**.
+ 6. Cliquez sur **Effacer les données de navigation**.
 
-The limitation to this approach is that you will receive new cookies as soon as you return to these sites or go to any other pages with tracking components. The other disadvantage is that you will lose all of your current login sessions for any open tabs, forcing you to type in usernames and passwords again.  A more convenient option, supported by current browsers is private browsing or incognito mode. This opens a temporary browser window that does not save the history of pages viewed, passwords, downloaded files or cookies.  Upon closing the private browsing window, all of this information is deleted. You can enable private browsing:
+La limite de cette approche est qu'elle ne bloque pas les cookies, retournez sur le web et de nouveaux cookies s'enregistreront. L'une des conséquences de cette effacement sera la perte des sessions enregistrés. Vous devrez vous reconnecter à tous vos sites préférés en utilisant vos identifiants. Si vous ne voulez pas que des cookies soient enregistrés durant une session de surf sur le web, la plupart des navigateurs proposent désormais un mode de *navigation privée*. Cela permet d'utiliser votre navigateur de telle façon qu'il n'enregistrera pas de cookies, d'historique ou de liste de fichiers téléchargés. Pour utiliser ce mode :
 
-In **Firefox**:
- 1. Click the **Firefox menu**.
- 2. Click **Start Private Browsing**.
+Dans **Firefox** :
  
- ![Firefox Private Browsing](firefox_private_browsing_01.png)
- 3. If prompted, click **Start Private Browsing** again.
- 
- ![Firefox Private Browsing](firefox_private_browsing_02.png)
- 4. The **Firefox menu** button turns purple, showing that private browsing is on.
- 
- ![Firefox Private Browsing](firefox_private_browsing_03.png)
+ 1. Ouvrez le **menu de Firefox**.
+ 2. Cliquez sur **Fenêtre privée**.
+ 3. La page suivante vous confirmera que vous utilisez bien la navigation privée. 
 
-In **Chrome**:
- 1. Click the **Chrome menu**.
- 2. Click **New incognito window**.
+ ![Page d'accueil de la navigation privée sur Firefox](firefox_private_browsing.png)
  
-  ![Chrome Private Browsing](chrome_private_browsing_01.png)
- 3. The **spy icon** in the top-left of the browser window shows that private browsing is on.
- 
-  ![Chrome Private Browsing](chrome_private_browsing_02.png)
- 
-In **Internet Explorer**: 
- 1. Click the **Tools** menu, shaped like a gear.
- 2. Click **Safety**.
- 3. Click **InPrivate Browsing**.
- 
-  ![IE Private Browsing](ie_private_browsing_01.png) 
- 4. The **InPrivate** logo appears in the top-left of your browser window, showing that private browsing is on.
- 
-  ![IE Private Browsing](ie_private_browsing_02.png)
 
-This solution also has its limitations. We cannot save bookmarks, remember passwords, or take advantage of much of the convenience offered by modern browsers. Thankfully, there are several plugins specially designed to address the problems of tracking. The most extensive, in terms of features and flexibility, is Ghostery. The plugin allows you to block categories or individual services that track users. Here's how you install Ghostery:
-
- 1. In Firefox, click the **Firefox** menu and select **Add-ons**.
+Dans **Chrome**:
  
-  ![Ghostery](ghostery01.png)
- 2. In the **Search** box, type "ghostery", then click the **Search** icon or press **Enter**.
+ 1. Ouvrez le **menu de Chrome**.
+ 2. Cliquez sur **Nouvelle fenêtre de navigation privée**.
+ 3. La page suivante vous confirmera que vous utilisez bien la navigation privée.
  
-  ![Ghostery](ghostery02.png)
- 3. Find Ghostery in the list of Add-ons, and click **Install**.
+ ![Page d'accueil de la navigation privée sur Google Chrome](chrome_private_browsing.png)
  
-  ![Ghostery](ghostery03.png)
- 4. Restart your browser by clicking **Restart Now**.
+
+Cette approche possède également des limitations. Nous ne pouvons pas sauvegarder des marque-pages, nos mots de passe ou d'autres avantages offerts par les navigateurs modernes. Heureusement, il existe de nombreuses extensions spécialement conçues pour lutter contre le tracking et la plus efficace est **Disconnect**. Elle vous permet de bloquer des catégories entières de sites web et services qui suivent les utilisateurs. Ci-dessous, les étapes d'installation de Disconnect : 
+
+Dans **Firefox** :
+
+ 1. Ouvrez sur le **menu de Firefox** et cliquez sur **Modules**.
  
-  ![Ghostery](ghostery04.png)
- 5. Click the **Ghostery toolbar** and select **Options**. Do the walkthrough and/or play with Ghostery's settings, if you want.
+ ![Menu de Firefox](disconnect01.png)
+
+ 2. Dans la barre de recherche, tapez "disconnect" et pressez la touche **Entrer**.
+
+ ![Recherche du mot "disconnect" dans la liste des extensions](disconnect02.png)
+
+ 3. Retrouvez Disconnect dans la liste et cliquez sur **Installer**.
+
+ ![Extension Disconnect](disconnect03.png)
+
+ 4. Redémarrez votre navigateur en cliquant sur **Redémarrer maintenant**.
  
-  ![Ghostery](ghostery05.png)
- 6. Visit a web page and have a look at its trackers.
+ ![L'extension est correctement installée](disconnect04.png)
  
-  ![Ghostery](ghostery06.png)
+ 5. Visitez un site et cliquez sur l'icône Disconnect pour voir la liste des trackers bloqués.
 
-Another option is to install an ad-blocking plugin like AdBlockPlus. This will automatically block many of the tracking cookies sent by advertising companies but not those used by Google, Facebook and other web analytics companies.  [expand on this maybe, explain "web analytics"]
+Il est également conseillé d'installer un bloqueur du publicité comme **uBlock Origin**. Cette extension bloquera automatiquement les cookies déposés par les publicitaires mais pas ceux de Google, Facebook et autres sociétés de d'analyse de trafic. 
 
-How can I see who is tracking me?
+Comment voir qui me traque ?
+----------------------------
 
-The easiest way to see who is tracking you is to use the Ghostery plugin. There is a small icon on the upper right or lower right corner of your browser window that will tell you which services are tracking you on particular web sites.
+Grâce à l'extension Disconnect, vous pouvez voir le nom des sociétés qui vous suivent sur le web. Cliquez simplement sur l'icône de l'extension, les traqueurs sont classées par catégories.
 
-{Suggestion: Add Abine.com's Do Not Track add-on. I suggest using both Ghosterly and DNT, as occasionally they block a different cookie. Abine also has Privacy Suite, recently developed which can give a proxy telephone and proxy email, similar to 10 Minute Mail or Guerrilla Mail for fill- in emails for forms.}
+Précisions importantes
+----------------------
 
-A word of warning
------------------
-
-If you block trackers, you will have a higher level of privacy when surfing the net. However, government agencies, bosses, hackers and unscrupulous network administrators will still be able to intercept your traffic and see what you are looking at. If you want to secure your connections you will need to read the chapter on encryption. Your identity may also be visible to other people on the internet. If you want to thoroughly protect your identity while browsing, you will need to take steps toward online anonymity which is explained in another section of this book.
+Si vous bloquez les traqueurs, vous aurez une meilleure protection de votre vie privée lorsque vous surfez sur le web. Cependant, les agences de renseignement, votre patron, les pirates et les administrateurs systèmes pourront toujours intercepter votre trafic et suivre ce que vous regarder. Si vous voulez vous protéger contre cela, vous devriez lire le chapitre sur le chiffrement. Votre adresse IP restera visible des autres personnes sur Internet. Si vous voulez vous protéger contre cela, vous devriez lire le chapitre sur les techniques d'anonymisation.

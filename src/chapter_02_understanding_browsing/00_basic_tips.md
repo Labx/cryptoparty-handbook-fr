@@ -4,11 +4,11 @@ Astuces de base
 En bref :
 ---------
 
-* Quand vous visitez un site web, vous donnez diverses informations à propos de vous au propriétaire du site. Mais vous pouvez prendre quelques précautions.
-* Votre navigation sur le web peut-être traquée par les sites web que vous visitez ainsi que par leurs partenaires. Utilisez un logiciel anti-tracking.
+* Quand vous visitez un site web, vous donnez obligatoirement diverses informations à propos de vous au propriétaire du site mais vous pouvez prendre quelques précautions.
+* Votre navigation sur le web peut-être suivi par les sites web que vous visitez ainsi que par leurs partenaires. Utilisez un logiciel anti-tracking pour l'éviter.
 * Lorsque vous visitez un site web, la connexion n'est jamais directe. Plusieurs ordinateurs appartenant à différentes personnes peuvent être utilisés. Utilisez le chiffrement pour vous assurez que votre navigation ne peut pas être surveillée.
 * Vos recherches sont très intéressantes pour les moteurs de recherche. Utilisez un moteur de recherche anonymisant pour protéger votre vie privée.
-* Il est plus sage d'utiliser des navigateurs web Open-Source comme Mozilla Firefox car ils sont plus faciles à auditer.
+* Il est plus sage d'utiliser des navigateurs web libres comme Mozilla Firefox car ils sont plus faciles à auditer.
 
 Votre navigateur parle de vous dans votre dos
 ---------------------------------------------
@@ -54,6 +54,6 @@ La seule façon de protéger votre trafic contre la surveillance est d'utiliser 
 Votre droit à l'anonymat
 ------------------------
 
-Derrière le désire de minimiser la fuite d'informations privées chez les fournisseurs de services, vous devriez considérer le fait de cacher votre adresse IP plus généralement (voir le chapitre **Que se passe-t-il lorsque vous surfez**). Ce désir d'anonymat à encourager la création du *Projet Tor*.
+Derrière le désire de minimiser la fuite d'informations privées chez les fournisseurs de services, vous devriez considérer le fait de cacher votre adresse IP plus généralement (voir le chapitre **Que se passe-t-il lorsque vous surfez**). C'est ce désir d'anonymat qui a encouragé la création du *Projet Tor*.
 
 *Tor* utilise un réseau évolutif de noeuds pour router votre trafic internet vers le serveur voulu sans que ce dernier ne puisse vous traquer. Ce système très robuste vous assure que votre adresse IP réelle ne pourra pas être récupérée par le serveur. Vous pouvez voir le chapitre **Anonymat** pour plus d'informations à propos du fonctionnement de Tor et comment l'utiliser.

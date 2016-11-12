@@ -17,7 +17,7 @@ fi
 DATE=${DATE:-`date +%F`}
 
 cat > $DIR/main.tex <<EOF
-\documentclass[oribibl]{scrbook}
+\documentclass[french,oribibl]{scrbook}
 \usepackage[utf8x]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{amsmath,amssymb,latexsym}
@@ -30,6 +30,7 @@ cat > $DIR/main.tex <<EOF
 \usepackage{placeins}
 \usepackage{pdfpages}
 \usepackage{tocloft}
+\usepackage{float}
 
 \let\stdsection\section
 \renewcommand*{\section}{\FloatBarrier\stdsection}
@@ -44,7 +45,9 @@ cat > $DIR/main.tex <<EOF
 
 the CryptoParty handbook
 
-Version: $DATE
+Version de l'original : 2012-10-09
+
+Version de la traduction : $DATE 
 \clearpage
 
 \tableofcontents
@@ -70,5 +73,7 @@ done
 # starts with http, then it's the same as the link.
 sed -ie 's/\\href{http\([^}]*\)}{http[^}]*}/\\url{http\1}/' $DIR/*/*.tex
 sed -ie 's/\\includegraphics/&[scale=0.92]/' $DIR/*/*.tex
+
+sed -ie "s/\\\begin{figure}\\[htbp\\]/\\\begin{figure}\\[H\\]/g" $DIR/*/*.tex
 
 echo '\end{document}' >> $DIR/main.tex

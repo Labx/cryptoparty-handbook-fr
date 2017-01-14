@@ -12,9 +12,9 @@ Article 2 de la Déclaration Universelle des Droits de l'Homme:
 
 La seule façon de mettre en application ce droit basique dans un environnement hostile est de pouvoir être anonyme.
 
-Agir anonymement est aussi une bonne façon d'aider les personnes ayant besoin de beaucoup de protections car plus il y a de moutons dans le troupeau, plus il est difficile d'en cibler un spécifiquement.
+Agir anonymement est aussi une bonne façon d'aider les personnes ayant vraiment besoin de beaucoup de protections car plus il y a de moutons dans le troupeau, plus il est difficile d'en cibler un spécifiquement.
 Une façon simple de faire ça est d'utiliser Tor, une technologie routant le trafic Internet entre des utilisateurs. Ainsi, il est impossible de tracker une adresse IP ou une personne sans avoir le contrôle de tout le réseau (et personne n'a encore ce pouvoir sur Internet).
-Un bon moyen de protéger sa propre identité est d'utiliser un proxy anonyme et un Réseau Privé Virtuel (VPN).
+Un bon moyen de protéger sa propre identité est d'utiliser un proxy anonyme et/ou un Réseau Privé Virtuel (VPN).
 
 Proxy
 -----
@@ -28,7 +28,7 @@ Le but principal derrière l'utilisation d'un proxy est de cacher ou de changer 
  * Passer outre les pare-feu d'entreprise ou de régimes autoritaires. Les entreprises et les gouvernements peuvent limiter ou bloquer l'accès Internet à des adresses IP partiulières ou à des champs d'adresses. Se cacher derrière un proxy aidera à tromper les filtres pour accéder aux sites censurés.
  * Regarder des vidéos en ligne bloquées dans votre pays à cause de restrictions juridiques.
  * Accéder à des sites web et/ou à des données disponibles seulement pour des adresses IP appartenant à un pays specifique. Par exemple, un utilisateur voulant regarder un live de la BBC (Royaume-Uni seulement) sans résider aux Royaume-Uni.
- * Accéder à Internet depuis une adresse IP bloquée. Les adresses IP publiques peuvent souvent avoir "mauvaise réputation" (abus de bande passante, arnaque ou envoi d'emails non solicités) et être bloquer par des sites web ou des serveurs. 
+ * Accéder à Internet depuis une adresse IP bloquée. Les adresses IP publiques peuvent souvent avoir "mauvaise réputation" (abus de bande passante, arnaque ou envoi d'emails non solicités) et être bloquées par des sites web ou des serveurs. 
 
 Bien que d'habitude, on utilise un proxy pour accèder au Web (HTTP), pratiquement tous les protocoles peuvent être utilisés au travers d'un proxy.
 Contrairement à un routeur, un serveur proxy ne transmet pas directement les requêtes mais joue le rôle d'intermédiaire et renvoie les réponses à l'utilisateur.
@@ -42,18 +42,18 @@ Tor
 > - Tor est utilisé pour la navigation web, la messagerie instantannée, les connexions à distance, et plus.
 > - Tor est libre et open source pour Windows, Mac, Linux/Unix et Android. ([https://www.torproject.org](https://www.torproject.org))
 
-Tor est un système prévu pour permettre l'anonymat en ligne, composé de logiciels clients et un réseau de serveurs qui peuvent cacher des informations à propos de la localisation et d'autres facteurs qui pourraient servir à identifier l'utilisateur.
+Tor est un système prévu pour permettre l'anonymat en ligne, composé de logiciels clients et d'un réseau de serveurs qui peuvent cacher des informations à propos de la localisation et d'autres facteurs qui pourraient servir à identifier l'utilisateur.
 Imaginez un message enveloppé dans plusieurs couches de protection : chaque serveur doit retirer une couche supprimant ainsi les informations à propos de l'expéditeur.
 
 L'utilisation de ce système rend difficile la surveillance du trafic Internet d'un utilisateur.
 Il est destiné à protéger la liberté, la vie privée et la confidentialité des utilisateurs en gardant confidentielle leurs activités sur Internet.
 Le logiciel est open-source et l'utilisation du réseau est gratuit.
 
-Tor ne peut pas et ne tente pas de protéger l'utilisateur contre la surveillance du traffic entrant et sortant du réseau.
+Tor ne peut pas et ne tente pas de protéger l'utilisateur contre la surveillance du trafic entrant et sortant du réseau.
 Alors que Tor peut fournir une protection contre l'analyse de trafic, il ne peut pas empêcher l'*End-to-End Correlation* qui permet à un attaquant de rapprocher une identité en ligne d'une personne physique.
 
 Une affaire récente permet de mieux comprendre ce phénomène. Le FBI voulait prouver que Jeremy Hammon se cachait derrière un pseudonyme connu pour être responsable de plusieurs attaques d'Anonymous.
-Placés à l'extérieur de sa maison, le FBI était en train de surveiller son trafic Wi-Fi tout en étant sur un canal de discussion que le pseudonyme visitait.
+Placé à l'extérieur de son habitation, le FBI surveillait son trafic Wi-Fi tout en étant sur un canal de discussion que le pseudonyme visitait.
 Quand Jeremy était en ligne dans son appartement, l'inspection des paquets sur le réseau a révélé qu'il était en train d'utiliser Tor au même moment que le pseudonyme suspect se connectait au canal de discussion.
 Ce fût suffisant pour incriminer Jeremy et il a été arrêté.
 

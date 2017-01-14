@@ -3,9 +3,9 @@ Tracking
 
 Lorsque vous naviguez sur le web, vous laissez des petites traces sur votre chemin. Beaucoup de sites web utilisent ces données pour établir des statistiques, compter les visiteurs et connaître les pages les plus populaires mais certains sites utilisent diverses techniques afin de suivre individuellement chaque visiteur. Malheureusement, cela ne s'arrête pas là car certaines entreprises stockent vos données pour vous suivre sur d'autres sites. Ces informations peuvent être compilées et partagées à d'autres organisations sans que vous le sachiez.
 
-Cela peut sembler inquiétant mais peu de gens se posent la question de savoir ce que les sites web ont sur eux ? Les gros sites web compilent et utilisent ces données pour faire de la *publicité comportementale* où les messages publicitaires sont taillés sur mesure pour nous satisfaire. C'est pour cette raison que lorsque vous visitez la page Wikipedia concernant Majorque, des publicités s'affichent alors pour vous proposer des voyages. Cela peut sembler anodin mais lorsque vous effectuez une recherche sur des traitements contre l'herpès ou sur des communautés fétichistes et que vous apercevez des publicités sur ces sujets là, il est probable que vous vous sentiez mal à l'aise et que vous pensiez que le *web* en connaît trop sur vous.
+Cela peut sembler inquiétant mais peu de gens se posent la question de savoir ce que les sites web ont sur eux ? Les gros sites web compilent et utilisent ces données pour faire de la **publicité comportementale** où les messages publicitaires sont taillés sur mesure pour nous satisfaire. C'est pour cette raison que lorsque vous visitez la page Wikipedia concernant Majorque, des publicités s'affichent alors pour vous proposer des voyages. Cela peut sembler anodin mais lorsque vous effectuez des recherches sur les traitements contre l'herpès ou sur les communautés fétichistes et que vous apercevez des publicités sur ces sujets là, il est probable que vous vous sentiez mal à l'aise et que vous pensiez que le *web* en connaît trop sur vous.
 
-Ces informations intéressent aussi d'autres entités comme votre compagnie d'assurances. Si ils savent que vous avez recherché des sites de parachutisme ou que vous avez visité des forums à propos de malformations congénitales, vos primes augmenteront probablement. Vos employeurs potentiels ou propriétaires pourrait ne pas vous choisir en raison de ce qu'ils ont vu sur le web. Dans le pire des cas, la police ou l'inspection des finances pourraient développer des suspicions à votre propos sans que vous n'ayez commis un crime ou délit mais simplement basés sur une navigation *anormale* sur le web. 
+Ces informations intéressent aussi d'autres entités comme votre compagnie d'assurances. Si elle sait que vous avez recherché des sites de parachutisme ou que vous avez visité des forums à propos de malformations congénitales, vos primes augmenteront probablement. Vos employeurs potentiels ou propriétaires pourrait ne pas vous choisir en raison de ce qu'ils ont vu sur le web. Dans le pire des cas, la police ou l'inspection des finances pourraient développer des suspicions à votre propos sans que vous n'ayez commis un crime ou délit mais simplement basées sur une navigation *anormale* sur le web. 
 
 Comment nous suivent-ils ? 
 --------------------------
@@ -35,7 +35,7 @@ Dans **Chrome** :
  5. Dans la liste déroulante, choisissez **tous**.
  6. Cliquez sur **Effacer les données de navigation**.
 
-La limite de cette approche est qu'elle ne bloque pas les cookies, retournez sur le web et de nouveaux cookies s'enregistreront. L'une des conséquences de cette effacement sera la perte des sessions enregistrés. Vous devrez vous reconnecter à tous vos sites préférés en utilisant vos identifiants. Si vous ne voulez pas que des cookies soient enregistrés durant une session de surf sur le web, la plupart des navigateurs proposent désormais un mode de *navigation privée*. Cela permet d'utiliser votre navigateur de telle façon qu'il n'enregistrera pas de cookies, d'historique ou de liste de fichiers téléchargés. Pour utiliser ce mode :
+La limite de cette approche est qu'elle ne bloque pas les cookies, retournez sur le web et de nouveaux cookies s'enregistreront. L'une des conséquences de cette effacement sera la perte des sessions enregistrés. Vous devrez vous reconnecter à tous vos sites préférés en utilisant vos identifiants. Si vous ne voulez pas que des cookies soient enregistrés durant une session de surf sur le web, la plupart des navigateurs proposent désormais un mode de **navigation privée**. Cela permet d'utiliser votre navigateur de telle façon qu'il n'enregistrera pas de cookies, d'historique ou de liste de fichiers téléchargés. Pour utiliser ce mode :
 
 Dans **Firefox** :
  
@@ -55,7 +55,7 @@ Dans **Chrome**:
  ![Page d'accueil de la navigation privée sur Google Chrome](chrome_private_browsing.png)
  
 
-Cette approche possède également des limitations. Nous ne pouvons pas sauvegarder des marque-pages, nos mots de passe ou d'autres avantages offerts par les navigateurs modernes. Heureusement, il existe de nombreuses extensions spécialement conçues pour lutter contre le tracking et la plus efficace est **Disconnect**. Elle vous permet de bloquer des catégories entières de sites web et services qui suivent les utilisateurs. Ci-dessous, les étapes d'installation de Disconnect : 
+Cette approche possède également des limitations. Nous ne pouvons pas sauvegarder des marque-pages ou nos mots de passe et nous nous privons ainsi de multiples avantages offerts par les navigateurs modernes. Heureusement, il existe de nombreuses extensions spécialement conçues pour lutter contre le tracking et la plus efficace est **Disconnect**. Elle vous permet de bloquer des catégories entières de sites web et services qui suivent les utilisateurs. Ci-dessous, les étapes d'installation de Disconnect : 
 
 Dans **Firefox** :
 
@@ -82,9 +82,9 @@ Il est également conseillé d'installer un bloqueur du publicité comme **uBloc
 Comment voir qui me traque ?
 ----------------------------
 
-Grâce à l'extension Disconnect, vous pouvez voir le nom des sociétés qui vous suivent sur le web. Cliquez simplement sur l'icône de l'extension, les traqueurs sont classées par catégories.
+Grâce à l'extension Disconnect, vous pouvez voir le nom des sociétés qui vous suivent sur le web. Cliquez simplement sur l'icône de l'extension, les traqueurs sont classées par catégorie.
 
 Précisions importantes
 ----------------------
 
-Si vous bloquez les traqueurs, vous aurez une meilleure protection de votre vie privée lorsque vous surfez sur le web. Cependant, les agences de renseignement, votre patron, les pirates et les administrateurs systèmes pourront toujours intercepter votre trafic et suivre ce que vous regarder. Si vous voulez vous protéger contre cela, vous devriez lire le chapitre sur le chiffrement. Votre adresse IP restera visible des autres personnes sur Internet. Si vous voulez vous protéger contre cela, vous devriez lire le chapitre sur les techniques d'anonymisation.
+Si vous bloquez les traqueurs, vous aurez une meilleure protection de votre vie privée lorsque vous surferez sur le web. Cependant, les agences de renseignement, votre patron, les pirates et les administrateurs systèmes pourront toujours intercepter votre trafic et suivre ce que vous regardez. Si vous voulez vous protéger contre cela, vous devriez lire le chapitre sur le chiffrement. Votre adresse IP restera visible des autres personnes sur Internet. Si vous voulez vous protéger contre cela, vous devriez lire le chapitre sur les techniques d'anonymisation.

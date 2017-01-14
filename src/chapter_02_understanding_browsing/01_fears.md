@@ -4,13 +4,13 @@ Menaces
 Réseaux sociaux - Quels sont les dangers ?
 ------------------------------------------
 
-Le phénomène de réseautage social sur Internet n'a pas changé simplement comment les gens utilisent Internet mais sa forme même. De grands centres de données à travers le monde, en particulier aux États-Unis, se sont construits pour répondre à l'envie grandissante des gens de stocker du contenu sur eux-mêmes, leurs intérêts et leur vie afin de participer au réseautage social.
+Le phénomène de réseautage social sur Internet a eu de multiples conséquences sur ce dernier, tant sur son utilisation que sur sa forme. De grands centres de données ont été construit à travers le monde (et particulièrement aux États-Unis) pour répondre à l'envie grandissante des gens de stocker du contenu sur eux-mêmes, leurs intérêts et leur vie afin de participer au réseautage social.
 
-Les réseaux sociaux que nous connaissons avec Facebook, Twitter (et MySpace plus tôt) sont très loin d'être «libres». Ces entreprises cherchent à développer, puis exploitent, une angoisse très basique : la peur de la solitude. Comme tous les animaux sociaux, nous ne pouvons pas supporter l'idée d'être mis à l'écart par nos pairs et beaucoup s'exposent en ligne, quitte à placer leurs expressions les plus intimes sur le disque dur d'un homme d'affaires, enfoui au plus profond d'un data-center dans un autre pays.
+Les réseaux sociaux que nous connaissons avec Facebook, Twitter (et MySpace plus tôt) sont très loin d'être "libres". Ces entreprises cherchent à développer, puis exploitent, une angoisse très basique : la peur de la solitude. Comme tous les animaux sociaux, nous ne pouvons pas supporter l'idée d'être mis à l'écart par nos pairs et beaucoup s'exposent en ligne, quitte à placer leurs expressions les plus intimes sur le disque dur d'un homme d'affaires, enfoui au plus profond d'un data-center dans un pays étranger.
 
-En dépit de cela, nombreux sont ceux qui soutiennent que la chaleur sociale et la validation personnelle acquise grâce à l'engagement dans des réseaux sociaux vaut largement la perte potentielle de la vie privée. Une telle déclaration est toutefois valable que lorsque l'on a pris la pleine mesure des risques.
+En dépit de cela, nombreux sont ceux qui soutiennent que la chaleur sociale et la validation personnelle acquise grâce aux réseaux sociaux vaut largement la perte potentielle de la vie privée. Une telle déclaration n'est toutefois valable que lorsque l'on a pris la pleine mesure des risques.
 
-Les risques que représentent les réseaux sociaux sur le droit fondamental de la personne à la vie privée sont définies par :
+Les risques que représentent les réseaux sociaux sur le droit fondamental de la personne à la vie privée sont définis par :
 
  * La portée et l'intimité des contributions individuelles de l'utilisateur.
 
@@ -41,9 +41,9 @@ Cette question dépend du contexte dans lequel vous vous trouvez durant votre na
 
 ### Les réseaux sans fil
 
-Ici, nous nous trouvons face à au risque souvent sous-estimé de quelqu'un qui écoute vos communications en *observant les paquets qui passent sur le réseau*. Peu importe si le réseau lui-même est ouvert ou sécurisé par un mot de passe. Si quelqu'un utilise le même réseau chiffré, il peut facilement capturer et lire tout le trafic non sécurisé des autres utilisateurs sur le même réseau. Une clé wifi peut être acquise pour le prix d'une tasse de café et donne à ceux qui savent comment capturer et lire des paquets réseau, la chance de lire votre mot de passe pendant que vous vérifiez votre boîte email.
+Ici, nous nous trouvons face à un risque souvent sous-estimé de quelqu'un qui écoute vos communications en *observant les paquets qui passent sur le réseau*. Peu importe si le réseau lui-même est ouvert ou sécurisé par un mot de passe. Si quelqu'un utilise le même réseau chiffré, il peut facilement capturer et lire tout le trafic non sécurisé des autres utilisateurs sur le même réseau. Une clé wifi peut être acquise pour le prix d'une tasse de café et donne à ceux qui savent comment capturer et lire des paquets réseau, la chance de lire votre mot de passe pendant que vous vérifiez votre boîte email.
 
-Une règle simple est toujours valable : si le café propose une connexion par câble réseau, utilisez-là ! Enfin, tout comme à un guichet automatique, assurez-vous que personne ne regarde par dessus votre épaule lorsque vous tapez votre mot de passe.
+Une règle simple est toujours valable : si le café propose une connexion par câble réseau, utilisez-la ! Enfin, tout comme à un guichet automatique, assurez-vous que personne ne regarde par dessus votre épaule lorsque vous tapez votre mot de passe.
 
 
 ### Le cache du navigateur
@@ -55,7 +55,7 @@ Vous pouvez cependant garder votre cache à condition que votre disque dur soit 
 
 ### Sécuriser votre ligne
 
-Chaque fois que vous vous connectez à un service, vous devez toujours vous assurer d'utiliser le chiffrement pendant toute la session. Cela se fait facilement en raison de l'utilisation populaire de *SSL/TLS (Secure Socket Layer/Transport Layer Security)*.
+Chaque fois que vous vous connectez à un service, vous devez toujours vous assurer d'utiliser le chiffrement pendant toute la session. Cela se fait facilement en raison de l'utilisation populaire des protocoles *SSL/TLS (Secure Socket Layer/Transport Layer Security)*.
 
 Vérifiez que les services que vous utilisez (email, réseaux sociaux ou banque en ligne) prennent en charge les sessions SSL/TLS en cherchant `https://` au début de l'URL. Si ce n'est pas le cas, assurez-vous de l'activer dans les paramètres fournis par le service. Pour mieux comprendre comment la navigation sur le World Wide Web fonctionne, rendez-vous au chapitre **Que se passe-t-il lorsque je navigue ?**.
 
@@ -63,7 +63,7 @@ Vérifiez que les services que vous utilisez (email, réseaux sociaux ou banque 
 Puis-je avoir des ennuis pour avoir googlé trucs bizarres ?
 -----------------------------------------------------------
 
-Google et d'autres moteurs de recherche doivent se conformer aux ordonnances du tribunal et des mandats visant certains individus. Un site web utilisant un champ de recherche Google personnalisée pour trouver le contenu sur leur site peut être contraint de journaliser et de fournir toutes les requêtes de recherche à des organismes relevant de leur juridiction locale. Des universitaires, des artistes et des chercheurs risquent tout particulièrement d'être mal compris et d'être mis sous surveillance du simple fait de leurs intérêts apparents.
+Google et d'autres moteurs de recherche doivent se plier aux ordonnances judiciaires et des mandats visant certains individus. Un site web utilisant un champ de recherche Google personnalisé pour trouver le contenu sur son site peut être contraint de journaliser et de fournir toutes les requêtes de recherche à des organismes relevant de leur juridiction locale. Des universitaires, des artistes et des chercheurs risquent tout particulièrement d'être mal compris et d'être mis sous surveillance du simple fait de leurs intérêts apparents.
 
 
 Qui garde une trace de ma navigation et suis-je autorisé à me cacher d'eux ?
